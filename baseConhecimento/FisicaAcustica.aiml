@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category> 
+<pattern>ONDA</pattern>
+<template>
+<srai>FisicaONDA</srai>
+</template>
+</category>
+
+<category> 
+<pattern>ONDA *</pattern>
+<template>
+<srai>FisicaONDA</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* ONDA</pattern>
+<template>
+<srai>FisicaONDA</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* ONDA *</pattern>
+<template>
+<srai>FisicaONDA</srai>
+</template>
+</category>
+
+<category> 
+<pattern>FisicaONDA</pattern>
+<template>
+Uma onda é uma pertubação que se propaga no espaço, transportando apenas energia, e não matéria.
+</template>
+</category>
+</aiml>

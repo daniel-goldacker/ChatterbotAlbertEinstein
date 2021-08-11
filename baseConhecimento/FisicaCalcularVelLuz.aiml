@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>VELOCIDADE DA LUZ</pattern>
+<template>
+<srai>VELLUZ</srai>
+</template>
+</category>
+
+<category>
+<pattern>VELOCIDADE DA LUZ *</pattern>
+<template>
+<srai>VELLUZ</srai>
+</template>
+</category>
+
+<category>
+<pattern>* VELOCIDADE DA LUZ</pattern>
+<template>
+<srai>VELLUZ</srai>
+</template>
+</category>
+
+<category>
+<pattern>* VELOCIDADE DA LUZ *</pattern>
+<template>
+<srai>VELLUZ</srai>
+</template>
+</category>
+
+<category>
+<pattern>VELLUZ</pattern>
+<template>
+ A partir do ano de 1983, por decisão dos órgãos científicos internacionais, a velocidade da luz passou a ser considerada uma constante universal com valor bem determinado, exatamente igual a: C = 299.792.458 m/s aproximadamente 300.000.000m/s.        
+ CÁLCULO: Admitindo-se que a luz se propaga em movimento uniforme, sua velocidade c é o quociente da distância percorrida D pelo intervalo de tempo Dt gasto em percorrê-la: c = D/Dt. É suficiente, portanto, medir D e Dt.
+</template>
+</category>
+
+</aiml>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>SUBNIVEIS ELETRONICOS DOS ATOMOS</pattern>
+<template>
+<srai>SUBNIVEISELETRONICOS</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>SUBNIVEIS ELETRONICOS DOS ATOMOS *</pattern>
+<template>
+<srai>SUBNIVEISELETRONICOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SUBNIVEIS ELETRONICOS DOS ATOMOS</pattern>
+<template>
+<srai>SUBNIVEISELETRONICOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SUBNIVEIS ELETRONICOS DOS ATOMOS *</pattern>
+<template>
+<srai>SUBNIVEISELETRONICOS</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>SUBNIVEISELETRONICOS</pattern>
+<template>
+No átomo há pares de e- com mesma energia.Se o elétron no átomo só pode ter determinadas energias (orbital), um mesmo orbital pode ter 2 elétrons. Distribuição Eletrônica: A distribuição eletrônica é feita pelos níveis energéticos (camadas) n = 1,2,3,... ou K,L,M,...
+</template>
+</category>
+</aiml>

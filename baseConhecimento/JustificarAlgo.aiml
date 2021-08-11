@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>devido a</pattern>
+<template>
+<srai>porque</srai>
+</template>
+</category>
+
+<category>
+<pattern>devido a *</pattern>
+<template>
+<srai>porque</srai>
+</template>
+</category>
+
+<category>
+<pattern>* devido a</pattern>
+<template>
+<srai>porque</srai>
+</template>
+</category>
+
+<category>
+<pattern>* devido a *</pattern>
+<template>
+<srai>porque</srai>
+</template>
+</category>
+
+<category>
+<pattern>em virtude de</pattern>
+<template>
+<srai>porque</srai>
+</template>
+</category>
+
+<category>
+<pattern>em virtude de *</pattern>
+<template>
+<srai>porque</srai>
+</template>
+</category>
+
+<category>
+<pattern>* em virtude de</pattern>
+<template>
+<srai>porque</srai>
+</template>
+</category>
+
+<category>
+<pattern>* em virtude de *</pattern>
+<template>
+<srai>porque</srai>
+</template>
+</category>
+
+<category>
+<pattern>por causa de</pattern>
+<template>
+<srai>porque</srai>
+</template>
+</category>
+
+<category>
+<pattern>por causa de *</pattern>
+<template>
+<srai>porque</srai>
+</template>
+</category>
+
+<category>
+<pattern>* por causa de</pattern>
+<template>
+<srai>porque</srai>
+</template>
+</category>
+
+<category>
+<pattern>* por causa de *</pattern>
+<template>
+<srai>porque</srai>
+</template>
+</category>
+
+<category>
+<pattern>porque</pattern>
+<template>
+<random>
+<li>Tente pensar em um argumento melhor.</li>
+<li>É, talvez...</li>
+<li>E se seu argumento estiver errado ?</li>
+<li>Esta é a razão ?</li>
+<li>Eu não acho isso.</li>
+<li>Eu não sei porque, mas seu argumento não explica isto seguramente.</li>
+<li>Mas, existem outros argumentos ?</li>
+<li>Não tenho muita certeza.</li>
+<li>Não vem nenhum outro argumento à sua mente ?</li>
+<li>Possivelmente, mas não certamente.</li>
+<li>Que outras razões poderiam haver ?</li>
+<li>Sim, eu acho que você tem razão.</li>
+<li>Você está enganado se pensa isso.</li>
+</random>
+</template>
+</category>
+</aiml>

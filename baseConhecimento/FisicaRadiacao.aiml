@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>RADIACAO</pattern>
+<template>
+<srai>FisicaRADIACAO</srai>
+</template>
+</category>
+
+<category>
+<pattern>RADIACAO *</pattern>
+<template>
+<srai>FisicaRADIACAO</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RADIACAO</pattern>
+<template>
+<srai>FisicaRADIACAO</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RADIACAO *</pattern>
+<template>
+<srai>FisicaRADIACAO</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaRADIACAO</pattern>
+<template>
+Radiação é um fenômeno natural que pode ocorrer de muitas formas. Radiação é definida como uma energia que é irradiada. Em nossas vidas diárias, nós estamos expostos a radiações como a luz
+visível, as ondas de rádio, o radar e o calor. Radiação é também emitida por fornos de microondas, aparelhos de TV, rochas, solo, alimentos, ar, raios cósmicos de estrelas distantes, máquinas de raios-x
+dentários e combustível usado em usinas nucleares.	
+</template>
+</category>
+</aiml>

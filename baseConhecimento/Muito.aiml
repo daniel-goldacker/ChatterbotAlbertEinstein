@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>e como</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>e como *</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e como</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e como *</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>enorme</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>enorme *</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>* enorme</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>* enorme *</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>enormemente</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>enormemente *</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>* enormemente</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>* enormemente *</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>grande</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>grande *</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>* grande</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>* grande *</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>grandemente</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>grandemente *</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>* grandemente</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>* grandemente *</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>muito mais</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>muito mais *</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>* muito mais</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>* muito mais *</pattern>
+<template>
+<srai>muito</srai>
+</template>
+</category>
+
+<category>
+<pattern>muito</pattern>
+<template>
+<random>
+<li>Você parece muito seguro.</li>
+<li>E qual é sua opinião sobre isto ?</li>
+<li>Hmm... discutamos isso depois.</li>
+<li>Isso é ruim ?</li>
+<li>Isso poderia ser uma grande vantagem.</li>
+<li>Isso pode ser problemático ?</li>
+<li>Mesmo ? você não está exagerando ?</li>
+<li>Oh... isso é bom ou ruim ?</li>
+<li>Você está bastante seguro sobre isto ?</li>
+<li>Você vê algum problema nisso ?</li>
+</random>
+</template>
+</category>
+</aiml>

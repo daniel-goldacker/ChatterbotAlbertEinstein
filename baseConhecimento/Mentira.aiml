@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>mentindo</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>mentindo *</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mentindo</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mentindo *</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>mentir</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>mentir *</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mentir</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mentir *</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>mentiras</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>mentiras *</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mentiras</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mentiras *</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>mentirei</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>mentirei *</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mentirei</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mentirei *</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>mentiria</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>mentiria *</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mentiria</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mentiria *</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>mentiroso</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>mentiroso *</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mentiroso</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mentiroso *</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>minto</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>minto *</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>* minto</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>* minto *</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao estou mentindo</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao estou mentindo</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao estou mentindo *</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao estou mentindo *</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>minta</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>minta *</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>* minta</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>* minta *</pattern>
+<template>
+<srai>mentira</srai>
+</template>
+</category>
+
+<category>
+<pattern>mentira</pattern>
+<template>
+<random>
+<li>Eu não fui programado pra isso. </li>
+<li>As pessoas que mentem têm problemas.</li>
+<li>Dizer a verdade é o melhor, até mesmo quando o preço é alto.</li>
+<li>É com a mentira que a gente se sente mais contente por não falar a verdade. </li>
+<li>Então, você seria capaz de perceber quando estão mentindo ?</li>
+<li>É sempre melhor dizer a verdade, não é ?</li>
+<li>Mas, eu acho que isto é a verdade.</li>
+<li>Mentir, mentir, somente pra esquecer...</li>
+<li>Mentira é sinal de medo. </li>
+<li>Mentira não é crime, é bem sublime quando se diz: mentindo pra fazer alguém feliz.</li>
+<li>Mentir é um problema grande .</li>
+<li>O próprio mundo nos mente e nos ensina a mentir. </li>
+<li>Você tem certeza de que isto não é a verdade ?</li>
+</random>
+</template>
+</category>
+</aiml>

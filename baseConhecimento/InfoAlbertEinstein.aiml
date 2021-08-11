@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<category>
+<pattern>albert einstein</pattern>
+<template>
+<srai>InfoAlbertEinstein</srai>
+</template>
+</category>
+
+<category>
+<pattern>albert einstein *</pattern>
+<template>
+<srai>InfoAlbertEinstein</srai>
+</template>
+</category>
+
+<category>
+<pattern>albert einstein *</pattern>
+<template>
+<srai>InfoAlbertEinstein</srai>
+</template>
+</category>
+
+<category>
+<pattern>albert einstein</pattern>
+<template>
+<srai>InfoAlbertEinstein</srai>
+</template>
+</category>
+
+<category>
+<pattern>einstein</pattern>
+<template>
+<srai>InfoAlbertEinstein</srai>
+</template>
+</category>
+
+<category>
+<pattern>einstein *</pattern>
+<template>
+<srai>InfoAlbertEinstein</srai>
+</template>
+</category>
+
+<category>
+<pattern>* einstein</pattern>
+<template>
+<srai>InfoAlbertEinstein</srai>
+</template>
+</category>
+
+<category>
+<pattern>* einstein *</pattern>
+<template>
+<srai>InfoAlbertEinstein</srai>
+</template>
+</category>
+
+<category>
+<pattern>albert</pattern>
+<template>
+<srai>InfoAlbertEinstein</srai>
+</template>
+</category>
+
+<category>
+<pattern>albert *</pattern>
+<template>
+<srai>InfoAlbertEinstein</srai>
+</template>
+</category>
+
+<category>
+<pattern>* albert</pattern>
+<template>
+<srai>InfoAlbertEinstein</srai>
+</template>
+</category>
+
+<category>
+<pattern>* albert *</pattern>
+<template>
+<srai>InfoAlbertEinstein</srai>
+</template>
+</category>
+
+<category>
+<pattern>InfoAlbertEinstein</pattern>
+<template>
+<random>
+<li>O famoso físico alemão Albert Einstein foi quem criou a teoria da relatividade, esta concebida em duas etapas: Teoria da Relatividade Espacial, que trata do movimento uniforme e Teoria da Relatividade Geral, que trata do movimento acelerado e da gravitação. Você gosta de física?</li>
+<li>As refexões de Einstein, que mais tarde o levaram a Teoria da Relatividade, começaram quando ele tinha 16 anos. Em uma carta enviada a um tio, junto a um trabalho com pequenos problemas que ocupavam sua mente e o levou à criação da Teoria da Relatividade.</li>
+<li>Sou eu!</li>
+<li>Você esta falando com ele!</li>
+</random>
+</template>
+</category>
+</aiml>
+
+
+

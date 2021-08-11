@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>dela</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>ela *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ela *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>ela disse *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ela disse</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>ela diz *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ela diz</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ela diz *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>ela era *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ela era</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ela era *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>ela iria *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ela iria</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ela iria *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>ela me *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ela me</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ela me *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>ela nao disse *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>ela nao e *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>ela nao era *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>ela nao vai *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>ela vai *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>garota</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>garota *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* garota</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* garota *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>garotas</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>garotas *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* garotas</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* garotas *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>menina</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>menina *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* menina</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* menina *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>meninas</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>meninas *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* meninas</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* meninas *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>mulher</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mulher</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>mulher *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mulher *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>mulheres</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>mulheres *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mulheres</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mulheres *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>senhora</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>senhora *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* senhora</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* senhora *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>senhoras</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>senhoras *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* senhoras</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* senhoras *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>moca</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>moca *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* moca</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* moca *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>mocas</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>mocas *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mocas</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mocas *</pattern>
+<template>
+<srai>ela e <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>ela e *</pattern>
+<template>
+<random>
+<li>Você tem certeza sobre ela ?</li>
+<li>Ela afeta de alguma forma a sua vida ?</li>
+<li>Ela é agradável ?</li>
+<li>Ela poderia lhe ajudar em alguma coisa ?</li>
+<li>Ela tem algum defeito ?</li>
+<li>Entendo - me fale mais dela.</li>
+<li>Há alguma coisa nela que lhe desagrada ?</li>
+<li>O que ela tem a ver com seu problema ?</li>
+<li>O que você acha dela ?</li>
+<li>O que você pensa dela ?</li>
+<li>Você pode me dar mais informações sobre ela ?</li>
+</random>
+</template>
+</category>
+</aiml>

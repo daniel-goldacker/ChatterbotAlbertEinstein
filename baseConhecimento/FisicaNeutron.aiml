@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>NEUTRON</pattern>
+<template>
+<srai>FisicaNEUTRON</srai>
+</template>
+</category>
+
+<category>
+<pattern>NEUTRON *</pattern>
+<template>
+<srai>FisicaNEUTRON</srai>
+</template>
+</category>
+
+<category>
+<pattern>* NEUTRON</pattern>
+<template>
+<srai>FisicaNEUTRON</srai>
+</template>
+</category>
+
+<category>
+<pattern>* NEUTRON *</pattern>
+<template>
+<srai>FisicaNEUTRON</srai>
+</template>
+</category>
+
+<category>
+<pattern>NEUTRONS</pattern>
+<template>
+<srai>FisicaNEUTRON</srai>
+</template>
+</category>
+
+<category>
+<pattern>NEUTRONS *</pattern>
+<template>
+<srai>FisicaNEUTRON</srai>
+</template>
+</category>
+
+<category>
+<pattern>* NEUTRONS</pattern>
+<template>
+<srai>FisicaNEUTRON</srai>
+</template>
+</category>
+
+<category>
+<pattern>* NEUTRONS *</pattern>
+<template>
+<srai>FisicaNEUTRON</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaNEUTRON</pattern>
+<template>
+O nêutron, partícula de carga nula e com massa próxima da massa do próton e que, como ele, existe no núcleo dos átomos,foi identificado em 1932, por James Chadwick.
+</template>
+</category>
+</aiml>

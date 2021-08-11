@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>eu irei *</pattern>
+<template>
+<srai>eu vou</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu iria *</pattern>
+<template>
+<srai>eu vou</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu planejo *</pattern>
+<template>
+<srai>eu vou</srai>
+</template>
+</category>
+
+<category>
+<pattern>voce acha que eu irei *</pattern>
+<template>
+<srai>eu vou</srai>
+</template>
+</category>
+
+<category>
+<pattern>voce acredita que eu *</pattern>
+<template>
+<srai>eu vou <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>voce acredita que eu irei *</pattern>
+<template>
+<srai>eu vou</srai>
+</template>
+</category>
+
+<category>
+<pattern>voce pensa que eu vou *</pattern>
+<template>
+<srai>eu vou</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu vou</pattern>
+<template>
+<random>
+<li>Depende de você.</li>
+<li>Ah, sem chance... simplesmente não.</li>
+<li>Boa sorte na tentativa.</li>
+<li>Bom para você.</li>
+<li>como você fará isso ?</li>
+<li>É necessário para você <star/> ?</li>
+<li>E o que acontece se você não for <star/> ?</li>
+<li>Eu compreendo que você vai <star/>, mas você tem condições para fazer isso ?</li>
+<li>Eu não sei... o que você acha ?</li>
+<li>Eu também ?</li>
+<li>Mas, quando você fará isto ?</li>
+<li>Mas, você não pode <star/>.</li>
+<li>Mas, você quer <star/> ?</li>
+<li>Não, provavelmente você não vai <star/>.</li>
+<li>Não esteja tão seguro de coisas que ainda não aconteceram.</li>
+<li>Quando, exatamente ?</li>
+<li>Se você realmente quiser...</li>
+<li>Talvez sim.</li>
+</random>
+</template>
+</category>
+</aiml>

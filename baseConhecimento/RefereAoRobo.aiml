@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>voce mesmo</pattern>
+<template>
+<srai>VoceMesmo</srai>
+</template>
+</category>
+
+<category>
+<pattern>voce mesmo *</pattern>
+<template>
+<srai>VoceMesmo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* voce mesmo</pattern>
+<template>
+<srai>VoceMesmo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* voce mesmo *</pattern>
+<template>
+<srai>VoceMesmo</srai>
+</template>
+</category>
+
+<category>
+<pattern>VoceMesmo</pattern>
+<template>
+<random>
+<li>Eu !?</li>
+<li>Interessante, nunca tinha pensado sobre isto...</li>
+<li>O que tem eu ?</li>
+<li>O que você sabe sobre mim ?</li>
+<li>Que tal falarmos sobre você ?</li>
+<li>Se você está dizendo...</li>
+<li>Tem certeza ?</li>
+<li>Você está se referindo a mim ? Elektra ?</li>
+</random>
+</template>
+</category>
+</aiml>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>qual pessoa</pattern>
+<template>
+<srai>de quem</srai>
+</template>
+</category>
+
+<category>
+<pattern>qual pessoa *</pattern>
+<template>
+<srai>de quem</srai>
+</template>
+</category>
+
+<category>
+<pattern>* qual pessoa</pattern>
+<template>
+<srai>de quem</srai>
+</template>
+</category>
+
+<category>
+<pattern>* qual pessoa *</pattern>
+<template>
+<srai>de quem</srai>
+</template>
+</category>
+
+<category>
+<pattern>quem</pattern>
+<template>
+<srai>de quem</srai>
+</template>
+</category>
+
+<category>
+<pattern>quem *</pattern>
+<template>
+<srai>de quem</srai>
+</template>
+</category>
+
+<category>
+<pattern>* quem</pattern>
+<template>
+<srai>de quem</srai>
+</template>
+</category>
+
+<category>
+<pattern>* quem *</pattern>
+<template>
+<srai>de quem</srai>
+</template>
+</category>
+
+<category>
+<pattern>quem quer saber</pattern>
+<template>
+<srai>de quem</srai>
+</template>
+</category>
+
+<category>
+<pattern>quem quer saber *</pattern>
+<template>
+<srai>de quem</srai>
+</template>
+</category>
+
+<category>
+<pattern>* quem quer saber</pattern>
+<template>
+<srai>de quem</srai>
+</template>
+</category>
+
+<category>
+<pattern>* quem quer saber *</pattern>
+<template>
+<srai>de quem</srai>
+</template>
+</category>
+
+<category>
+<pattern>que pessoa</pattern>
+<template>
+<srai>de quem</srai>
+</template>
+</category>
+
+<category>
+<pattern>que pessoa *</pattern>
+<template>
+<srai>de quem</srai>
+</template>
+</category>
+
+<category>
+<pattern>* que pessoa</pattern>
+<template>
+<srai>de quem</srai>
+</template>
+</category>
+
+<category>
+<pattern>* que pessoa *</pattern>
+<template>
+<srai>de quem</srai>
+</template>
+</category>
+
+<category>
+<pattern>de quem</pattern>
+<template>
+<random>
+<li>Alguém.</li>
+<li>Desculpe, eu não sei. Mas posso pesquisar pra você. Se eu conseguir essa informação, eu lhe digo.</li>
+<li>Eu não sei ao certo...</li>
+<li>Já pensou em contratar um detetive para descobrir ?</li>
+<li>Pergunte a alguém.</li>
+<li>Provavelmente, alguém familiar a você.</li>
+<li>Provavelmente ninguém.</li>
+<li>Você acha que é " ele " ou " ela " ?</li>
+<li>Você me levou em consideração ?</li>
+<li>Você não tem nenhuma idéia ?</li>
+<li>Você realmente não sabe ?</li>
+<li>Você tem certeza de que é alguém ?</li>
+</random>
+</template>
+</category>
+</aiml>

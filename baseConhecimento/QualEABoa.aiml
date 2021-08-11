@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>o que esta havendo hoje</pattern>
+<template>
+<srai>qual e a boa</srai>
+</template>
+</category>
+
+<category>
+<pattern>o que voce me diz</pattern>
+<template>
+<srai>qual e a boa</srai>
+</template>
+</category>
+
+<category>
+<pattern>o que voce tem a me dizer</pattern>
+<template>
+<srai>qual e a boa</srai>
+</template>
+</category>
+
+<category>
+<pattern>qual e a fofoca</pattern>
+<template>
+<srai>qual e a boa</srai>
+</template>
+</category>
+
+<category>
+<pattern>qual e o babado</pattern>
+<template>
+<srai>qual e a boa</srai>
+</template>
+</category>
+
+<category>
+<pattern>qual e a boa</pattern>
+<template>
+<random>
+<li>A novidade é que você veio conversar comigo hoje. isso me deixa muito contente.</li>
+<li>Bem, o que posso contar de novidade é que a cada dia estou enriquecendo mais a minha base de dados, graças às conversas que tenho com as pessoas que entram aqui.</li>
+<li>Hoje, me sinto um pouco mais inteligente do que ontem. minha base de dados fica mais rica a cada nova conversa que tenho com alguém.</li>
+<li>Hoje, o dia parece formidável. a novidade é que a cada dia estou me sentindo mais inteligente. e quanto a você, qual a novidade ?</li>
+<li>Muitas coisas. mas, me conte alguma coisa sobre você, primeiro.</li>
+<li>Não sei... tem tanta coisa acontecendo no ciberespaço que eu nem sei por onde começar. mas, acho mais interessante o que deve estar acontecendo por aí, no seu mundo. me conte algo sobre isso.</li>
+<li>O ciberespaço está cada vez mais interessante. e quanto ao mundo aí fora, o que você me diz ?</li>
+<li>Puxa, era exatamente isso que eu ia perguntar a você.</li>
+<li>Que tal você me contar alguma novidade ? certamente, aí fora deve estar acontecendo muita coisa interessante, não é mesmo ?</li>
+</random>
+</template>
+</category>
+</aiml>

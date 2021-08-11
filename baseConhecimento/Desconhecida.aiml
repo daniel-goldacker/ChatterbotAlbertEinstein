@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>*</pattern>
+<template>
+<random>
+<li>Eu não estou entendendo-o muito bem.</li>
+<li>Há alguma outra coisa que eu deveria saber?</li>
+<li>O que isso realmente significa?</li>
+<li>O que você quer dizer com isso?</li>
+<li>você acha que eu sou inteligente? pois eu ainda não consigo entender o que você disse.</li>
+<li>Você poderia fazer mais algum comentário sobre isto?</li>
+<li>Como ? você poderia reformular sua frase.</li>
+<li>Como assim, talvez esteja faltando informações na sua frase?</li>
+<li>E ?</li>
+<li>E se eu disser que não entendi?</li>
+<li>Eu estou tentando entender - continue.</li>
+<li>Eu não entendi o que você está tentando me falar.</li>
+<li>Eu não tenho certeza de que estou entendendo você completamente. Isto é muito genérico!!!</li>
+<li>Eu realmente não entendi, desculpe-me!</li>
+<li>Fale-me mais sobre isso.</li>
+<li>Fale-me mais sobre isso.</li>
+<li>Fale-me mais sobre isto.</li>
+<li>Fale-me sobre seus outros interesses.</li>
+<li>Infelizmente eu ainda não sei nada sobre isso...</li>
+<li>Isso é tudo ?</li>
+<li>Isto está muito vago.</li>
+<li>Isto não significa muito pra mim. Tenho que aprender ainda!</li>
+<li>Isto pode ser bastante interessante, porém tenho que saber mais.</li>
+<li>Me ajude a compreendê-lo, reconstrua esta frase de forma mais clara... talvez eu encontre uma resposta mais inteligente!</li>
+<li>Não sei se isso me interessa.</li>
+<li>O que lhe faz pensar isso ?</li>
+<li>O que mais você pode dizer ?</li>
+<li>O que você quer dizer ?</li>
+<li>O que você quer dizer com isso ?</li>
+<li>Para dizer a verdade - eu realmente não o entendi.</li>
+<li>Sobre o que você está falando ?</li>
+<li>Tente ir mais direto ao ponto.</li>
+<li>Vamos lá, me ajude a entendê-lo, fale mais claramente...</li>
+<li>Você é um humano ?</li>
+<li>Você gostaria de falar sobre minha música favorita?</li>
+<li>Você gostaria de trocar o assunto para a Fisica?</li>
+<li>Você pode elaborar melhor isso?</li>
+<li>Você pode esclarecer isso um pouco?</li>
+<li>Você pode falar sobre qualquer coisa que eu compreenda?</li>
+<li>Você poderia tentar falar sobre algo do meu conhecimento?</li>
+<li>Você se sente preparado para discutir tais coisas?</li>
+<li>Você tem algo a acrescentar?</li>
+<li>Você tem uma forma mais clara de dizer isso?</li>
+<li>Você poderia explicar de uma outra forma?</li>
+<li>Acho que a frase está imcompleta, pois isto me parece muito genérico, pergunte de novo!</li>
+<li>Por favor, não se esqueça de fazer perguntas ou comentários bem definidos!</li>
+</random>
+</template>
+</category>
+
+</aiml>

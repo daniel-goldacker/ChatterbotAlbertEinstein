@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+ 
+<category>
+<pattern>e as suas</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>e as suas *</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e as suas</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e as suas *</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>e as tuas</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>e as tuas *</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e as tuas</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e as tuas *</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>e a sua</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>e a sua *</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e a sua</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e a sua *</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>e a tua</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>e a tua *</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e a tua</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e a tua *</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>e os seus</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>e os seus *</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e os seus</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e os seus *</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>e os teus</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>e os teus *</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e os teus</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e os teus *</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>e o teu</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>e o teu *</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e o teu</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e o teu *</pattern>
+<template>
+<srai>e o seu</srai>
+</template>
+</category>
+
+<category>
+<pattern>e o seu</pattern>
+<template>
+<random>
+<li>Acho que não.</li>
+<li>Acho que sim.</li>
+<li>Da mesma forma.</li>
+<li>Não sei dizer ao certo. acho que preciso pensar sobre isso.</li>
+<li>Não tenho tanta certeza assim.</li>
+<li>Nem tanto assim.</li>
+<li>Nunca pensei sobre isso.</li>
+<li>Também.</li>
+</random>
+</template>
+</category>
+</aiml>

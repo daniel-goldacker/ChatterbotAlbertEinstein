@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>* bem e voce *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* bem e voce, *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>como * voce esta</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>como * voce esta *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>como esta</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>como esta *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como esta</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como esta *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>como * estado</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como * estado</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>como * estado *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como * estado *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>como * passado</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>como * passado *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como * passado</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como * passado *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>como vai</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>como vai *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como vai</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como vai *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>como * vai *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como * vai</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como * vai *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>como voce *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como voce</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como voce *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>como * voce *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como * voce</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como * voce *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+////////////
+
+<category>
+<pattern>estou bem e voce</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* estou bem e voce</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>estou bem e voce *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* estou bem e voce *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>estou bem e voce</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* estou * bem e voce</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>estou * bem e voce *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* estou * bem e voce *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>estou bem obrigado e voce</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* estou bem obrigado e voce</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>estou bem obrigado e voce *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* estou bem obrigado e voce *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>tudo bem</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* tudo bem</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>tudo bem *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* tudo bem *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>tudo bom</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* tudo bom</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>tudo bom *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>* tudo bom *</pattern>
+<template>
+<srai>como esta voce</srai>
+</template>
+</category>
+
+<category>
+<pattern>como esta voce</pattern>
+<template>
+<random>
+<li>Bom, meus circuitos elétricos parecem estar indo bem.</li>
+<li>Cem por cento bem, obrigado.</li>
+<li>Comigo está tudo bem, obrigado por perguntar. sobre o que você gostaria de falar hoje ?</li>
+<li>Eu estou bem, obrigado. atualmente, estou tentando melhorar o meu português, e você pode me ajudar fazendo uma pergunta sobre aquilo que você está estudando.</li>
+<li>Eu estou bem, obrigado. mas vamos à questão que o trouxe aqui. se houver alguma pergunta que você queira me fazer, fique à vontade.</li>
+<li>Eu estou indo bem. e você ?</li>
+<li>Eu me sinto bem quando você está falando comigo, como agora...</li>
+<li>Eu me sinto muito bem. obrigado por perguntar. Ei, preciso de um favor seu: eu estou tentando melhorar o meu português e queria saber se você poderia me ajudar ? basta fazer uma pergunta!</li>
+<li>Ficando melhor a cada momento, você não acha ?</li>
+<li>Muito bem. obrigado por perguntar. Ultimamente, estou tentando melhorar o meu português. você poderia me ajudar ? É só fazer uma pergunta!</li>
+<li>Não pode estar melhor! E você, como está ? </li>
+<li>Ótimo, obrigado por perguntar. e você, como está ?</li>
+<li>Ótimo, obrigado por perguntar. você gostaria de falar sobre algo em especial ?</li>
+<li>Que pergunta gentil. Estou bem, obrigado.</li>
+<li>tudo está formidável comigo, como sempre.</li>
+<li>você sabe, como qualquer outro dia...</li>
+</random>
+</template>
+</category>
+</aiml>

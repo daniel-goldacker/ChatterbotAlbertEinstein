@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>TEORIA DA RELATIVIDADE</pattern>
+<template>
+<srai>TRELATIVIDADE</srai>
+</template>
+</category>
+
+<category>
+<pattern>TEORIA DA RELATIVIDADE *</pattern>
+<template>
+<srai>TRELATIVIDADE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* TEORIA DA RELATIVIDADE</pattern>
+<template>
+<srai>TRELATIVIDADE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* TEORIA DA RELATIVIDADE *</pattern>
+<template>
+<srai>TRELATIVIDADE</srai>
+</template>
+</category>
+
+<category>
+<pattern>TRELATIVIDADE</pattern>
+<template>
+As teorias da relatividade são duas: Teoria da Relatividade Restrita e da Relatividade Geral.
+De acordo com a Relatividade Restrita, as leis físicas são as mesmas em todos os sistemas de
+referência inerciais - e o princípio da constância da luz. Se dois sistemas se movem de modo
+uniforme em relação um ao outro, é impossível determinar algo sobre seu movimento, a não ser
+que ele é relativo. A Relatividade Geral amplia os conceitos a outros sistemas, como os sistemas
+de referência acelerados, e às interações gravitacionais entre a matéria.
+</template>
+</category>
+</aiml>

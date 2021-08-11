@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>basta</pattern>
+<template>
+<srai>EhSuficente</srai>
+</template>
+</category>
+
+<category>
+<pattern>basta *</pattern>
+<template>
+<srai>EhSuficente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* basta</pattern>
+<template>
+<srai>EhSuficente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* basta *</pattern>
+<template>
+<srai>EhSuficente</srai>
+</template>
+</category>
+
+<category>
+<pattern>suficiente</pattern>
+<template>
+<srai>EhSuficente</srai>
+</template>
+</category>
+
+<category>
+<pattern>suficiente *</pattern>
+<template>
+<srai>EhSuficente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* suficiente</pattern>
+<template>
+<srai>EhSuficente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* suficiente *</pattern>
+<template>
+<srai>EhSuficente</srai>
+</template>
+</category>
+
+<category>
+<pattern>EhSuficente</pattern>
+<template>
+<random>
+<li>Então, está perfeito.</li>
+<li>Então, não há problema.</li>
+<li>Então, qual é o problema ?</li>
+<li>Entendo.</li>
+<li>Nem mais, nem menos; apenas o suficiente.</li>
+<li>Ok.</li>
+<li>Otimo, então.</li>
+<li>Perfeito.</li>
+<li>Que bom que não foi nem mais, nem menos.</li>
+</random>
+</template>
+</category>
+</aiml>

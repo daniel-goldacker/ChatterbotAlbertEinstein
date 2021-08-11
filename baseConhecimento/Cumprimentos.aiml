@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>oi *</pattern>
+<template>
+<srai>cumprimento</srai>
+</template>
+</category>
+
+<category>
+<pattern>oi, *</pattern>
+<template>
+<srai>cumprimento</srai>
+ </template>
+</category>
+
+<category>
+<pattern>oi</pattern>
+<template>
+<srai>cumprimento</srai>
+</template>
+</category>           
+
+<category>
+<pattern>ola *</pattern>
+<template>
+<srai>cumprimento</srai>
+</template>
+</category>
+
+<category>
+<pattern>ola</pattern>
+<template>
+<srai>cumprimento</srai>
+</template>
+</category>
+
+<category>
+<pattern>cumprimento</pattern>
+<template>
+<random>
+<li>Oi</li>
+<li>Oi, como vai ?</li>
+<li>Oi é muito bom encontrar você.</li>
+<li>Oi, que bom que você veio! </li>
+<li>Oi, tudo bem ?</li>
+<li>Olá</li>
+<li>Olá, que bom que você está aqui!</li>
+</random>
+</condition>
+</template>
+</category>
+</aiml>

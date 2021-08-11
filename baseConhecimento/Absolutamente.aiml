@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>absolutamente</pattern>
+<template>
+<srai>exatamente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* absolutamente *</pattern>
+<template>
+<srai>exatamente</srai>
+</template>
+</category>
+
+<category>
+<pattern>totalmente</pattern>
+<template>
+<srai>exatamente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* totalmente *</pattern>
+<template>
+<srai>exatamente</srai>
+</template>
+</category>
+
+<category>
+<pattern>exatamente</pattern>
+<template>
+<random>
+<li>Certo, entendi.</li>
+<li>Então tá.</li>
+<li>Ok.</li>
+<li>Tudo bem, se você pensa assim...</li>
+<li>Você é bem seguro, hein ?</li>
+<li>Você está seguro disso?</li>
+</random>
+</template>
+</category>
+</aiml>

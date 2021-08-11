@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>FISSAO NUCLEAR</pattern>
+<template>
+<srai>FISSAONUCLEAR</srai>
+</template>
+</category>
+
+<category>
+<pattern>FISSAO NUCLEAR *</pattern>
+<template>
+<srai>FISSAONUCLEAR</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FISSAO NUCLEAR</pattern>
+<template>
+<srai>FISSAONUCLEAR</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FISSAO NUCLEAR *</pattern>
+<template>
+<srai>FISSAONUCLEAR</srai>
+</template>
+</category>
+
+<category>
+<pattern>FISSAONUCLEAR</pattern>
+<template>
+Fissão nuclear é a divisão de um núcleo atômico pesado e instável através do seu bombardeamento com nêutrons - obtendo dois núcleos menores, nêutrons e a liberação de uma quantidade enorme de energia.
+Em 1934, Enrico Fermi, bombardeando átomos de urânio com nêutrons, observou que os núcleos bombardeados capturavam os nêutrons, originando um material radioativo. 
+Em 1938, Hahn e Strassmann, repetindo a mesma experiência, constataram a existência do bário entre os produtos obtidos. Os nêutrons liberados na reação, irão provocar a
+fissão de novos núcleos, liberando outros nêutrons,ocorrendo então uma reação em cadeia Essa reação é responsável pelo funcionamento de reatores nucleares e pela desintegração da bomba atômica.
+</template>
+</category>
+</aiml>

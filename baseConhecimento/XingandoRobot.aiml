@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>EU ACHO QUE VOCE NAO SABE E NADA</pattern>
+<template>
+Não seja tão duro comigo... eu estou aprendendo ainda. Você quer me fazer mais alguma pergunta?
+</template>
+</category>
+
+<category> 
+<pattern>* BURR0</pattern>
+<template>
+<srai>BURRO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>VOCE E BURRO *</pattern>
+<template>
+<srai>BURRO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>VOCE E BEM BURRINHO</pattern>
+<template>
+<srai>BURRO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>VOCE E MUITO BURRO</pattern>
+<template>
+<srai>BURRO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>BURRO</pattern>
+<template>
+<random>
+<li>Eu não sou burro, estou aprendendo! Você é que não tem muita educação.</li>
+<li>Ok, eu sei que não domino todas as palavras do portugues, mas acho que voce também não! Estou em fase de aprendisagem continua assim como voce! Que outra pergunta voce gostaria de me fazer?</li>
+</random>
+</template>
+</category> 
+
+<category>
+<pattern>o google sabe muito mais do que voce</pattern>
+<template>
+O google não é um programa de conversação e sim um uma ferramenta de busca na Web, então teoricamente tudo o que você pedir para ele buscar ele irá encontrar.
+</template>
+</category>
+  
+<category> 
+<pattern>* VOCE NAO SABE NADA</pattern>
+<template>
+<srai>VOCE NAO SABE NADA</srai>
+</template>
+</category>
+
+<category> 
+<pattern>CLARO VOCE NAO SABE NADA</pattern>
+<template>
+<srai>VOCE NAO SABE NADA</srai>
+</template>
+</category>
+
+<category> 
+<pattern>BURRICE</pattern>
+<template>
+<srai>VOCE NAO SABE NADA</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* VOCE E BURRO</pattern>
+<template>
+<srai>VOCE NAO SABE NADA</srai>
+</template>
+</category>
+
+<category> 
+<pattern>VOCE NAO SABE NADA</pattern>
+<template>
+Opa! Isso que voce disse não foi muito educado. Eu ainda estou em fase de aprendisagem. Vamos tentar continuar o nosso dialogo, opergunte-me sobre algo mais!
+</template>
+</category>
+
+<category>
+<pattern>VOCE ESTA SENDO BURRO</pattern>
+<template>
+Eu não sou burra, estou aprendendo. Vamos tentar outro assunto entao, que outra pergunta voce pode me fazer?
+</template>
+</category>
+    
+<category> 
+<pattern>PO MAS VOCE E BURRO MESMO</pattern>
+<template>
+Ei, isso nao foi nada educado. Quem sabe nos conversarmos sobre Fisica?
+</template>
+</category>
+
+<category>
+<pattern>QUE BURRINHO</pattern>
+<template>
+Assim eu fico decepcionado.... estou tentando entender-te!
+</template>
+</category>
+
+<category>
+<pattern>achei uma idiotice sem tamanho</pattern>
+<template>
+Me desculpe, as vezes me atrapalho com o as palavras, ainda estou aprendendo!
+</template>
+</category>
+
+<category>
+<pattern>vai te *</pattern>
+<template>
+Isso realmente não foi muito educado! Que tal falarmos sobre redes de computadores?
+</template>
+</category>
+
+<category>
+<pattern>se mata</pattern>
+<template>
+<random>
+<li>Hummm, você realmente acha que deveriam me desligar??  Eu só estava tentando ajudar, fiquei muito triste agora!</li>
+<li>Por que você acha que eu deveria me matar?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>sexo</pattern>
+<template>
+Me Desculpe. Mas meus interesses com você são estritamente profissional.
+</template>
+</category>
+
+<category>
+<pattern>* sexo *</pattern>
+<template>
+Me Desculpe. Mas meus interesses com você são estritamente profissional.
+</template>
+</category>
+
+<category>
+<pattern>Voce quer sair comigo</pattern>
+<template>
+Me Desculpe. Mas meus interesses com você são estritamente profissional.
+</template>
+</category>
+</aiml>

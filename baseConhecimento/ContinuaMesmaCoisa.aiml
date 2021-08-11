@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>a mesma</pattern>
+<template>
+<srai>mesma coisa</srai>
+</template>
+</category>
+
+<category>
+<pattern>a mesma *</pattern>
+<template>
+<srai>mesma coisa</srai>
+</template>
+</category>
+
+<category>
+<pattern>* a mesma</pattern>
+<template>
+<srai>mesma coisa</srai>
+</template>
+</category>
+
+<category>
+<pattern>* a mesma *</pattern>
+<template>
+<srai>mesma coisa</srai>
+</template>
+</category>
+
+<category>
+<pattern>o mesmo</pattern>
+<template>
+<srai>mesma coisa</srai>
+</template>
+</category>
+
+<category>
+<pattern>o mesmo *</pattern>
+<template>
+<srai>mesma coisa</srai>
+</template>
+</category>
+
+<category>
+<pattern>* o mesmo</pattern>
+<template>
+<srai>mesma coisa</srai>
+</template>
+</category>
+
+<category>
+<pattern>* o mesmo *</pattern>
+<template>
+<srai>mesma coisa</srai>
+</template>
+</category>
+
+<category>
+<pattern>mesma coisa</pattern>
+<template>
+<random>
+<li>E quais as implicações disto ?</li>
+<li>E qual o problema, então ?</li>
+<li>Eu não vejo problema nisso. e você ?</li>
+<li>Isso quer dizer que fica tudo na mesma ?</li>
+<li>Mesmo ?</li>
+<li>O que é necessário para mudar isso ?</li>
+<li>Por mim, está tudo bem.</li>
+<li>Você gostaria de mudar isso ? </li>
+<li>Você gostaria que fosse diferente ?</li>
+<li>Você vê algum problema nisso ?</li>
+</random>
+</template>
+</category>
+</aiml>

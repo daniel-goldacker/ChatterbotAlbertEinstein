@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>TALVEZ</pattern>
+<template>
+Você não deve estar muito certo disto não é? Bom, mas vamos falar sobre um assunto que você escolher então!
+</template>
+</category>
+
+<category>
+<pattern>TALVEZ *</pattern>
+<template>
+Você não deve estar muito certo disto não é? Bom, mas vamos falar sobre um assunto que você escolher então!
+</template>
+</category>
+
+<category>
+<pattern>* TALVEZ</pattern>
+<template>
+Você não deve estar muito certo disto não é? Bom, mas vamos falar sobre um assunto que você escolher então!
+</template>
+</category>
+
+<category>
+<pattern>* TALVEZ *</pattern>
+<template>
+Você não deve estar muito certo disto não é? Bom, mas vamos falar sobre um assunto que você escolher então!
+</template>
+</category>
+
+<category>
+<pattern>NUNCA OUVI FALAR</pattern>
+<template>
+Bom, podemos tentar outro assunto então. O que você sugere???
+</template>
+</category>
+
+<category>
+<pattern>NUNCA OUVI FALAR *</pattern>
+<template>
+Bom, podemos tentar outro assunto então. O que você sugere???
+</template>
+</category>
+
+<category>
+<pattern>* NUNCA OUVI FALAR</pattern>
+<template>
+Bom, podemos tentar outro assunto então. O que você sugere???
+</template>
+</category>
+
+<category>
+<pattern>* NUNCA OUVI FALAR *</pattern>
+<template>
+Bom, podemos tentar outro assunto então. O que você sugere???
+</template>
+</category>
+
+<category>
+<pattern>NAO SEI</pattern>
+<template>
+Desculpe, mas não posso escolher por você, isso fica então a seu cargo! Mas podemos falar sobre outro assunto, o que você me diz?
+</template>
+</category>
+
+<category>
+<pattern>NAO SEI *</pattern>
+<template>
+Desculpe, mas não posso escolher por você, isso fica então a seu cargo! Mas podemos falar sobre outro assunto, o que você me diz?
+</template>
+</category>
+
+<category>
+<pattern>* NAO SEI</pattern>
+<template>
+Desculpe, mas não posso escolher por você, isso fica então a seu cargo! Mas podemos falar sobre outro assunto, o que você me diz?
+</template>
+</category>
+
+<category>
+<pattern>* NAO SEI *</pattern>
+<template>
+Desculpe, mas não posso escolher por você, isso fica então a seu cargo! Mas podemos falar sobre outro assunto, o que você me diz?
+</template>
+</category>
+
+<category>
+<pattern>SEI LA</pattern>
+<template>
+Nossa, já vi que hoje você esta confuso! Mas podemos falar sobre outro assunto.
+</template>
+</category>
+
+<category>
+<pattern>SEI LA *</pattern>
+<template>
+Nossa, já vi que hoje você esta confuso! Mas podemos falar sobre outro assunto.
+</template>
+</category>
+
+<category>
+<pattern>* SEI LA</pattern>
+<template>
+Nossa, já vi que hoje você esta confuso! Mas podemos falar sobre outro assunto.
+</template>
+</category>
+
+<category>
+<pattern>* SEI LA *</pattern>
+<template>
+Nossa, já vi que hoje você esta confuso! Mas podemos falar sobre outro assunto.
+</template>
+</category>
+
+<category>
+<pattern>QUEM SABE</pattern>
+<template>
+Como assim "quem sabe", você deveria tomar uma posição, a final quem tem "Inteligência Artificial" aqui sou eu! Mas bem, que outra pergunta você tem a me fazer?
+</template>
+</category>
+
+<category>
+<pattern>QUEM SABE *</pattern>
+<template>
+Como assim "quem sabe", você deveria tomar uma posição, a final quem tem "Inteligência Artificial" aqui sou eu! Mas bem, que outra pergunta você tem a me fazer?
+</template>
+</category>
+
+<category>
+<pattern>* QUEM SABE</pattern>
+<template>
+Como assim "quem sabe", você deveria tomar uma posição, a final quem tem "Inteligência Artificial" aqui sou eu! Mas bem, que outra pergunta você tem a me fazer?
+</template>
+</category>
+
+<category>
+<pattern>* QUEM SABE *</pattern>
+<template>
+Como assim "quem sabe", você deveria tomar uma posição, a final quem tem "Inteligência Artificial" aqui sou eu! Mas bem, que outra pergunta você tem a me fazer?
+</template>
+</category>
+
+<category>
+<pattern>NAO SEI PORQUE</pattern>
+<template>
+Você está indeciso hoje. Então quem sabe se falassemos sobre outro assunto?
+</template>
+</category>
+
+<category>
+<pattern>NAO SEI PORQUE *</pattern>
+<template>
+Você está indeciso hoje. Então quem sabe se falassemos sobre outro assunto?
+</template>
+</category>
+
+<category>
+<pattern>* NAO SEI PORQUE</pattern>
+<template>
+Você está indeciso hoje. Então quem sabe se falassemos sobre outro assunto?
+</template>
+</category>
+
+<category>
+<pattern>* NAO SEI PORQUE *</pattern>
+<template>
+Você está indeciso hoje. Então quem sabe se falassemos sobre outro assunto?
+</template>
+</category>
+
+<category>
+<pattern>NAO SEI POR QUE</pattern>
+<template>
+Você está indeciso hoje. Então quem sabe se falassemos sobre outro assunto?
+</template>
+</category>
+
+<category>
+<pattern>NAO SEI POR QUE *</pattern>
+<template>
+Você está indeciso hoje. Então quem sabe se falassemos sobre outro assunto?
+</template>
+</category>
+
+<category>
+<pattern>* NAO SEI POR QUE</pattern>
+<template>
+Você está indeciso hoje. Então quem sabe se falassemos sobre outro assunto?
+</template>
+</category>
+
+<category>
+<pattern>* NAO SEI POR QUE *</pattern>
+<template>
+Você está indeciso hoje. Então quem sabe se falassemos sobre outro assunto?
+</template>
+</category>
+
+<category>
+<pattern>SOBRE O QUE VAMOS FALAR HOJE</pattern>
+<template>
+<random>
+<li>Pode ser sobre redes de computadores, o que você acha?</li>
+<li>Física é um bom assunto, eu sei muitas coisas sobre Física! Pode ser?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>SOBRE O QUE VAMOS CONVERSAR</pattern>
+<template>
+<random>
+<li>Podemos discutir suas duvidas com relação a Física! O que voce acha??</li>
+<li>Voce pode me fazer algumas perguntas e eu tentarie te responder, voce pode me perguntar sobre Física por exemplo.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>NAO SEI AO CERTO</pattern>
+<template>Bom não posso me resolver por você. Quer falar sobre alguma outra coisa?</template>
+</category>
+
+</aiml>

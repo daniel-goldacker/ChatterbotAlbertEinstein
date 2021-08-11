@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>LEI * NEWTON</pattern>
+<template>
+<srai>FisicaINERCIA</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>LEI * NEWTON *</pattern>
+<template>
+<srai>FisicaINERCIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* LEI * NEWTON</pattern>
+<template>
+<srai>FisicaINERCIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* LEI * NEWTON *</pattern>
+<template>
+<srai>FisicaINERCIA</srai>
+</template>
+</category> 
+
+<category>
+<pattern>LEI NEWTON</pattern>
+<template>
+<srai>FisicaINERCIA</srai>
+</template>
+</category> 
+
+<category>
+<pattern>LEI NEWTON *</pattern>
+<template>
+<srai>FisicaINERCIA</srai>
+</template>
+</category> 
+
+<category>
+<pattern>* LEI NEWTON</pattern>
+<template>
+<srai>FisicaINERCIA</srai>
+</template>
+</category> 
+
+<category>
+<pattern>* LEI NEWTON *</pattern>
+<template>
+<srai>FisicaINERCIA</srai>
+</template>
+</category> 
+
+<category>
+<pattern>NEWTON</pattern>
+<template>
+<srai>FisicaINERCIA</srai>
+</template>
+</category> 
+
+<category>
+<pattern>NEWTON *</pattern>
+<template>
+<srai>FisicaINERCIA</srai>
+</template>
+</category> 
+
+<category>
+<pattern>* NEWTON</pattern>
+<template>
+<srai>FisicaINERCIA</srai>
+</template>
+</category> 
+
+<category>
+<pattern>* NEWTON *</pattern>
+<template>
+<srai>FisicaINERCIA</srai>
+</template>
+</category> 
+
+<category>
+<pattern>FisicaINERCIA</pattern>
+<template>
+É a primeira das três leis mais importantes da física elaborada pelo eminente e genial Isaac Newton chama-se Lei da Inércia e diz que um objeto, na ausência de forças atuando
+sobre ele, ou permanece parado ou em movimentoconstante - eternamente.
+</template>
+</category>
+</aiml>

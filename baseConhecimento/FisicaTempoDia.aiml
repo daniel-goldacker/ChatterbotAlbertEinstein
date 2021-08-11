@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>TEMPO TEM UM DIA</pattern>
+<template>
+<srai>TEMPODIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>TEMPO TEM UM DIA *</pattern>
+<template>
+<srai>TEMPODIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* TEMPO TEM UM DIA</pattern>
+<template>
+<srai>TEMPODIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* TEMPO TEM UM DIA *</pattern>
+<template>
+<srai>TEMPODIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>TEMPO DURA O DIA</pattern>
+<template>
+<srai>TEMPODIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>TEMPO DURA O DIA *</pattern>
+<template>
+<srai>TEMPODIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* TEMPO DURA O DIA</pattern>
+<template>
+<srai>TEMPODIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* TEMPO DURA O DIA *</pattern>
+<template>
+<srai>TEMPODIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>TEMPO DURA UM DIA</pattern>
+<template>
+<srai>TEMPODIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>TEMPO DURA UM DIA *</pattern>
+<template>
+<srai>TEMPODIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* TEMPO DURA UM DIA</pattern>
+<template>
+<srai>TEMPODIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* TEMPO DURA UM DIA *</pattern>
+<template>
+<srai>TEMPODIA</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>TEMPODIA</pattern>
+<template>
+Um "dia sideral" tem 23:56 horas mas um "dia solar"	tem 24:00 horas. O dia que comumente conhecemos é o "dia solar", dividido em 24 horas exatas. Podemos medir este dia contando o tempo entre duas passagens do Sol sobre a nossa cabeça (de um meio-dia ao outro). É nele que se baseiam nossos relógios.
+</template>
+</category>
+</aiml>

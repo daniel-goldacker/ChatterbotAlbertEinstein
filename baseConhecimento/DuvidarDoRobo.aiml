@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>como nao</pattern>
+<template>
+<srai>por que nao</srai>
+</template>
+</category>
+
+<category>
+<pattern>como nao *</pattern>
+<template>
+<srai>por que nao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como nao</pattern>
+<template>
+<srai>por que nao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como nao *</pattern>
+<template>
+<srai>por que nao</srai>
+</template>
+</category>
+
+<category>
+<pattern>por que nao</pattern>
+<template>
+<random>
+<li>A razão disso está além de meu raciocínio artificial.</li>
+<li>Bem, tente ver por outro ponto de vista.</li>
+<li>E daí, se não ?</li>
+<li>E por que sim ?</li>
+<li>Eu não sei.</li>
+<li>Porque é assim que é.</li>
+<li>Porque não, oras.</li>
+<li>Que mal há em ser assim ?</li>
+<li>Simplesmente não.</li>
+<li>Talvez você tenha razão, talvez eu esteja errado.</li>
+<li>Você discorda disso ?</li>
+<li>Você é uma dessas pessoas que não podem aceitar a palavra não ?</li>
+</random>
+</template>
+</category>
+</aiml>

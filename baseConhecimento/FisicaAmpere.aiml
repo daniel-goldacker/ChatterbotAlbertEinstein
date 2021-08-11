@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>AMPERE</pattern>
+<template>
+<srai>FIsicaAMPERE</srai>
+</template>
+</category>
+
+<category>
+<pattern>AMPERE *</pattern>
+<template>
+<srai>FIsicaAMPERE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* AMPERE</pattern>
+<template>
+<srai>FIsicaAMPERE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* AMPERE *</pattern>
+<template>
+<srai>FIsicaAMPERE</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>FIsicaAMPERE</pattern>
+<template>	
+O ampere é a unidade básica da corrente eléctrica e define a corrente produzida por uma força específica, entre dois fios condutores paralelos que estão separados entre si de 1m, no vácuo(O nome deve-se ao físico francês Andre Ampere).				
+</template>
+</category>
+</aiml>

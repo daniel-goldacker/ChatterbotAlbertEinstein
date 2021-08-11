@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>CALOR LATENTE</pattern>
+<template>
+<srai>CALORLATENTE</srai>
+</template>
+</category>
+
+<category>
+<pattern>CALOR LATENTE *</pattern>
+<template>
+<srai>CALORLATENTE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CALOR LATENTE</pattern>
+<template>
+<srai>CALORLATENTE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CALOR LATENTE *</pattern>
+<template>
+<srai>CALORLATENTE</srai>
+</template>
+</category>
+
+<category>
+<pattern>CALORLATENTE</pattern>
+<template>
+Calor latente é o calor recebido ou perdido durante uma mudança de estado.
+</template>
+</category>
+</aiml>

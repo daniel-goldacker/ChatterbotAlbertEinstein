@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>FUSAO NUCLEAR</pattern>
+<template>
+<srai>FUSAONUCLEAR</srai>
+</template>
+</category>
+
+<category>
+<pattern>FUSAO NUCLEAR *</pattern>
+<template>
+<srai>FUSAONUCLEAR</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FUSAO NUCLEAR</pattern>
+<template>
+<srai>FUSAONUCLEAR</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FUSAO NUCLEAR *</pattern>
+<template>
+<srai>FUSAONUCLEAR</srai>
+</template>
+</category>
+
+<category>
+<pattern>FUSAONUCLEAR</pattern>
+<template>
+Fusão nuclear é a junção de dois ou mais núcleos atômicos produzindo um único núcleo maior, com liberação de grande quantidade de energia.
+Nas estrelas como o Sol, ocorre a contínua irradiação de energia (luz, calor, ultravioleta, etc.) proveniente da reação de fusão nuclear.
+</template>
+</category>
+</aiml>

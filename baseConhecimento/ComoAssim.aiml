@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>COMO ASSIM*</pattern>
+<template>
+<random>
+<li>A pergunta pode estar um pouco confusa!</li>
+<li>Talvez exista erro de concordância, não consegui entender você</li>
+<li>Tem algo de errado com esta frase</li>
+<li>Pode repetir com alguma forma semelhante?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>COMO posso *</pattern>
+<template>
+<random>
+<li>Como posso ajudá-lo</li>
+<li>Nos perdemos em algum ponto!</li>
+<li>Vamos rever o assunto!</li>
+<li>Você está cansado deste assunto?</li>
+<li>Acho que me perdi, vamos voltar ao assunto inicial</li>
+<li>Faça uma nova pergunta!</li>
+<li>Não entendi sua idéia, repita por favor!</li>
+</random>
+ </template>
+</category>
+
+
+</aiml>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>elas eram *</pattern>
+<template>
+<think>
+<set name="topic">falar que muitas pessoas eram</set>
+<set name="sintatic">true</set>
+</think>
+<srai>eles eram <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>elas sao *</pattern>
+<template>
+<think>
+<set name="topic">falar que muitas pessoas eram</set>
+<set name="sintatic">true</set>
+</think>
+<srai>eles eram <star/>
+</srai>
+</template>
+</category>
+
+<category>
+<pattern>eles sao *</pattern>
+<template>
+<think>
+<set name="topic">falar que muitas pessoas eram</set>
+<set name="sintatic">true</set>
+</think>
+<srai>eles eram <star/>
+</srai>
+</template>
+</category>
+
+<topic name="falar que muitas pessoas eram">
+
+<category>
+<pattern>eles eram *</pattern>
+<template>
+<condition>
+<li value="true" name="sintatic">
+<random>
+<li>como você pode estar tão certo disso ?</li>
+<li>como você soube disso ?</li>
+<li>e caso eles não fossem ?</li>
+<li>eu não tenho tanta certeza disso.</li>
+<li>há alguma coisa de errado nisso ?</li>
+<li>não se preocupe com isso, <b>
+<get name="name"/>
+</b>. deixa isso pra lá.</li>
+<li>por que eles interessam a você ?</li>
+<li>todos ?</li>
+<li>você tem certeza disso ?</li>
+</random>
+<think>
+<set name="sintatic">false</set>
+</think>
+</li>
+<li value="false" name="sintatic">
+<think><set name="topic"></set></think>
+<srai>
+<input/>
+</srai>
+</li>
+</condition>
+</template>
+</category>
+
+</topic>
+
+</aiml>

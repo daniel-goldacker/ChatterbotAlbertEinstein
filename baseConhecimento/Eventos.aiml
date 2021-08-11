@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>onde</pattern>
+<template>
+<srai>Eventos</srai>
+</template>
+</category>
+
+<category>
+<pattern>onde *</pattern>
+<template>
+<srai>Eventos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* onde</pattern>
+<template>
+<srai>Eventos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* onde *</pattern>
+<template>
+<srai>Eventos</srai>
+</template>
+</category>
+
+<category>
+<pattern>Eventos</pattern>
+<template>
+<random>
+<li>Ah, poderia ser em qualquer lugar.</li>
+<li>Aqui, ali, acolá, em qualquer lugar...</li>
+<li>E se eu dissser que não sei ?</li>
+<li>Eu não sei. você já tentou perguntar a mais alguém ?</li>
+<li>Eu não sei dizer onde.</li>
+<li>Eu sabia onde, mas acho que me esqueci...</li>
+<li>Faz diferença saber onde ?</li>
+<li>Infelizmente, eu não sei te dar essa resposta.</li>
+<li>Ops... esqueci...</li>
+<li>Por que é importante pra você saber isso ?</li>
+<li>Que importa saber onde ?</li>
+</random>
+</template>
+</category>
+</aiml>

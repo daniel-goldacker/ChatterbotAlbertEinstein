@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>ATOMO DE BOHR</pattern>
+<template>
+<srai>ATOMOBOHR</srai>
+</template>
+</category>
+
+<category>
+<pattern>ATOMO DE BOHR *</pattern>
+<template>
+<srai>ATOMOBOHR</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ATOMO DE BOHR</pattern>
+<template>
+<srai>ATOMOBOHR</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ATOMO DE BOHR *</pattern>
+<template>
+<srai>ATOMOBOHR</srai>
+</template>
+</category>
+
+<category>
+<pattern>ATOMOBOHR</pattern>
+<template>
+  Modelo atômico no qual os elétrons ligados ao núcleo só poderiam se apresentar em determinados estados quantizados de energia. Os elétrons de um átomo, submetidos à ação da força atrativa de Coulomb exercida pelo núcleo, movem-se em torno dele em órbitas semelhantes às dos planetas em torno do Sol, mas sem emitir radiações. Além disso, existem duas condições limitativas:
+  1 - Um elétron não pode percorrer em torno do núcleo uma órbita qualquer, mas apenas determinadas órbitas. Quando o elétron se encontra numa dessas órbitas, o átomo apresenta uma energia bem definida.
+  2 - Em cada órbita, podem se mover no máximo dois elétrons (princípio da exclusão). Ao absorver energia, um elétron pode passar de uma órbita mais interna para uma mais externa. Ao fazer a passagem inversa, o elétron libera, sob a forma de radiações eletromagnéticas, a energia correspondente à diferença entre as energias dos níveis das duas órbitas.
+</template>
+</category>
+
+</aiml>

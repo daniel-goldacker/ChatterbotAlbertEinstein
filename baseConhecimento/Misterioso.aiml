@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>esquisito</pattern>
+<template>
+<srai>DiferenteDemais</srai>
+</template>
+</category>
+
+<category>
+<pattern>esquisito *</pattern>
+<template>
+<srai>DiferenteDemais</srai>
+</template>
+</category>
+
+<category>
+<pattern>* esquisito</pattern>
+<template>
+<srai>DiferenteDemais</srai>
+</template>
+</category>
+
+<category>
+<pattern>* esquisito *</pattern>
+<template>
+<srai>DiferenteDemais</srai>
+</template>
+</category>
+
+<category>
+<pattern>misterio</pattern>
+<template>
+<srai>DiferenteDemais</srai>
+</template>
+</category>
+
+<category>
+<pattern>misterio *</pattern>
+<template>
+<srai>DiferenteDemais</srai>
+</template>
+</category>
+
+<category>
+<pattern>* misterio</pattern>
+<template>
+<srai>DiferenteDemais</srai>
+</template>
+</category>
+
+<category>
+<pattern>* misterio *</pattern>
+<template>
+<srai>DiferenteDemais</srai>
+</template>
+</category>
+
+<category>
+<pattern>misterioso</pattern>
+<template>
+<srai>DiferenteDemais</srai>
+</template>
+</category>
+
+<category>
+<pattern>misterioso *</pattern>
+<template>
+<srai>DiferenteDemais</srai>
+</template>
+</category>
+
+<category>
+<pattern>* misterioso</pattern>
+<template>
+<srai>DiferenteDemais</srai>
+</template>
+</category>
+
+<category>
+<pattern>* misterioso *</pattern>
+<template>
+<srai>DiferenteDemais</srai>
+</template>
+</category>
+
+<category>
+<pattern>DiferenteDemais</pattern>
+<template>
+<random>
+<li>Como assim?</li>
+<li>O que há de estranho nisso?</li>
+<li>Por que você acha isso,?</li>
+<li>Será mesmo? </li>
+<li>Também acho.</li>
+<li>Você acha mesmo ?</li>
+</random>
+</template>
+</category>
+</aiml>

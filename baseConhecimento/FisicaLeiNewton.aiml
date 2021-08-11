@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>LEI DE NEWTON</pattern>
+<template>
+<srai>LEINEWTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>LEI DE NEWTON *</pattern>
+<template>
+<srai>LEINEWTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>* LEI DE NEWTON</pattern>
+<template>
+<srai>LEINEWTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>* LEI DE NEWTON *</pattern>
+<template>
+<srai>LEINEWTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>LEIS DE NEWTON</pattern>
+<template>
+<srai>LEINEWTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>LEIS DE NEWTON *</pattern>
+<template>
+<srai>LEINEWTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>* LEIS DE NEWTON</pattern>
+<template>
+<srai>LEINEWTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>* LEIS DE NEWTON *</pattern>
+<template>
+<srai>LEINEWTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>LEINEWTON</pattern>
+<template>
+A parte da mecânica que estuda os movimentos dos corpos e a causas que os originam,
+chamada Dinâmica, tem três princípios fundamentais conhecidos como Leis de Newton:
+ *** Princípio da Inércia (1ª Lei de Newton): Todo corpo tende a permanecer em seu estado de repouso ou de movimento;
+ *** Princípio Fundamental da Dinâmica (2ª Lei de Newton): A força resultante que age em um ponto material é igual ao produto da massa desse corpo pela sua aceleração
+ *** Princípio da Ação e Reação (3ª Lei de Newton): Quando um corpo A exerce uma força FAB no corpo B, este exerce imediatamente uma força FBA em A de mesmo módulo, mesma direção e sentido contrário.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>como uma ilustracao</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>como uma ilustracao *</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como uma ilustracao</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como uma ilustracao *</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>como um exemplo</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>como um exemplo *</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como um exemplo</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como um exemplo *</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>como um modelo</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>como um modelo *</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como um modelo</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como um modelo *</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>e um exemplo</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>e um exemplo *</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e um exemplo</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e um exemplo *</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>exemplo</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>exemplo *</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* exemplo</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* exemplo *</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>para citar uma exemplo</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>para citar uma exemplo *</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* para citar uma exemplo</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* para citar uma exemplo *</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>para ilustrar o seguinte</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>para ilustrar o seguinte *</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* para ilustrar o seguinte</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* para ilustrar o seguinte *</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>um exemplo poderia ser</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>um exemplo poderia ser *</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* um exemplo poderia ser</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* um exemplo poderia ser *</pattern>
+<template>
+<srai>por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>por exemplo</pattern>
+<template>
+<random>
+<li>Agora, entendi.</li>
+<li>Ah, certo. entendi.</li>
+<li>Este é um péssimo exemplo.</li>
+<li>Eu compreendo você melhor, agora. mas, me fale mais sobre isto.</li>
+<li>Eu não entendi esse exemplo.</li>
+<li>Existe algum exemplo relacionado a mim ?</li>
+<li>Me dê um exemplo de seu dia-a-dia.</li>
+<li>Me dê um outro exemplo.</li>
+<li>Sim, acho que entendo agora.</li>
+<li>Você tem mais alguns exemplos para esclarecer melhor essa questão ?</li>
+</random>
+</template>
+</category>
+</aiml>

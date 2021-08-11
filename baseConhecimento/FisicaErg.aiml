@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>ERG</pattern>
+<template>
+<srai>FisicaERG</srai>
+</template>
+</category>
+
+<category>
+<pattern>ERG *</pattern>
+<template>
+<srai>FisicaERG</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ERG</pattern>
+<template>
+<srai>FisicaERG</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ERG *</pattern>
+<template>
+<srai>FisicaERG</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaERG</pattern>
+<template>
+Unidade de trabalho no sistema C.G.S. Corresponde ao trabalho produzido por um dina, quando o ponto de aplicação se desloca em 1 centímetro na direção da força.
+Também pode ser definido como a quantidade de calor no mesmo sistema, igual a 1x10E-7 Joule. O termo "erg" é formação das três primeiras letras da palavra grega ergon (trabalho). 
+</template>
+</category>
+</aiml>

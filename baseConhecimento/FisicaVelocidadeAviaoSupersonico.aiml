@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>VELOCIDADE DE UM AVIAO SUPERSONICO</pattern>
+<template>
+<srai>VELOCIDADEAVIAO</srai>
+</template>
+</category>
+
+<category>
+<pattern>VELOCIDADE DE UM AVIAO SUPERSONICO *</pattern>
+<template>
+<srai>VELOCIDADEAVIAO</srai>
+</template>
+</category>
+
+<category>
+<pattern>* VELOCIDADE DE UM AVIAO SUPERSONICO</pattern>
+<template>
+<srai>VELOCIDADEAVIAO</srai>
+</template>
+</category>
+
+<category>
+<pattern>* VELOCIDADE DE UM AVIAO SUPERSONICO *</pattern>
+<template>
+<srai>VELOCIDADEAVIAO</srai>
+</template>
+</category>
+
+<category>
+<pattern>VELOCIDADEAVIAO</pattern>
+<template>
+A velocidade de	um avião supersônico varia. Para ser considerado um avião supersônico, basta que ele atinja uma velocidade acima da velocidade do som (340m/s), quebrando assim a
+barreira do som, chamada de "match 1". O Concorde, único avião supersônico de passageiros que foi "aposentado" em 2004, chegava a velocidade de 700m/s,
+duas vezes a velocidade do som, portanto "match 2".
+</template>
+</category>
+</aiml>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>GRAVIDADE</pattern>
+<template>
+<srai>FisicaGRAVIDADE</srai>
+</template>
+</category>
+
+<category>
+<pattern>GRAVIDADE *</pattern>
+<template>
+<srai>FisicaGRAVIDADE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* GRAVIDADE</pattern>
+<template>
+<srai>FisicaGRAVIDADE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* GRAVIDADE *</pattern>
+<template>
+<srai>FisicaGRAVIDADE</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaGRAVIDADE</pattern>
+<template>   
+A gravidade é estranha. É claramente uma das interações fundamentais, mas o Modelo Padrão não consegue explicá-la satisfatoriamente. É um desses problemas não resolvidos pela física até hoje. Além disso, a partícula transportadora da gravidade ainda não foi encontrada. Tal partícula,
+contudo, foi prevista e poderá ser encontrada um dia: o gráviton. Felizmente, os efeitos da gravidade são extremamente pequenos na maioria das situações em física de partículas, quando comparado aos das outras três interações, assim, teoria e experimentos podem ser comparados sem incluir a gravidade nos cálculos. Portanto, o Modelo Padrão funciona mesmo sem explicar a gravidade.            
+</template>
+</category>
+</aiml>

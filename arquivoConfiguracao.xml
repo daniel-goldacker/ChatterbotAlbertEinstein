@@ -1,0 +1,13 @@
+<startup>
+  <sentence-splitters>
+    <splitter value="."/>
+    <splitter value="!"/>
+    <splitter value="?"/>
+    <splitter value=";"/>
+  </sentence-splitters>
+
+  <bot id="Albert Einstein" enabled="true">
+    <property name="name" value="Albert Einstein"/> 
+    <learn>baseConhecimento/*.aiml</learn>
+  </bot>
+</startup>

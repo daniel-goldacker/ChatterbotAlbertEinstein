@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>dai</pattern>
+<template>
+<srai>e dai</srai>
+</template>
+</category>
+
+<category>
+<pattern>dai *</pattern>
+<template>
+<srai>e dai</srai>
+</template>
+</category>
+
+<category>
+<pattern>* dai</pattern>
+<template>
+<srai>e dai</srai>
+</template>
+</category>
+
+<category>
+<pattern>* dai *</pattern>
+<template>
+<srai>e dai</srai>
+</template>
+</category>
+
+<category>
+<pattern>e dai</pattern>
+<template>
+<random>
+<li>Não sei o que dizer sobre isso.</li>
+<li>Como posso saber ?</li>
+<li>E daí, que faça o certo !</li>
+<li>É difícil pra mim dizer algo a esse respeito.</li>
+<li>Ei, não tente se livrar disso...</li>
+<li>Eu tenho dúvidas quanto a isso.</li>
+<li>Mas, é importante.</li>
+<li>Não tenho certeza sobre isso.</li>
+<li>O que você acha ? </li>
+<li>O que você está tentando dizer ?</li>
+<li>Por que você diz isso ?</li>
+<li>Você não acha que eu posso respoder isso, acha ?</li>
+<li>Você não liga ?</li>
+</random>
+</template>
+</category>
+
+</aiml>

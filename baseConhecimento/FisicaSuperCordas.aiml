@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>SUPER CORDAS</pattern>
+<template>
+<srai>SUPERCORDAS</srai>
+</template>
+</category>
+
+<category>
+<pattern>SUPER CORDAS *</pattern>
+<template>
+<srai>SUPERCORDAS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SUPER CORDAS</pattern>
+<template>
+<srai>SUPERCORDAS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SUPER CORDAS *</pattern>
+<template>
+<srai>SUPERCORDAS</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>SUPERCORDAS</pattern>
+<template>
+Teoria de Super Cordas é uma tentativa de se unificar a Mecânica Quântica com a Relatividade Geral. Isso porque, enquanto a Relatividade Geral trata apenas da gravitação, a Mecânica Quântica trata das
+outras 3 forças da Natureza (forte, fraca, eletromagnética). Então, pra que se possa tratar todas as 4 forças sob um mesmo arcaboço matemático, os físicos estão a procura da Gravitação Quântica.
+A teoria de super cordas é uma das candidatas, uma das possíveis teorias que pode responder a essa pergunta.
+</template>
+</category>
+</aiml>

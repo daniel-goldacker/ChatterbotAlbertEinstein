@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta name="author" content="AUTHOR1"/>
+<meta name="language" content="LANG"/>
+
+<category>
+<pattern>VELOCIDADE DO SOM</pattern>
+<template>
+<srai>VELSOM</srai>
+</template>
+</category>
+
+<category>
+<pattern>VELOCIDADE DO SOM *</pattern>
+<template>
+<srai>VELSOM</srai>
+</template>
+</category>
+
+<category>
+<pattern>* VELOCIDADE DO SOM</pattern>
+<template>
+<srai>VELSOM</srai>
+</template>
+</category>
+
+<category>
+<pattern>* VELOCIDADE DO SOM *</pattern>
+<template>
+<srai>VELSOM</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>VELSOM</pattern>
+<template>
+No ar, a temperatura de 15ºC a velocidade do som é de cerca de 340m/s. Essa velocidade varia em 55cm/s para cada grau de temperatura acima de zero.
+A 20ºC, a velocidade do som é 342m/s, a 0ºC, é de 331m/s. Na água a 20ºC, a velocidade do som é de aproximadamente 1130m/s.
+Nos sólidos, a velocidade depende da natureza das substâncias.	
+</template>
+</category>
+
+<category>
+<pattern>SOM</pattern>
+<template>
+<srai>FisicaSOM</srai>
+</template>
+</category>
+ 
+ <category>
+<pattern>SOM *</pattern>
+<template>
+<srai>FisicaSOM</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SOM</pattern>
+<template>
+<srai>FisicaSOM</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SOM *</pattern>
+<template>
+<srai>FisicaSOM</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>FisicaSOM</pattern>
+<template>
+Podemos dizer que som é a percepção sensorial do movimento, da vibração. 
+</template>
+</category>
+</aiml>

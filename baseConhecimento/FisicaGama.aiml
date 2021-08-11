@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>RAIOS GAMA</pattern>
+<template>
+<srai>FisicaGAMA</srai>
+</template>
+</category>
+
+<category>
+<pattern>RAIOS GAMA *</pattern>
+<template>
+<srai>FisicaGAMA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RAIOS GAMA</pattern>
+<template>
+<srai>FisicaGAMA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RAIOS GAMA *</pattern>
+<template>
+<srai>FisicaGAMA</srai>
+</template>
+</category>
+
+<category>
+<pattern>GAMA</pattern>
+<template>
+<srai>FisicaGAMA</srai>
+</template>
+</category>
+
+<category>
+<pattern>GAMA *</pattern>
+<template>
+<srai>FisicaGAMA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* GAMA</pattern>
+<template>
+<srai>FisicaGAMA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* GAMA *</pattern>
+<template>
+<srai>FisicaGAMA</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaGAMA</pattern>
+<template>
+Gama é um tipo de radiação. A radiação gama é uma onda eletromagnética tipo Raio-X. As substâncias radioativas emitem continuamente calor e têm a capacidade de ionizar o ar e torná-lo condutor de corrente elétrica. São penetrantes e ao atravessarem uma substância chocam-se com suas moléculas.</br>
+</template>
+</category>
+</aiml>

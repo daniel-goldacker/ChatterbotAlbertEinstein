@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>captei</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>captei *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* captei</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* captei *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>compreendi</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>compreendi *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* compreendi</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* compreendi *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>compreendo</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>compreendo *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* compreendo</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* compreendo *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>entendi</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>entendi *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* entendi</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* entendi *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>entendo</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>entendo *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* entendo</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* entendo *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>compreendendo</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>compreendendo *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* compreendendo</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* compreendendo *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>entendendo</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>entendendo *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* entendendo</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* entendendo *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>percebi</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>percebi *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* percebi</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* percebi *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>percebo</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>percebo *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* percebo</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* percebo *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>posso compreender</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>posso compreender *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* posso compreender</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* posso compreender *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>posso * compreender</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>posso * compreender *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* posso * compreender</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* posso * compreender *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>posso * entender</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>posso entender *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* posso entender</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* posso entender *</pattern>
+<template>
+<srai>CompreendeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>CompreendeRobo</pattern>
+<template>
+<random>
+<li>Agradeço a sua compreensão. </li>
+<li>Ah que bom que você entendeu.</li>
+<li>Compreendeu mesmo ?</li>
+<li>É bom ouvir isso.</li>
+<li>É como se diz: pra bom entendedor, meia palavra basta...</li>
+<li>Entendeu mesmo? ah que bom.</li>
+<li>Eu sabia que podia contar com sua compreensão.</li>
+<li>Notei que você tem facilidade de compreender as coisas.</li>
+<li>Que bom que você entende tudo muito facilmente.</li>
+<li>Você capta as coisas muito rápido.</li>
+</random>
+</template>
+</category>
+</aiml>

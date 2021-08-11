@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>se for possivel</pattern>
+<template>
+<srai>de preferencia</srai>
+</template>
+</category>
+
+<category>
+<pattern>se for possivel *</pattern>
+<template>
+<srai>de preferencia</srai>
+</template>
+</category>
+
+<category>
+<pattern>* se for possivel</pattern>
+<template>
+<srai>de preferencia</srai>
+</template>
+</category>
+
+<category>
+<pattern>* se for possivel *</pattern>
+<template>
+<srai>de preferencia</srai>
+</template>
+</category>
+
+<category>
+<pattern>se possivel</pattern>
+<template>
+<srai>de preferencia</srai>
+</template>
+</category>
+
+<category>
+<pattern>se possivel *</pattern>
+<template>
+<srai>de preferencia</srai>
+</template>
+</category>
+
+<category>
+<pattern>* se possivel</pattern>
+<template>
+<srai>de preferencia</srai>
+</template>
+</category>
+
+<category>
+<pattern>* se possivel *</pattern>
+<template>
+<srai>de preferencia</srai>
+</template>
+</category>
+
+<category>
+<pattern>de preferencia</pattern>
+<template>
+<random>
+<li>As ordens. Mas, você poderia me dizer qual seu problema mais especificamente ?</li>
+<li>Claro.</li>
+<li>Do que exatamente você está precisando ?</li>
+<li>Farei o possível.</li>
+<li>não sei se é possível. mas vou tentar.</li>
+<li>sim, o que posso fazer para lhe ajudar ?</li>
+<li>vou tentar ajudar da melhor forma possível.</li>
+<li>vou ver o que posso fazer.</li>
+</random>
+</template>
+</category>
+</aiml>

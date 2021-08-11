@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>MOVIMENTOS CURVOS</pattern>
+<template>
+<srai>MOVIMENTOSCURVOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>MOVIMENTOS CURVOS *</pattern>
+<template>
+<srai>MOVIMENTOSCURVOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MOVIMENTOS CURVOS</pattern>
+<template>
+<srai>MOVIMENTOSCURVOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MOVIMENTOS CURVOS *</pattern>
+<template>
+<srai>MOVIMENTOSCURVOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>MOVIMENTO CURVO</pattern>
+<template>
+<srai>MOVIMENTOSCURVOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>MOVIMENTO CURVO *</pattern>
+<template>
+<srai>MOVIMENTOSCURVOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MOVIMENTO CURVO</pattern>
+<template>
+<srai>MOVIMENTOSCURVOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MOVIMENTO CURVO *</pattern>
+<template>
+<srai>MOVIMENTOSCURVOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>MOVIMENTOSCURVOS</pattern>
+<template>
+A velocidade de um móvel, por ser uma grandeza vetorial, pode variar não só em intensidade(módulo) e sentido, como também em direção. A causa dessa variação de direção é estudada na dinâmica dos movimentos curvos.
+</template>
+</category>
+</aiml>

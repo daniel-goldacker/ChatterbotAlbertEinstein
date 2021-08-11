@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>ILUSOES OTICAS</pattern>
+<template>
+<srai>FisicaILUSAOTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>ILUSOES OTICAS *</pattern>
+<template>
+<srai>FisicaILUSAOTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ILUSOES OTICAS</pattern>
+<template>
+<srai>FisicaILUSAOTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ILUSOES OTICAS *</pattern>
+<template>
+<srai>FisicaILUSAOTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>ILUSAO OTICA</pattern>
+<template>
+<srai>FisicaILUSAOTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>ILUSAO OTICA *</pattern>
+<template>
+<srai>FisicaILUSAOTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ILUSAO OTICA</pattern>
+<template>
+<srai>FisicaILUSAOTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ILUSAO OTICA *</pattern>
+<template>
+<srai>FisicaILUSAOTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>ILUSAO DE OTICA</pattern>
+<template>
+<srai>FisicaILUSAOTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>ILUSAO DE OTICA *</pattern>
+<template>
+<srai>FisicaILUSAOTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ILUSAO DE OTICA</pattern>
+<template>
+<srai>FisicaILUSAOTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ILUSAO DE OTICA *</pattern>
+<template>
+<srai>FisicaILUSAOTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>ILUSOES DE OTICA</pattern>
+<template>
+<srai>FisicaILUSAOTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>ILUSOES DE OTICA *</pattern>
+<template>
+<srai>FisicaILUSAOTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ILUSOES DE OTICA</pattern>
+<template>
+<srai>FisicaILUSAOTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ILUSOES DE OTICA *</pattern>
+<template>
+<srai>FisicaILUSAOTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaILUSAOTICA</pattern>
+<template>
+Nem sempre nossos olhos retratam fielmente a realidade. Na verdade, é o nosso cérebro que interpreta as coisas de forma um pouco distorcida de vez em quando.
+Ele também pode completar imagens onde faltam peças e o resultado fica esquisito. Isso são as ilusões de óptica.
+Algumas ilusões trabalham exatamente no fato de sermos juntamente com os macacos os únicos seres que percebem a noção de profundidade ou seja enxergamos os objetos
+em 3D, largura,altura e profundidade; uma das explicações para este fato é que temos os olhos na frente da cabeça e nao dos lados como na maioria dos animais.
+</template>
+</category>
+</aiml>

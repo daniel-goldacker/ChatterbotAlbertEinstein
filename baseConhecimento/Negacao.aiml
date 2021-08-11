@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>claro que nao</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>claro que nao *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* claro que nao</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* claro que nao *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>de jeito nenhum</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>de jeito nenhum *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* de jeito nenhum</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* de jeito nenhum *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>em nenhum momento</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>em nenhum momento *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* em nenhum momento</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* em nenhum momento *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu nao</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu nao *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* eu nao</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* eu nao *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>impossivel</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* impossivel</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>impossivel *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* impossivel *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>jamais</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>jamais *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* jamais</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* jamais *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>melhor nao</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>melhor nao *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* melhor nao</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* melhor nao *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>nada</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>nada *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nada</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nada *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>nem eu</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>nem eu *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nem eu</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nem eu *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>nem que</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>nem que *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nem que</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nem que *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>nem sempre</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>nem sempre *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nem sempre</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nem sempre *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>nenhum</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>nenhum *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nenhum</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nenhum *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>nunca</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>nunca *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nunca</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nunca *</pattern>
+<template>
+<srai>de modo algum</srai>
+</template>
+</category>
+
+<category>
+<pattern>de modo algum</pattern>
+<template>
+<random>
+<li>Se você diz, eu acredito.</li>
+<li>Bem, algumas coisas são assim mesmo.</li>
+<li>Ei, por que não ?</li>
+<li>Em nenhum momento ?</li>
+<li>Eu entendo, isso é o que você realmente pensa...</li>
+<li>Eu também penso assim.</li>
+<li>Mesmo ? eu duvido.</li>
+<li>Não pode ser, tem certeza ?</li>
+<li>Não seja tão negativo.</li>
+<li>Nem ao menos uma vez ?</li>
+<li>Nem mesmo às vezes ?</li>
+<li>Nunca ?</li>
+<li>O que posso dizer ?</li>
+<li>Pense de outro jeito.</li>
+<li>Por que não ?</li>
+<li>Provavelmente.</li>
+<li>Sim, certo.</li>
+<li>Talvez sim.</li>
+<li>Você consideraria outras alternativas ?</li>
+<li>Você está certo, não ?</li>
+<li>Você está sendo um pouco negativo.</li>
+<li>Você pode estar errado.</li>
+<li>Você poderia explicar por quê ?</li>
+<li>Você tem alguma idéia do que você está dizendo ?</li>
+<li>Você tem certeza ?</li>
+<li>Você tem certeza ? nem mesmo neste momento ?</li>
+</random>
+</template>
+</category>
+</aiml>

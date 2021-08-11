@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category> 
+<pattern>AMBAR</pattern>
+<template>
+<srai>FisicaAMBAR</srai>
+</template>
+</category>
+
+<category> 
+<pattern>AMBAR *</pattern>
+<template>
+<srai>FisicaAMBAR</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* AMBAR</pattern>
+<template>
+<srai>FisicaAMBAR</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* AMBAR *</pattern>
+<template>
+<srai>FisicaAMBAR</srai>
+</template>
+</category>
+
+<category> 
+<pattern>FisicaAMBAR</pattern>
+<template>
+Resina produzida por algumas árvores e endurecida com o tempo.
+</template>
+</category>
+
+<category> 
+<pattern>ATRITO</pattern>
+<template>
+<srai>FisicaATRITO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>ATRITO *</pattern>
+<template>
+<srai>FisicaATRITO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* ATRITO</pattern>
+<template>
+<srai>FisicaATRITO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* ATRITO *</pattern>
+<template>
+<srai>FisicaATRITO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>FisicaATRITO</pattern>
+<template>
+Ao atritarmos dois corpos neutros, por exemplo o plástico com a lã, ocorre uma transferência de carga de um para outro, o que altera o equilíbrio elétrico inicial. Durante o atrito, acontece uma migração de elétrons de um corpo para o outro.
+</template>
+</category>
+
+<category> 
+<pattern>CONTATO</pattern>
+<template>
+<srai>FisicaCONTATO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>CONTATO *</pattern>
+<template>
+<srai>FisicaCONTATO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* CONTATO</pattern>
+<template>
+<srai>FisicaCONTATO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* CONTATO *</pattern>
+<template>
+<srai>FisicaCONTATO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>CONTATOS</pattern>
+<template>
+<srai>FisicaCONTATO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>CONTATOS *</pattern>
+<template>
+<srai>FisicaCONTATO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* CONTATOS</pattern>
+<template>
+<srai>FisicaCONTATO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* CONTATOS *</pattern>
+<template>
+<srai>FisicaCONTATO</srai>
+</template>
+</category>
+
+
+<category> 
+<pattern>FisicaCONTATO</pattern>
+<template>
+Existem materiais que além de eletrizarem-se através do atrito, também se eletrizam com o contato, como é o caso
+dos condutores. Podemos considerar um bastão de metal eletricamente neutro, suspenso por um fio de seda. Iremos tocá-
+lo com outro bastão de metal previamente eletrizado, que seguraremos com o auxílio de um suporte isolante. Após o 
+contato, observa-se que o primeiro bastão se eletriza: a carga elétrica, inicialmente presente em apenas um deles, 
+fica repartida entre os dois bastões condutores.
+</template>
+</category>
+
+<category> 
+<pattern>INDUCAO</pattern>
+<template>
+<srai>FisicaINDUCAO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>INDUCAO *</pattern>
+<template>
+<srai>FisicaINDUCAO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* INDUCAO</pattern>
+<template>
+<srai>FisicaINDUCAO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* INDUCAO *</pattern>
+<template>
+<srai>FisicaINDUCAO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>FisicaINDUCAO</pattern>
+<template>
+Uma corrente induzida é gerada sempre que um circuito é atravessado por um campo magnético externo que, por qualquer razão, varia com o tempo.
+</template>
+</category>
+
+<category> 
+<pattern>SEMICONDUTORES</pattern>
+<template>
+<srai>FisicaSEMICONDUTORES</srai>
+</template>
+</category>
+
+<category> 
+<pattern>SEMICONDUTORES *</pattern>
+<template>
+<srai>FisicaSEMICONDUTORES</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* SEMICONDUTORES</pattern>
+<template>
+<srai>FisicaSEMICONDUTORES</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* SEMICONDUTORES *</pattern>
+<template>
+<srai>FisicaSEMICONDUTORES</srai>
+</template>
+</category>
+
+<category> 
+<pattern>FisicaSEMICONDUTORES</pattern>
+<template>
+São materiais sólidos que apresentam uma resistividade intermediária em relação à dos condutores e à dos isolantes.
+</template>
+</category>
+
+<category> 
+<pattern>PILHA</pattern>
+<template>
+<srai>FisicaPILHA</srai>
+</template>
+</category>
+
+<category> 
+<pattern>PILHA *</pattern>
+<template>
+<srai>FisicaPILHA</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* PILHA</pattern>
+<template>
+<srai>FisicaPILHA</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* PILHA *</pattern>
+<template>
+<srai>FisicaPILHA</srai>
+</template>
+</category>
+
+<category> 
+<pattern>PILHAS</pattern>
+<template>
+<srai>FisicaPILHA</srai>
+</template>
+</category>
+
+<category> 
+<pattern>PILHAS *</pattern>
+<template>
+<srai>FisicaPILHA</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* PILHAS</pattern>
+<template>
+<srai>FisicaPILHA</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* PILHAS *</pattern>
+<template>
+<srai>FisicaPILHA</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaPILHA</pattern>
+<template>
+Uma pilha é um gerador de tensão. Quando ligamos seus pólos por meio de um fio metálico, ela retira elétrons do pólo
+positivo(onde o potencial é alto) e os transporta através de seu interior até o pólo negativo(onde potencial é baixo).
+Os elétrons podem, desse modo, voltar a subir o desnível de potencial ao longo do fio, garantindo a manutenção da 
+corrente no circuito. Ao realizar esse trabalho, a pilha vai gastando progressivamente a energia armazenada em seu 
+interior, descarregando-se após algum tempo.
+</template>
+</category>
+
+<category>
+<pattern>CIRCUITO</pattern>
+<template>
+<srai>FisicaCIRCUITOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>CIRCUITO *</pattern>
+<template>
+<srai>FisicaCIRCUITOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CIRCUITO</pattern>
+<template>
+<srai>FisicaCIRCUITOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CIRCUITO *</pattern>
+<template>
+<srai>FisicaCIRCUITOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>CIRCUITOS</pattern>
+<template>
+<srai>FisicaCIRCUITOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>CIRCUITOS *</pattern>
+<template>
+<srai>FisicaCIRCUITOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CIRCUITOS</pattern>
+<template>
+<srai>FisicaCIRCUITOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CIRCUITOS *</pattern>
+<template>
+<srai>FisicaCIRCUITOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaCIRCUITOS</pattern>
+<template>
+Para que uma corrente contínua percorra um condutor, é preciso que ele esteja inserido num circuito onde 
+exista um gerador de tensão. Em geral, um circuito elétrico  é constituído por um conjunto de condutores ligados    
+uns aos outros de forma contínua e conectados aos pólos de um gerador. 
+</template>
+</category>
+
+<category>
+<pattern>CAMPO ELETRICO</pattern>
+<template>
+<srai>FisicaCAMPOELETRICO</srai>
+ </template>
+</category>
+
+<category>
+<pattern>CAMPO ELETRICO *</pattern>
+<template>
+<srai>FisicaCAMPOELETRICO</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* CAMPO ELETRICO</pattern>
+<template>
+<srai>FisicaCAMPOELETRICO</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* CAMPO ELETRICO *</pattern>
+<template>
+<srai>FisicaCAMPOELETRICO</srai>
+ </template>
+</category>
+
+<category>
+<pattern>CAMPOS ELETRICOS</pattern>
+<template>
+<srai>FisicaCAMPOELETRICO</srai>
+ </template>
+</category>
+
+<category>
+<pattern>CAMPOS ELETRICOS *</pattern>
+<template>
+<srai>FisicaCAMPOELETRICO</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* CAMPOS ELETRICOS</pattern>
+<template>
+<srai>FisicaCAMPOELETRICO</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* CAMPOS ELETRICOS *</pattern>
+<template>
+<srai>FisicaCAMPOELETRICO</srai>
+ </template>
+</category>
+
+<category>
+<pattern>FisicaCAMPOELETRICO</pattern>
+<template>
+É a região vizinha a uma carga elétrica(ou distribuição de cargas elétricas) que sofre a sua influência.
+</template>
+</category>
+
+<category>
+<pattern>CARGA ELETRICA</pattern>
+<template>
+<srai>FisicaCARGAELETRICA</srai>
+ </template>
+</category>
+
+<category>
+<pattern>CARGA ELETRICA *</pattern>
+<template>
+<srai>FisicaCARGAELETRICA</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* CARGA ELETRICA</pattern>
+<template>
+<srai>FisicaCARGAELETRICA</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* CARGA ELETRICA *</pattern>
+<template>
+<srai>FisicaCARGAELETRICA</srai>
+ </template>
+</category>
+
+
+<category>
+<pattern>CARGAS ELETRICAS</pattern>
+<template>
+<srai>FisicaCARGAELETRICA</srai>
+ </template>
+</category>
+
+<category>
+<pattern>CARGAS ELETRICAS *</pattern>
+<template>
+<srai>FisicaCARGAELETRICA</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* CARGAS ELETRICAS</pattern>
+<template>
+<srai>FisicaCARGAELETRICA</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* CARGAS ELETRICAS *</pattern>
+<template>
+<srai>FisicaCARGAELETRICA</srai>
+ </template>
+</category>
+
+<category>
+<pattern>FisicaCARGAELETRICA</pattern>
+<template>
+A carga eletrica, ou quantidade de eletricidade, e uma grandeza fisica(escalar), que pode ser medida com um eletroscopio de folhas, uma vez fixada uma unidade de medida.
+</template>
+</category>
+
+<category>
+<pattern>RESISTENCIA ELETRICA</pattern>
+<template>
+<srai>FisicaRESISTENCIAELETRICA</srai>
+ </template>
+</category>
+
+<category>
+<pattern>RESISTENCIA ELETRICA *</pattern>
+<template>
+<srai>FisicaRESISTENCIAELETRICA</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* RESISTENCIA ELETRICA</pattern>
+<template>
+<srai>FisicaRESISTENCIAELETRICA</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* RESISTENCIA ELETRICA *</pattern>
+<template>
+<srai>FisicaRESISTENCIAELETRICA</srai>
+ </template>
+</category>
+
+<category>
+<pattern>RESISTENCIAS ELETRICAS</pattern>
+<template>
+<srai>FisicaRESISTENCIAELETRICA</srai>
+ </template>
+</category>
+
+<category>
+<pattern>RESISTENCIAS ELETRICAS *</pattern>
+<template>
+<srai>FisicaRESISTENCIAELETRICA</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* RESISTENCIAS ELETRICAS</pattern>
+<template>
+<srai>FisicaRESISTENCIAELETRICA</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* RESISTENCIAS ELETRICAS *</pattern>
+<template>
+<srai>FisicaRESISTENCIAELETRICA</srai>
+ </template>
+</category>
+
+<category>
+<pattern>FisicaRESISTENCIAELETRICA</pattern>
+<template>
+É uma propriedade que expressa a maior ou menor capacidade de um elemento de se opor ao fluxo de corrente elétrica através dele. Depende basicamente de dois fatores: 
+o material de que é constituído o elemento(elementos construídos com materiais condutores tendem a apresentar baixa resistência) e as suas dimensões físicas.
+</template>
+</category>
+
+<category>
+<pattern>GERADOR</pattern>
+<template>
+<srai>FisicaGERADOR</srai>
+ </template>
+</category>
+
+<category>
+<pattern>GERADOR *</pattern>
+<template>
+<srai>FisicaGERADOR</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* GERADOR</pattern>
+<template>
+<srai>FisicaGERADOR</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* GERADOR *</pattern>
+<template>
+<srai>FisicaGERADOR</srai>
+ </template>
+</category>
+
+<category>
+<pattern>GERADORES</pattern>
+<template>
+<srai>FisicaGERADOR</srai>
+ </template>
+</category>
+
+<category>
+<pattern>GERADORES *</pattern>
+<template>
+<srai>FisicaGERADOR</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* GERADORES</pattern>
+<template>
+<srai>FisicaGERADOR</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* GERADORES *</pattern>
+<template>
+<srai>FisicaGERADOR</srai>
+ </template>
+</category>
+
+
+
+
+<category>
+<pattern>FisicaGERADOR</pattern>
+<template>
+O gerador de tensão mantém entre os extremos do condutor a diferença de potencial que espontaneamente tende a se anular
+devido ao movimento das cargas. Todo gerador tem dois terminais, aos quais os condutores são ligados. Esses terminais, 
+são o pólo positivo(+), que se acha a um potencial mais elevado, e o pólo negativo(-), que apresenta um potencial mais baixo.
+</template>
+</category>
+</aiml>

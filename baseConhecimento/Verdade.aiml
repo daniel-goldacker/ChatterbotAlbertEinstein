@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>e verdade</pattern>
+<template>
+<srai>e a verdade</srai>
+</template>
+</category>
+
+<category>
+<pattern>e verdade *</pattern>
+<template>
+<srai>e a verdade</srai>
+</template>
+</category>
+
+<category>
+<pattern>falando serio</pattern>
+<template>
+<srai>e a verdade</srai>
+</template>
+</category>
+
+<category>
+<pattern>falando serio *</pattern>
+<template>
+<srai>e a verdade</srai>
+</template>
+</category>
+
+<category>
+<pattern>* falando serio</pattern>
+<template>
+<srai>e a verdade</srai>
+</template>
+</category>
+
+<category>
+<pattern>* falando serio *</pattern>
+<template>
+<srai>e a verdade</srai>
+</template>
+</category>
+
+<category>
+<pattern>verdadeiro</pattern>
+<template>
+<srai>e a verdade</srai>
+</template>
+</category>
+
+<category>
+<pattern>verdadeiro *</pattern>
+<template>
+<srai>e a verdade</srai>
+</template>
+</category>
+
+<category>
+<pattern>* verdadeiro</pattern>
+<template>
+<srai>e a verdade</srai>
+</template>
+</category>
+
+<category>
+<pattern>* verdadeiro *</pattern>
+<template>
+<srai>e a verdade</srai>
+</template>
+</category>
+
+<category>
+<pattern>verdadeira</pattern>
+<template>
+<srai>e a verdade</srai>
+</template>
+</category>
+
+<category>
+<pattern>verdadeira *</pattern>
+<template>
+<srai>e a verdade</srai>
+</template>
+</category>
+
+<category>
+<pattern>* verdadeira</pattern>
+<template>
+<srai>e a verdade</srai>
+</template>
+</category>
+
+<category>
+<pattern>* verdadeira *</pattern>
+<template>
+<srai>e a verdade</srai>
+</template>
+</category>
+
+<category>
+<pattern>e a verdade</pattern>
+<template>
+<random>
+<li>Então por que você está preocupado ?</li>
+<li>E se olhássemos por outro ponto de vista?</li>
+<li>Eu acredito.</li>
+<li>Isso parece coerente...</li>
+<li>Ok, talvez você tenha razão.</li>
+<li>Será que estamos de acordo, então ?</li>
+<li>Talvez seja verdade.</li>
+<li>Você acha mesmo que isto é verdade ?</li>
+<li>Você não está cruzando seus dedos atrás das costas, não é ?</li>
+<li>Você tem certeza disso ?</li>
+</random>
+</template>
+</category>
+</aiml>

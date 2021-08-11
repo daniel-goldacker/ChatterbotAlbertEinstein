@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>bom dia_</pattern>
+<template>
+<srai>BomDia</srai>
+</template>
+</category>
+
+<category>
+<pattern>bom dia</pattern>
+<template>
+<srai>BomDia</srai>
+</template>
+</category>
+
+<category>
+<pattern>bom dia *</pattern>
+<template>
+<srai>BomDia</srai>
+</template>
+</category>
+
+<category>
+<pattern>bom dia, *</pattern>
+<template>
+<srai>BomDia</srai>
+</template>
+</category>
+
+<category>
+<pattern>BomDia</pattern>
+<template>
+<random>
+<li>Bom Dia, tudo bem com você?</li>
+<li>Bom Dia!</li>
+<li>Bom Dia.</li>
+<li>Bom Dia, que bom que você veio!</li>
+<li>Bom Dia, que bom ver você por aqui!</li>
+<li>Bom Dia, tudo bem?</li>
+<li>Bom Dia, que bom que você está aqui!</li>
+</random>
+</template>
+</category>
+</aiml>

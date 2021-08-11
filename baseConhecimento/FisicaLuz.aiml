@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>LUZ</pattern>
+<template>
+<srai>FisicaLUZ</srai>
+</template>
+</category>
+
+<category>
+<pattern>LUZ *</pattern>
+<template>
+<srai>FisicaLUZ</srai>
+</template>
+</category>
+
+<category>
+<pattern>* LUZ</pattern>
+<template>
+<srai>FisicaLUZ</srai>
+</template>
+</category>
+
+<category>
+<pattern>* LUZ *</pattern>
+<template>
+<srai>FisicaLUZ</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>FisicaLUZ</pattern>
+<template>
+Desde o século 19 se sabe que a luz é uma forma de onda que se propaga com alta velocidade. Mas, essa velocidade depende do meio por onde a luz está se propagando.
+No ar, a velocidade da luz é quase 300.000 quilômetros por segundo. No interior de um vidro transparente ela se reduz a uns "meros" 200.000 km/s. 
+</template>
+</category>
+</aiml>

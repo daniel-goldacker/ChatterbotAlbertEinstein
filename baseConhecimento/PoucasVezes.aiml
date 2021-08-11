@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>a intervalos</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>a intervalos *</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>* a intervalos</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>* a intervalos *</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>de vez em quando</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>de vez em quando *</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>* de vez em quando</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>* de vez em quando *</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao frequentemente</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao frequentemente *</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao frequentemente</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao frequentemente *</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao tao frequente</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao tao frequente *</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao tao frequente</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao tao frequente *</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>ocasionalmente</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>ocasionalmente *</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ocasionalmente</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ocasionalmente *</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>poucas vezes</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>poucas vezes *</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>* poucas vezes</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>* poucas vezes *</pattern>
+<template>
+<srai>as vezes</srai>
+</template>
+</category>
+
+<category>
+<pattern>as vezes</pattern>
+<template>
+<random>
+<li>Algumas vezes ? ? ? mas, nunca foi diferente desde então ?</li>
+<li>As vezes, apenas ?</li>
+<li>As vezes... mas desde quando exatamente ?</li>
+<li>E quando foi a última vez ?</li>
+<li>Eu acho que isso é bom - com mais frequência poderia ser problemático.</li>
+<li>Há quanto tempo tem sido assim ?</li>
+<li>Por que não mais frequentemente ?</li>
+<li>Por que só às vezes ?</li>
+<li>Você pensou em outra freqÜência ?</li>
+</random>
+</template>
+</category>
+</aiml>

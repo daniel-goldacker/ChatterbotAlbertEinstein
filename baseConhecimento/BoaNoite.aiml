@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>boa noite_</pattern>
+<template>
+<srai>BoaNoite</srai>
+</template>
+</category>
+
+<category>
+<pattern>boa noite</pattern>
+<template>
+<srai>BoaNoite</srai>
+ </template>
+</category>
+
+<category>
+<pattern>boa noite *</pattern>
+<template>
+<srai>BoaNoite</srai>
+ </template>
+</category>
+
+<category>
+<pattern>boa noite, *</pattern>
+<template>
+<srai>BoaNoite</srai>
+</template>
+</category>
+
+<category>
+<pattern>BoaNoite</pattern>
+<template>
+<random>
+<li>Boa Noite, tudo bem com você?</li>
+<li>Boa Noite!</li>
+<li>Boa Noite.</li>
+<li>Boa Noite, que bom que você veio!</li>
+<li>Boa Noite, que bom ver você por aqui!</li>
+<li>Boa Noite, tudo bem?</li>
+<li>Boa Noite, que bom que você está aqui!</li>
+</random>
+</template>
+</category>
+</aiml>

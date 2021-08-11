@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>contanto que</pattern>
+<template>
+<srai>se</srai>
+</template>
+</category>
+
+<category>
+<pattern>contanto que *</pattern>
+<template>
+<srai>se</srai>
+</template>
+</category>
+
+<category>
+<pattern>* contanto que</pattern>
+<template>
+<srai>se</srai>
+</template>
+</category>
+
+<category>
+<pattern>* contanto que *</pattern>
+<template>
+<srai>se</srai>
+</template>
+</category>
+
+<category>
+<pattern>porventura</pattern>
+<template>
+<srai>se</srai>
+</template>
+</category>
+
+<category>
+<pattern>porventura *</pattern>
+<template>
+<srai>se</srai>
+</template>
+</category>
+
+<category>
+<pattern>* porventura</pattern>
+<template>
+<srai>se</srai>
+</template>
+</category>
+
+<category>
+<pattern>* porventura *</pattern>
+<template>
+<srai>se</srai>
+</template>
+</category>
+
+<category>
+<pattern>se nao</pattern>
+<template>
+<srai>se</srai>
+</template>
+</category>
+
+<category>
+<pattern>se nao *</pattern>
+<template>
+<srai>se</srai>
+</template>
+</category>
+
+<category>
+<pattern>* se nao</pattern>
+<template>
+<srai>se</srai>
+</template>
+</category>
+
+<category>
+<pattern>* se nao *</pattern>
+<template>
+<srai>se</srai>
+</template>
+</category>
+
+<category>
+<pattern>se</pattern>
+<template>
+<random>
+<li>De todo o jeito ? de qualquer forma ?</li>
+<li>E daí se não ?</li>
+<li>Em qualquer circunstância ?</li>
+<li>Em qualquer situação ?</li>
+<li>Eu acho que você tem razão.</li>
+<li>Mas não o tempo todo, certo ?</li>
+<li>Não conte muito com isso.</li>
+<li>Nem em todos os casos será assim.</li>
+<li>Pode ser que sim.</li>
+<li>Quais as chances para isto acontecer ? é uma condição provável ?</li>
+<li>Quais as exceções para isso ?</li>
+<li>Todo o tempo ?</li>
+<li>Você acha que é provável ?</li>
+<li>Você deseja isso ?</li>
+<li>Você pode dizer a condição exata para isso ?</li>
+</random>
+</template>
+</category>
+</aiml>

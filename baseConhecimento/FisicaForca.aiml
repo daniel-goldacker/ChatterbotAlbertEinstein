@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>FORCA</pattern>
+<template>
+<srai>FisicaFORCA</srai>
+</template>
+</category>
+
+<category>
+<pattern>FORCA *</pattern>
+<template>
+<srai>FisicaFORCA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FORCA</pattern>
+<template>
+<srai>FisicaFORCA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FORCA *</pattern>
+<template>
+<srai>FisicaFORCA</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaFORCA</pattern>
+<template>
+A força é a expressão física da interação entre dois elementos físicos. Assim, só podemos falar que realmente existe uma força quando somos capazes de identificar os corpos que estão interagindo, ou seja, quando somos capazes de identificar claramente a força em um objeto e a sua reação em outro.
+</template>
+</category>
+</aiml>

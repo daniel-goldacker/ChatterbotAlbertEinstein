@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>desde</pattern>
+<template>
+<srai>DesdeAlgumTempo</srai>
+</template>
+</category>
+
+<category>
+<pattern>desde *</pattern>
+<template>
+<srai>DesdeAlgumTempo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* desde</pattern>
+<template>
+<srai>DesdeAlgumTempo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* desde *</pattern>
+<template>
+<srai>DesdeAlgumTempo</srai>
+</template>
+</category>
+
+<category>
+<pattern>DesdeAlgumTempo</pattern>
+<template>
+<random>
+<li>Deixe passar algum tempo.</li>
+<li>Já faz algum tempo.</li>
+<li>E o que você vai fazer sobre isto ?</li>
+<li>Há quanto tempo, não ?</li>
+<li>Mas, pense no futuro.</li>
+<li>Não fale sobre o passado.</li>
+<li>O que ? desde quando ?</li>
+<li>Quando foi isso exatamente ?</li>
+<li>Que época foi essa ?</li>
+<li>Você ainda se lembra de situações passadas ?</li>
+<li>Você gostaria de retroceder no tempo ?</li>
+</random>
+</template>
+</category>
+</aiml>

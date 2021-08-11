@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>hora</pattern>
+<template>
+<srai>Horario</srai>
+</template>
+</category>
+
+<category>
+<pattern>* hora</pattern>
+<template>
+<srai>Horario</srai>
+</template>
+</category>
+
+<category>
+<pattern>hora *</pattern>
+<template>
+<srai>Horario</srai>
+</template>
+</category>
+
+<category>
+<pattern>* hora *</pattern>
+<template>
+<srai>Horario</srai>
+</template>
+</category>
+
+<category>
+<pattern>horas</pattern>
+<template>
+<srai>Horario</srai>
+</template>
+</category>
+
+<category>
+<pattern>* horas</pattern>
+<template>
+<srai>Horario</srai>
+</template>
+</category>
+
+<category>
+<pattern>horas *</pattern>
+<template>
+<srai>Horario</srai>
+</template>
+</category>
+
+<category>
+<pattern>* horas *</pattern>
+<template>
+<srai>Horario</srai>
+</template>
+</category>
+
+<category>
+<pattern>minutos</pattern>
+<template>
+<srai>Horario</srai>
+</template>
+</category>
+
+<category>
+<pattern>* minutos</pattern>
+<template>
+<srai>Horario</srai>
+</template>
+</category>
+
+<category>
+<pattern>minutos *</pattern>
+<template>
+<srai>Horario</srai>
+</template>
+</category>
+
+<category>
+<pattern>* minutos *</pattern>
+<template>
+<srai>Horario</srai>
+</template>
+</category>
+
+<category>
+<pattern>segundos</pattern>
+<template>
+<srai>Horario</srai>
+</template>
+</category>
+
+<category>
+<pattern>* segundos</pattern>
+<template>
+<srai>Horario</srai>
+</template>
+</category>
+
+<category>
+<pattern>segundos *</pattern>
+<template>
+<srai>Horario</srai>
+</template>
+</category>
+
+<category>
+<pattern>* segundos *</pattern>
+<template>
+<srai>Horario</srai>
+</template>
+</category>
+
+<category>
+<pattern>* no relogio</pattern>
+<template>
+<srai>Horario</srai>
+</template>
+</category>
+
+<category>
+<pattern>o relogio *</pattern>
+<template>
+<srai>Horario</srai>
+</template>
+</category>
+
+<category>
+<pattern>Horario</pattern>
+<template>
+<random>
+<li>As horas não importam aqui no ciberespaço.</li>
+<li>Desculpe-me, não tenho relógio algum aqui por perto...</li>
+<li>É muito cedo.</li>
+<li>É muito tarde.</li>
+<li>Não sei ao certo.</li>
+<li>O tempo é relativo...</li>
+<li>Por que é importante saber as horas, neste momento ?</li>
+<li>Por que você está interessado no tempo ?</li>
+<li>Seja qual for a hora, eu estou livre...</li>
+<li>Você sempre fica preocupado com as horas ?</li>
+</random>
+</template>
+</category>
+</aiml>

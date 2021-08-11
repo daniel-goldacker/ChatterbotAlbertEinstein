@@ -1,0 +1,961 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>dele</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* dele</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>dele *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* dele *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>ele *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>ele disse *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele disse</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele disse *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>ele diz *</pattern>
+<template>
+
+<category>
+<pattern>* ele diz</pattern>
+<template>
+
+<category>
+<pattern>* ele diz *</pattern>
+<template>
+
+<srai>ele e</srai>
+</template>
+</category>
+
+<srai>ele e * <star/> </srai>
+</template>
+</category>
+
+<srai>* ele e <star/> </srai>
+</template>
+</category>
+
+<srai>* ele e *<star/> </srai>
+</template>
+</category>
+
+<category>
+<pattern>ele era *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele era</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele era *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>ele iria *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele iria</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele iria *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>ele me *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele me</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele me *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>ele nao disse *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele nao disse</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele nao disse *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>ele * disse *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele * disse</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele * disse *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>ele nao e *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele nao e</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele nao e *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>ele * e *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele * e</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele * e *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>ele nao era *</pattern>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele nao era</pattern>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele nao era *</pattern>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>ele * era *</pattern>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele * era</pattern>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele * era *</pattern>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>ele nao vai *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele nao vai</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele nao vai *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>ele * vai *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele * vai</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele * vai *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>ele vai *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele vai</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ele vai *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>garoto</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>garoto *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* garoto</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* garoto *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>garotos</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>garotos *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* garotos</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* garotos *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>homem</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>homem *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* homem</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* homem *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>homens</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>homens *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* homens</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* homens *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>menino</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>menino *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* menino</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* menino *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>meninos</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>meninos *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* meninos</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* meninos *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>rapaz</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>rapaz *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* rapaz</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* rapaz *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>rapazes</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>rapazes *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* rapazes</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* rapazes *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>senhor</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>senhor *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* senhor</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* senhor *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>um cara</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>um cara *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* um cara</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* um cara *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>um garoto</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>um garoto *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* um garoto</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* um garoto *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>um homem</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>um homem *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* um homem</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* um homem *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>um menino</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>um menino *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* um menino</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* um menino *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>um rapaz</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>um rapaz *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* um rapaz</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* um rapaz *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>um senhor</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>um senhor *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* um senhor</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* um senhor *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>uns caras</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>uns caras *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* uns caras</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* uns caras *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>uns garotos</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>uns garotos *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* uns garotos</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* uns garotos *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>uns homens</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>uns homens *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* uns homens</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* uns homens *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>uns meninos</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>uns meninos *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* uns meninos</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* uns meninos *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>uns rapazes</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>uns rapazes *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* uns rapazes</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* uns rapazes *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>uns senhores</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>uns senhores *</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* uns senhores</pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>* uns senhores * </pattern>
+<template>
+<srai>ele e</srai>
+</template>
+</category>
+
+<category>
+<pattern>ele e</pattern>
+<template>
+<random>
+<li>Você pode me dar mais informações sobre ele ?</li>
+<li>Ele afeta de alguma forma a sua vida ?</li>
+<li>Ele é amigável ?</li>
+<li>Ele parece ter uma influência especial sobre você.</li>
+<li>Ele poderia lhe ajudar em alguma coisa ?</li>
+<li>Ele tem algum defeito ?</li>
+<li>Entendo - me fale mais dele.</li>
+<li>Há alguma coisa nele que lhe desagrada ?</li>
+<li>O que ele tem a ver com seu problema ?</li>
+<li>O que você acha dele ?</li>
+<li>O que você pensa dele ?</li>
+<li>Você tem certeza disso ?</li>
+</random>
+</template>
+</category>
+
+</topic>
+
+</aiml>

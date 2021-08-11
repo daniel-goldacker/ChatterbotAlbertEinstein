@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>tempo dificil</pattern>
+<template>
+<srai>TemposDificeis</srai>
+</template>
+</category>
+
+<category>
+<pattern>tempo dificil *</pattern>
+<template>
+<srai>TemposDificeis</srai>
+</template>
+</category>
+
+<category>
+<pattern>* tempo dificil</pattern>
+<template>
+<srai>TemposDificeis</srai>
+</template>
+</category>
+
+<category>
+<pattern>* tempo dificil *</pattern>
+<template>
+<srai>TemposDificeis</srai>
+</template>
+</category>
+
+<category>
+<pattern>tempos dificeis</pattern>
+<template>
+<srai>TemposDificeis</srai>
+</template>
+</category>
+
+<category>
+<pattern>tempos dificeis *</pattern>
+<template>
+<srai>TemposDificeis</srai>
+</template>
+</category>
+
+<category>
+<pattern>* tempos dificeis</pattern>
+<template>
+<srai>TemposDificeis</srai>
+</template>
+</category>
+
+<category>
+<pattern>* tempos dificeis *</pattern>
+<template>
+<srai>TemposDificeis</srai>
+</template>
+</category>
+
+<category>
+<pattern>TemposDificeis</pattern>
+<template>
+<random>
+<li>Como você descreveria isto ?</li>
+<li>Então, este é um momento em que você precisa de mim.</li>
+<li>Este é o momento no qual a verdadeira confiança e compreensão serão testadas.</li>
+<li>É um momento difícil, não é ?</li>
+<li>Isso lhe poderia ser lembrado como um tempo ruim ou bom.</li>
+<li>Por que ?</li>
+<li>Por que você considera isto como um tempo difícil em sua vida ?</li>
+<li>Tempos difíceis todos temos, em algum momento de nossas vidas.</li>
+<li>Você sobrevive a isso, eu garanto.</li>
+<li>Você tem que relaxar em primeiro lugar</li>
+</random>
+</template>
+</category>
+</aiml>

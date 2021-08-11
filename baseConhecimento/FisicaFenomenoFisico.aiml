@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>FENOMENOS FISICOS</pattern>
+<template>
+<srai>FENOMENOFISICO</srai>
+</template>
+</category>
+
+<category>
+<pattern>FENOMENOS FISICOS *</pattern>
+<template>
+<srai>FENOMENOFISICO</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FENOMENOS FISICOS</pattern>
+<template>
+<srai>FENOMENOFISICO</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FENOMENOS FISICOS *</pattern>
+<template>
+<srai>FENOMENOFISICO</srai>
+</template>
+</category>
+
+<category>
+<pattern>FENOMENOFISICO</pattern>
+<template>  
+São as transformações sofridas pela matéria sem que haja alteração no tipo de substância. mudanças de estado - fragmentação de objetos.
+</template>
+</category>
+</aiml>

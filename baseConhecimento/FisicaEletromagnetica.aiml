@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>ATOMO</pattern>
+<template>
+<srai>FisicaATOMO</srai>
+</template>
+</category>
+
+<category>
+<pattern>ATOMO *</pattern>
+<template>
+<srai>FisicaATOMO</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ATOMO</pattern>
+<template>
+<srai>FisicaATOMO</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>* ATOMO *</pattern>
+<template>
+<srai>FisicaATOMO</srai>
+</template>
+</category>
+
+<category>
+<pattern>ATOMOS</pattern>
+<template>
+<srai>FisicaATOMO</srai>
+</template>
+</category>
+
+<category>
+<pattern>ATOMOS *</pattern>
+<template>
+<srai>FisicaATOMO</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ATOMOS</pattern>
+<template>
+<srai>FisicaATOMO</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ATOMOS *</pattern>
+<template>
+<srai>FisicaATOMO</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaATOMO</pattern>
+<template>
+Um átomo tem um nucleo positivo (formado por prótons e néutrons), com elétons (negativos) que giram em torno dele. A força de atração entre estas cargas faz com que os elétrons não escapem,  mas fiquem orbitando em torno de um núcleo. Eu escolhi uma figura para te mostrar um esquema do atomo 
+simples: apenas um eletron girando em torno de um núcleo (que tem apenas um prótom e um néutron).
+</template>
+</category>
+
+<category>
+<pattern>MOLECULA</pattern>
+<template>
+<srai>FisicaMOLECULA</srai>
+</template>
+</category>
+
+<category>
+<pattern>MOLECULA *</pattern>
+<template>
+<srai>FisicaMOLECULA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MOLECULA</pattern>
+<template>
+<srai>FisicaMOLECULA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MOLECULA *</pattern>
+<template>
+<srai>FisicaMOLECULA</srai>
+</template>
+</category>
+
+<category>
+<pattern>MOLECULAS</pattern>
+<template>
+<srai>FisicaMOLECULA</srai>
+</template>
+</category>
+
+<category>
+<pattern>MOLECULAS *</pattern>
+<template>
+<srai>FisicaMOLECULA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MOLECULAS</pattern>
+<template>
+<srai>FisicaMOLECULA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MOLECULAS *</pattern>
+<template>
+<srai>FisicaMOLECULA</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaMOLECULA</pattern>
+<template>
+As moléculas são conjuntos de átomos unidos por atração elétrica. Essa atração elétrica é divida aos próprios componentes dos atomos: elétrons e prótons.
+</template>
+</category>
+
+<category>
+<pattern>ONDA ELETROMAGNETICA</pattern>
+<template>
+<srai>FisicaONDASELETROMAGNETICAS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ONDA ELETROMAGNETICA</pattern>
+<template>
+<srai>FisicaONDASELETROMAGNETICAS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ONDA ELETROMAGNETICA *</pattern>
+<template>
+<srai>FisicaONDASELETROMAGNETICAS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ONDA ELETROMAGNETICA *</pattern>
+<template>
+<srai>FisicaONDASELETROMAGNETICAS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ONDAS ELETROMAGNETICAS</pattern>
+<template>
+<srai>FisicaONDASELETROMAGNETICAS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ONDAS ELETROMAGNETICAS *</pattern>
+<template>
+<srai>FisicaONDASELETROMAGNETICAS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ONDAS ELETROMAGNETICAS</pattern>
+<template>
+<srai>FisicaONDASELETROMAGNETICAS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ONDAS ELETROMAGNETICAS *</pattern>
+<template>
+<srai>FisicaONDASELETROMAGNETICAS</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaONDASELETROMAGNETICAS</pattern>
+<template> São fenomenos eletromagnéticos nas quais as correntes de deslocamento são preponderantes às correntes de indução (freqüência alta ou condutividade baixa). Mais alguma coisa que queira saber?
+</template>
+</category>
+</aiml>

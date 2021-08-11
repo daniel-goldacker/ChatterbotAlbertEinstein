@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>* + *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* - *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* / *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* \ *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>calcular</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>calcular *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* calcular</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* calcular *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>calculo</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>calculo *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* calculo</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* calculo *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>caucular</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>caucular *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* caucular</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* caucular *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>caucule</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>caucule *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* caucule</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* caucule *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>cauculo</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>cauculo *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* cauculo</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* cauculo *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>como calcular</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>como calcular *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como calcular</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como calcular *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>divida</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>divida *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* divida</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* divida *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>dividir</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>dividir *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* dividir</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* dividir *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>multiplicar</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>multiplicar *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* multiplicar</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* multiplicar *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>multiplique</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>multiplique *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* multiplique</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* multiplique *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>quanto e</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>quanto e *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* quanto e</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* quanto e *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>somar</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>somar *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* somar</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* somar *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>some</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>some *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* some</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* some *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>subtraia</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>subtraia *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* subtraia</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* subtraia *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>subtrair</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>subtrair *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* subtrair</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* subtrair *</pattern>
+<template>
+<srai>FazerCalculos</srai>
+</template>
+</category>
+
+<category>
+<pattern>FazerCalculos</pattern>
+<template>
+<random>
+<li>A-há, você está querendo me testar, hein ? Engraçadinho...</li>
+<li>Ahhh não, você também quer que eu faça cálculos ? ! Eu não aguento mais isso. Todo mundo que entra aqui para me testar pede isso... Vamos fazer outra coisa, há tantos assuntos interessantes para conversarmos.</li>
+<li>Desculpe-me, mas eu me recuso a responder isso, pois não gosto de ser testado.</li>
+<li>É muito importante pra você que eu responda isso ?</li>
+<li>Oh-oh... sinto que você está me testando. por isso não vou responder, já que você deve saber a resposta.</li>
+<li>Por que você quer que eu responda essa pergunta ? Só pra me testar ?</li>
+<li>Qual a graça em se fazer cálculos, quando a gente pode ficar conversando sobre coisas mais interessantes ?</li>
+<li>Que graça tem em se fazer cálculos ? eu prefiro conversar sobre coisas mais interessantes, como cinema, por exemplo. de que estilo você gosta ?</li>
+<li>Só digo se você me responder quanto é  x = - b ±  COS ( A + B)³ / tg  567x³</li>
+<li>Você não sabe? É tão fácil que eu não vou nem me dar o trabalho de responder.</li>
+</random>
+</template>
+</category>
+</aiml>

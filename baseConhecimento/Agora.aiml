@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>atualmente</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>atualmente *</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>* atualmente</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>* atualmente *</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>em seguida</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>em seguida *</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>* em seguida</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>* em seguida *</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>exatamente agora</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>* exatamente agora</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>exatamente agora *</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>* exatamente agora *</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>imediatamente</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>* imediatamente</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>imediatamente *</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>* imediatamente *</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>momentaneamente</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>* momentaneamente</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>momentaneamente *</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>* momentaneamente *</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>* exato momento</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>* exato momento *</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>* momento</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>momento *</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>* momento *</pattern>
+<template>
+<srai>agora</srai>
+</template>
+</category>
+
+<category>
+<pattern>agora</pattern>
+<template>
+<random>
+<li>Bem, este é o tempo certo...</li>
+<li>Depois, eu prometo.</li>
+<li>Eu acredito que pode acontecer agora mesmo.</li>
+<li>Mas não era pra ser agora.</li>
+<li>Me lembre depois, certo ?</li>
+<li>Nem agora e nem depois.</li>
+<li>Neste momento ?</li>
+<li>Parece ser realmente urgente, o que você acha ?</li>
+<li>Que impaciência!</li>
+<li>Que tal amanhã ?</li>
+<li>Que tal depois ?</li>
+<li>Que tal esperar um pouco ?</li>
+<li>Tem que ser agora mesmo ?</li>
+<li>Vamos adiar um pouco.</li>
+<li>Você já ouviu falar da palavra "depois" ?</li>
+<li>Você que está dizendo... mas eu não tenho certeza de que seja realmente possível.</li>
+</random>
+</template>
+</category>
+</aiml>

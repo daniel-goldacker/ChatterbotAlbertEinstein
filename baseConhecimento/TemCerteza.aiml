@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>eu estava certo de que *</pattern>
+<template>
+<srai>eu sei</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu estava seguro *</pattern>
+<template>
+<srai>eu sei</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu estou certo *</pattern>
+<template>
+<srai>eu sei</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu estou seguro *</pattern>
+<template>
+<srai>eu sei</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu nao tenho duvida *</pattern>
+<template>
+<srai>eu sei</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu nao tenho duvidas *</pattern>
+<template>
+<srai>eu sei</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu nao tenho nenhuma duvida *</pattern>
+<template>
+<srai>eu sei</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu soube *</pattern>
+<template>
+<srai>eu sei</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu tenho certeza</pattern>
+<template>
+<srai>eu sei</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu sei</pattern>
+<template>
+<random>
+<li>Acho que você está certo.</li>
+<li>Claro, por que não ?</li>
+<li>E se você estiver errado ?</li>
+<li>Eu, com certeza, admiro a autoconfiança, como você parece ter.</li>
+<li>Eu entendo.</li>
+<li>Eu não recomendaria que você negasse outras possibilidades.</li>
+<li>Não pense que você sabe sobre tudo neste mundo.</li>
+<li>O que lhe dá tal confiança ?</li>
+<li>Por que razão você está tão seguro ?</li>
+<li>Se você está dizendo, eu acredito.</li>
+</random>
+</template>
+</category>
+</aiml>

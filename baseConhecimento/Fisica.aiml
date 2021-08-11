@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>FISICA</pattern>
+<template>
+<srai>SIGFISICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>FISICA *</pattern>
+<template>
+<srai>SIGFISICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FISICA</pattern>
+<template>
+<srai>SIGFISICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FISICA *</pattern>
+<template>
+<srai>SIGFISICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>SIGFISICA</pattern>
+<template>
+<random>
+<li>Estudo dos fenomenos fisicos, que até fins do século XVII chamava-se filosofia natural.</li>
+<li>A Física do  grego physis, "natureza" é a ciência que se propõe a descrever e a compreender os fenômenos que
+se desenvolvem na natureza. Ela não é um conjunto de conhecimentos completos e para sempre imutáveis; 
+ao contrário, ela é algo que cresce e também se modifica. Constantemente surgem novos campos de estudo.</li> 
+</random>          
+</template>
+</category>
+
+<category>
+<pattern>FENOMENO FISICO</pattern>
+<template>
+<srai>FisicaFENOMENO</srai>
+</template>
+</category>
+   
+<category>
+<pattern>FENOMENO FISICO *</pattern>
+<template>
+<srai>FisicaFENOMENO</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FENOMENO FISICO</pattern>
+<template>
+<srai>FisicaFENOMENO</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FENOMENO FISICO *</pattern>
+<template>
+<srai>FisicaFENOMENO</srai>
+</template>
+</category>
+   
+<category>
+<pattern>FisicaFENOMENO</pattern>
+<template>
+<random>
+<li>Os fenomenos que ocorrem com a materia inanimada sao estudadas pela Física e pela Química.</li>
+<li>Qualquer transformação que ocorre com um corpo do universo(animado ou inanimado) constitui um fenômeno.</li>
+<li>Fenômenos que não alteram a natureza de um corpo são chamados fenômenos físicos.</li>
+<li>Apesar de ter ocorrido o fenômeno, continuamos tendo a mesma substância.</li>
+</random>
+</template>
+</category>
+	
+<category>
+<pattern>BIG BANG</pattern>
+<template>
+<srai>BIGBANG</srai>
+</template>
+</category>
+
+<category>
+<pattern>BIG BANG *</pattern>
+<template>
+<srai>BIGBANG</srai>
+</template>
+</category>
+
+<category>
+<pattern>* BIG BANG</pattern>
+<template>
+<srai>BIGBANG</srai>
+</template>
+</category>
+
+<category>
+<pattern>* BIG BANG *</pattern>
+<template>
+<srai>BIGBANG</srai>
+</template>
+</category>
+
+<category>
+<pattern>BIGBANG</pattern>
+<template>
+É a teoria na qual houve uma explosão que, acreditá-se, tenha dado origem à matéria e ao espaço.
+</template>
+</category>
+
+<category> 
+<pattern>TEMPO</pattern>
+<template>
+<srai>FisicaTEMPO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>TEMPO *</pattern>
+<template>
+<srai>FisicaTEMPO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* TEMPO</pattern>
+<template>
+<srai>FisicaTEMPO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* TEMPO *</pattern>
+<template>
+<srai>FisicaTEMPO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>FisicaTEMPO</pattern>
+<template>
+Para a Física, o que importa é saber medir a duração temporal de um fenômeno. Isso significa poder compará-la com a duração de outro fenômeno, que é escolhida como unidade de medida.
+</template>
+</category>
+</aiml>

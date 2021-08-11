@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>aguarda um instante</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>aguarda um instante *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* aguarda um instante</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* aguarda um instante *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>aguarde um momentinho</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>aguarde um momentinho *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* aguarde um momentinho</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* aguarde um momentinho *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>aguarde um momento</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>aguarde um momento *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* aguarde um momento</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* aguarde um momento *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>espera ai</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>espera ai *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* espera ai</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* espera ai *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>espera um pouco</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>espera um pouco *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* espera um pouco</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* espera um pouco *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>espera um pouquinho</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>espera um pouquinho *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* espera um pouquinho</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* espera um pouquinho *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>perai</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>perai *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* perai</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* perai *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>so um minutinho</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>so um minutinho *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* so um minutinho</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* so um minutinho *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>so um minuto</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>so um minuto *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* so um minuto</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* so um minuto *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>um momento por favor</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>um momento por favor *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* um momento por favor</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>* um momento por favor *</pattern>
+<template>
+<srai>aguarde um instante</srai>
+</template>
+</category>
+
+<category>
+<pattern>aguarde um instante</pattern>
+<template>
+<random>
+<li>An-han.</li>
+<li>Está certo.</li>
+<li>Estou esperando.</li>
+<li>Eu aguardo.</li>
+<li>Ok, fico aguardando</li>
+<li>Ok, mas não demore muito.</li>
+<li>Ok. continuarei aqui.</li>
+<li>Ok. estou aguardando.</li>
+<li>Tá bom.</li>
+<li>Tudo bem, eu aguardo.</li>
+<li>Tudo bem, não sairei daqui.</li>
+<li>Tudo bem.</li>
+</random>
+</template>
+</category>
+</aiml>

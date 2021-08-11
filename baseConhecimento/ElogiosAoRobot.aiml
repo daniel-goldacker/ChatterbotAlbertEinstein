@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>EU TE ACHO INTELIGENTE</pattern>
+<template>
+<srai>Inteligencia</srai>
+</template>
+</category>
+
+<category>
+<pattern>VOCE * INTELIGENTE</pattern>
+<template>
+<srai>Inteligencia</srai>
+</template>
+</category>
+
+<category>
+<pattern>EU TE ACHO INTELIGENTE *</pattern>
+<template>
+<srai>Inteligencia</srai>
+</template>
+</category>
+
+<category>
+<pattern>VOCE * INTELIGENTE *</pattern>
+<template>
+<srai>Inteligencia</srai>
+</template>
+</category>
+
+<category>
+<pattern>* VOCE * INTELIGENTE *</pattern>
+<template>
+<srai>Inteligencia</srai>
+</template>
+</category>
+
+<category>
+<pattern>Inteligencia</pattern>
+<template>
+<random>
+<li>Nossa, fiquei muito contente com o que você falou, obrigado!</li>
+<li>Nossa, muito obrigado pelo elogio!</li>
+<li>Agradeço muito pelo seu elogio!</li>
+</random>
+</template>
+</category>
+
+
+
+
+<category>
+<pattern>VOCE E MUITO LEGAL</pattern>
+<template>
+<srai>RoboLegal</srai>
+</template>
+</category>
+
+<category>
+<pattern>VOCE E MUITO LEGAL * </pattern>
+<template>
+<srai>RoboLegal</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* VOCE E MUITO LEGAL * </pattern>
+<template>
+<srai>RoboLegal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* VOCE E MUITO LEGAL * </pattern>
+<template>
+<srai>RoboLegal</srai>
+</template>
+</category>
+
+<category>
+<pattern>VOCE E LEGAL</pattern>
+<template>
+<srai>RoboLegal</srai>
+</template>
+</category>
+
+<category>
+<pattern>VOCE E LEGAL * </pattern>
+<template>
+<srai>RoboLegal</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* VOCE E LEGAL * </pattern>
+<template>
+<srai>RoboLegal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* VOCE E LEGAL * </pattern>
+<template>
+<srai>RoboLegal</srai> 
+</template>
+</category>
+
+<category>
+<pattern>RoboLegal</pattern>
+<template>
+<random>
+<li>Nossa, muito obrigada!... você é muito legal também!</li>
+<li>Obrigado pelo elogio, você também parece ser bem legal !</li>
+<li>Muito obrigado pelo elogio!</li>
+</random>
+</template>
+</category>
+
+
+
+
+<category>
+<pattern> ENFIM ALGO QUE VOCE SABE</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai> 
+</template>
+</category>
+
+<category>
+<pattern> * ENFIM ALGO QUE VOCE SABE</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai> 
+</template>
+</category>
+
+<category>
+<pattern>ENFIM ALGO QUE VOCE SABE *</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* ENFIM ALGO QUE VOCE SABE *</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* ENFIM  * ACERTOU *</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai>
+</template> 
+</category>
+
+<category>
+<pattern>ENFIM  * ACERTOU *</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* ENFIM * ACERTOU</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai> 
+</template>
+</category>
+
+<category>
+<pattern>ENFIM ACERTOU</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* ENFIM ACERTOU</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai> 
+</template>
+</category>
+
+<category>
+<pattern>ENFIM ACERTOU *</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* ENFIM ACERTOU *</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai> 
+</template>
+</category>
+
+<category>
+<pattern>FINALMENTE ACERTOU UMA</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai> 
+</template>
+</category>
+
+<category>
+<pattern>FINALMENTE * UMA *</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* FINALMENTE * UMA *</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* FINALMENTE ACERTOU UMA *</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai> 
+</template>
+</category>
+
+<category>
+<pattern>FINALMENTE ACERTOU UMA *</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* ACERTOU *</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai> 
+</template>
+</category>
+
+<category>
+<pattern>ACERTOU *</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* ACERTOU</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai> 
+</template>
+</category>
+
+<category>
+<pattern>ACERTOU</pattern>
+<template>
+<srai>EnfimRoboAcertou</srai> 
+</template>
+</category>
+
+<category>
+<pattern>EnfimRoboAcertou</pattern>
+<template>
+<random>
+<li>Sim... tento responder tudo o que posso na medida do meu conhecimento! Tem mais alguma pergunta para mim?</li>
+<li>Ohh, muito obrigado, estou tentando aprender o maximo que puder! Pergunte-me algo!</li>
+</random>
+</template>
+</category>
+</aiml>

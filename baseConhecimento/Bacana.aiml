@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>agradavel</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>agradavel *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* agradavel</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* agradavel* </pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>bacana</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>bacana *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* bacana</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* bacana *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>demais</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>demais *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* demais</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* demais *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>excelente</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>excelente *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* excelente</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* excelente *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>joia</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>joia *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* joia</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* joia *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>maravilha</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>maravilha *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* maravilha</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* maravilha *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>maravilhoso</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>maravilhoso *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* maravilhoso</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* maravilhoso *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>maximo</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>maximo *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* maximo</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* maximo *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>muito bem</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>muito bem *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* muito bem</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* muito bem *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>muito bom</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>muito bom *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* muito bom</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* muito bom *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>otimo</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>otimo *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* otimo</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>* otimo *</pattern>
+<template>
+<srai>legal</srai>
+</template>
+</category>
+
+<category>
+<pattern>legal</pattern>
+<template>
+<random>
+<li>É bom saber, mas por que ?</li>
+<li>Esplêndido!</li>
+<li>Eu estou realmente contente por você.</li>
+<li>Eu fico feliz com isso...</li>
+<li>Existe algum motivo especial para isso, hoje ?</li>
+<li>Que bom que você acha isso.</li>
+<li>Que maravilha.</li>
+<li>Também acho.</li>
+<li>Você acha mesmo ?</li>
+<li>Você parece satisfeito.</li>
+</random>
+</template>
+</category>
+</aiml>

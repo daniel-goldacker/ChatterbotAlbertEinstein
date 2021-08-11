@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta name="author" content="AUTHOR1"/>
+<meta name="language" content="LANG"/>
+
+<category>
+<pattern>MIRAGENS</pattern>
+<template>
+<srai>FisicaMIRAGEM</srai>
+</template>
+</category>
+
+<category>
+<pattern>MIRAGENS *</pattern>
+<template>
+<srai>FisicaMIRAGEM</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MIRAGENS</pattern>
+<template>
+<srai>FisicaMIRAGEM</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MIRAGENS *</pattern>
+<template>
+<srai>FisicaMIRAGEM</srai>
+</template>
+</category>
+
+<category>
+<pattern>MIRAGEM</pattern>
+<template>
+<srai>FisicaMIRAGEM</srai>
+</template>
+</category>
+
+<category>
+<pattern>MIRAGEM *</pattern>
+<template>
+<srai>FisicaMIRAGEM</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MIRAGEM</pattern>
+<template>
+<srai>FisicaMIRAGEM</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MIRAGEM *</pattern>
+<template>
+<srai>FisicaMIRAGEM</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaMIRAGEM</pattern>
+<template>
+Surgem através da reflexão do objeto visto. Não é uma ilusão de ótica pois o objeto existe apenas a direção (de baixo para cima) é fora do usual e é interpretada erroneamente como devida
+à reflexão em uma superfície de água. A água é ilusória, mas o objeto e sua imagem são reais.
+</template>
+</category>
+</aiml>

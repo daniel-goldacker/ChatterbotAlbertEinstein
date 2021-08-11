@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>ENERGIA CINETICA</pattern>
+<template>
+<srai>ENERGIACINETICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>ENERGIA CINETICA *</pattern>
+<template>
+<srai>ENERGIACINETICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ENERGIA CINETICA</pattern>
+<template>
+<srai>ENERGIACINETICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ENERGIA CINETICA *</pattern>
+<template>
+<srai>ENERGIACINETICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>ENERGIACINETICA</pattern>
+<template>
+ A energia cinética é a forma de energia que esta associada à quantidade de movimento de um objeto. Ou seja, ela só existe quando o objeto possui velocidade em relação a um determinado ponto de referência. Energia cinética depende da massa (m) e da velocidade (v) de um corpo.
+</template>
+</category>
+
+<category>
+<pattern>FORMULA DA ENERGIA CINETICA</pattern>
+<template>
+<srai>FORMULAENERGIACINETICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>FORMULA DA ENERGIA CINETICA *</pattern>
+<template>
+<srai>FORMULAENERGIACINETICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FORMULA DA ENERGIA CINETICA</pattern>
+<template>
+<srai>FORMULAENERGIACINETICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FORMULA DA ENERGIA CINETICA *</pattern>
+<template>
+<srai>FORMULAENERGIACINETICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>FORMULAENERGIACINETICA</pattern>
+<template>
+A fórmula para calcular a Energia Cinética de um 
+corpo é: Ecin. = (1/2).m.v2 
+Onde "m" é a massa do corpo e "v" sua velocidade
+</template>
+</category>
+
+<category>
+<pattern>TEOREMA DA ENERGIA CINETICA</pattern>
+<template>
+<srai>TEORENERGIACINETICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>TEOREMA DA ENERGIA CINETICA *</pattern>
+<template>
+<srai>TEORENERGIACINETICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* TEOREMA DA ENERGIA CINETICA</pattern>
+<template>
+<srai>TEORENERGIACINETICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* TEOREMA DA ENERGIA CINETICA *</pattern>
+<template>
+<srai>TEORENERGIACINETICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>TEORENERGIACINETICA</pattern>
+<template>
+O Teorema da energia cinética (TEC) diz que o trabalho realizado pela resultante de todas as forças aplicadas a uma partícula durante certo intervalo de tempo é igual à variação de sua energia cinética, nesse intervalo de tempo.
+</template>
+</category>
+</aiml>

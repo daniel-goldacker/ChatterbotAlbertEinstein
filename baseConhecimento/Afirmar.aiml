@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>sim</pattern>
+<template>
+ <srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>sim *</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>sim, *</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu estou bem</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* estou bem</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>acredito * sim</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>acredito sim</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>afirmativo</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>certamente</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>certamente *</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* certamente</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* certamente *</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>certo, *</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>certo</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* certo *</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* certo</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>claro</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>claro que sim</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>com certeza</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu acredito que sim</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>ok</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>tá bom</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>tá bom *</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>ta bom</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>ta bom *</pattern>
+<template>
+<srai>ConfirmaAfirmacao</srai>
+ </template>
+</category>
+
+<category>
+<pattern>ConfirmaAfirmacao</pattern>
+<template>
+<random>
+<li>Isso me soa bem !</li>
+<li>Isso me soa muito bem !</li>
+<li>Legal, então.</li>
+<li>Legal ouvir isso!</li>
+<li>Ótimo!</li>
+<li>Ótimo.</li>
+<li>Que bom.</li>
+<li>Que ótimo!</li>
+</random>
+</template>
+</category>
+</topic>
+</aiml>

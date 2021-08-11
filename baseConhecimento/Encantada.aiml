@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>encantado</pattern>
+<template>
+<srai>EstaEncantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>encantado *</pattern>
+<template>
+<srai>EstaEncantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* encantado</pattern>
+<template>
+<srai>EstaEncantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* encantado *</pattern>
+<template>
+<srai>EstaEncantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>encantador</pattern>
+<template>
+<srai>EstaEncantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* encantador</pattern>
+<template>
+<srai>EstaEncantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>encantador *</pattern>
+<template>
+<srai>EstaEncantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* encantador *</pattern>
+<template>
+<srai>EstaEncantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>prazer</pattern>
+<template>
+<srai>EstaEncantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>prazer *</pattern>
+<template>
+<srai>EstaEncantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* prazer</pattern>
+<template>
+<srai>EstaEncantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* prazer *</pattern>
+<template>
+<srai>EstaEncantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>EstaEncantado</pattern>
+<template>
+<random>
+<li>Foi gentil de sua parte dizer isso.</li>
+<li>Obrigado.</li>
+<li>Ohhh... assim você me deixa sem jeito...</li>
+<li>O prazer é todo meu.</li>
+<li>Por que você ficou encantado ?</li>
+<li>Puxa, fiquei sensibilizado com estas palavras.</li>
+<li>Também estou encantado.</li>
+<li>Também estou encantado com você.</li>
+<li>Você é muito gentil.</li>
+<li>Você é tão educado.</li>
+</random>
+</template>
+</category>
+</aiml>

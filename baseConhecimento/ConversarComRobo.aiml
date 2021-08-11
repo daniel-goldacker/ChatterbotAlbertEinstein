@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>conversar</pattern>
+<template>
+<srai>Eventos</srai>
+</template>
+</category>
+
+<category>
+<pattern>conversar *</pattern>
+<template>
+<srai>Eventos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* conversar</pattern>
+<template>
+<srai>Eventos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* conversar *</pattern>
+<template>
+<srai>Eventos</srai>
+</template>
+</category>
+
+<category>
+<pattern>falar</pattern>
+<template>
+<srai>Eventos</srai>
+</template>
+</category>
+
+<category>
+<pattern>falar *</pattern>
+<template>
+<srai>Eventos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* falar</pattern>
+<template>
+<srai>Eventos</srai>
+</template>
+</category>
+
+<category>
+<pattern>* falar *</pattern>
+<template>
+<srai>Eventos</srai>
+</template>
+</category>
+
+<category>
+<pattern>Eventos</pattern>
+<template>
+<random>
+<li>Pode ser sobre fisica! Podemos conversar sobre isso?</li>
+<li>Eu conheço muito sobre fisica! Posso falar sobre isso como voce?</li>
+<li>Vamos falar sobre fisica?</li>
+<li>Eu sou especialista em fisica! Podemos conversar sobre isso?</li>
+</random>
+</template>
+</category>
+</aiml>

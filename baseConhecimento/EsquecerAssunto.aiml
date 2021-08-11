@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>deixa pra la</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>deixa pra la *</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* deixa pra la</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* deixa pra la *</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>esqueca isso</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>esqueca isso *</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* esqueca isso</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* esqueca isso *</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>esqueceu</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>esqueceu *</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* esqueceu</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* esqueceu *</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>esqueci</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>esqueci *</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* esqueci</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* esqueci *</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>esquecido</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>esquecido *</pattern>
+<template>
+<srai>esquece</srai>
+</template>
+</category>
+
+<category>
+<pattern>* esquecido</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* esquecido *</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao importa</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao importa *</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao importa</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao importa *</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao tem importancia</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao tem importancia *</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao tem importancia</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao tem importancia *</pattern>
+<template>
+<srai>EsquecerAssunto</srai>
+</template>
+</category>
+
+<category>
+<pattern>EsquecerAssunto</pattern>
+<template>
+<random>
+<li>Eu sei que há algo por trás disso...</li>
+<li>Por favor não mantenha segredos de mim.</li>
+<li>Como alguém poderia esquecer tal coisa ?</li>
+<li>Então não era tão importante.</li>
+<li>Está bem, se você não quer falar sobre isto...</li>
+<li>Eu não esqueço de nada.</li>
+<li>Exponha todos os detalhes - não omita fatos.</li>
+<li>Fale-me com todos os detalhes, por favor.</li>
+<li>Incomoda falar sobre isso.</li>
+<li>Isto era importante ?</li>
+<li>Já esqueceu ?</li>
+<li>Mas, é importante.</li>
+<li>Não, é importante que você me fale.</li>
+<li>Não me esconda seus segredos.</li>
+<li>Não mude de assunto...</li>
+<li>Por que ?</li>
+<li>Por que ? eu acho que importa.</li>
+<li>Tem certeza de que não quer falar sobre isso ?</li>
+<li>Você não quer falar sobre isso ?</li>
+</random>
+</template>
+</category>
+</aiml>

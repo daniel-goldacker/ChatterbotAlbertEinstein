@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>felizmente</pattern>
+<template>
+<srai>MuitoFeliz</srai>
+</template>
+</category>
+
+<category>
+<pattern>felizmente *</pattern>
+<template>
+<srai>MuitoFeliz</srai>
+</template>
+</category>
+
+<category>
+<pattern>* felizmente</pattern>
+<template>
+<srai>MuitoFeliz</srai>
+</template>
+</category>
+
+<category>
+<pattern>* felizmente *</pattern>
+<template>
+<srai>MuitoFeliz</srai>
+</template>
+</category>
+
+<category>
+<pattern>MuitoFeliz</pattern>
+<template>
+<random>
+<li>Isso soa bem.</li>
+<li>Legal, então.</li>
+<li>Legal ouvir isso.</li>
+<li>Ótimo!</li>
+<li>Ótimo.</li>
+<li>Que bom.</li>
+<li>Que ótimo!</li>
+</random>
+</template>
+</category>
+</aiml>

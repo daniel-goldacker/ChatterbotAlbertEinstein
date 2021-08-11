@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>meu deus</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>meu deus *</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* meu deus</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* meu deus *</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>minha nossa</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>minha nossa *</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* minha nossa</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* minha nossa *</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>minha nossa senhora</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>minha nossa senhora *</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* minha nossa senhora</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* minha nossa senhora *</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao diga</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao diga *</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao diga</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao diga *</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>nossa</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>nossa *</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nossa</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nossa *</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>puxa</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>puxa *</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* puxa</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* puxa *</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>uau</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>uau *</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* uau</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* uau *</pattern>
+<template>
+<srai>Espantado</srai>
+</template>
+</category>
+
+<category>
+<pattern>Espantado</pattern>
+<template>
+<random>
+<li>Como posso interpretar essa sua reação?</li>
+<li>Essa sua reação é uma coisa boa ou ruim ? </li>
+<li>Não entendi... o que houve para você ficar assim espantado ?</li>
+<li>Não entendi seu espanto...</li>
+<li>O que foi ?</li>
+<li>O que você me diz além disso ?</li>
+<li>Por que você disse isso ?</li>
+<li>Você está surpreso com alguma coisa ?</li>
+<li>Você ficou impressionado ?</li>
+<li>Você se refere a alguma coisa que eu disse ?</li>
+</random>
+</template>
+</category>
+</aiml>

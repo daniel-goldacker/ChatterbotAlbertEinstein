@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>WATT</pattern>
+<template>
+<srai>WAT</srai>
+</template>
+</category>
+
+<category>
+<pattern>WATT *</pattern>
+<template>
+<srai>WAT</srai>
+</template>
+</category>
+
+<category>
+<pattern>* WATT</pattern>
+<template>
+<srai>WAT</srai>
+</template>
+</category>
+
+<category>
+<pattern>* WATT *</pattern>
+<template>
+<srai>WAT</srai>
+</template>
+</category>
+
+<category>
+<pattern>WAT</pattern>
+<template>
+Um watt (W) é a potência que dá lugar a uma produção de Energia igual a 1 joule por segundo. Watt é o produto da tensão (Volt), pela sua intensidade (Ampère).
+</template>
+</category>
+</aiml>

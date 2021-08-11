@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>cite um exemplo</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>cite um exemplo *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* cite um exemplo</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* cite um exemplo *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>como o que</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>como o que *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como o que</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como o que *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>como quais</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>como quais *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como quais</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como quais *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>de algum exemplo</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>de algum exemplo *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* de algum exemplo</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* de algum exemplo *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>de um exemplo</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>de um exemplo *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* de um exemplo</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* de um exemplo *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>me de um exemplo</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>me de um exemplo *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* me de um exemplo</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* me de um exemplo *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>o que por acaso</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>o que por acaso *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* o que por acaso</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* o que por acaso *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>o que por exemplo</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>o que por exemplo *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* o que por exemplo</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* o que por exemplo *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>qual por exemplo</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>qual por exemplo *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* qual por exemplo</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* qual por exemplo *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>que tal citar um exemplo</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>que tal citar um exemplo *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* que tal citar um exemplo</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* que tal citar um exemplo *</pattern>
+<template>
+<srai>como o que por exemplo</srai>
+</template>
+</category>
+
+<category>
+<pattern>como o que por exemplo</pattern>
+<template>
+<random>
+<li>Ah, eu sei que você compreender o que estou dizendo sem que eu precise lhe dar um exemplo. </li>
+<li>Desculpe-me, mas eu não vou conseguir ser mais específico.</li>
+<li>E se eu lhe disser que não me lembro de nenhum ?</li>
+<li>Eu sei que você tem facilidade pra entender as coisas, sem precisar de exemplos para isso.</li>
+<li>Hmmmmmm...  deixe-me ver...  não me lembro de nenhum exemplo neste momento, mas assim que eu me lembrar, eu digo.</li>
+<li>No momento, não está me ocorrendo nenhum exemplo para lhe dar.</li>
+<li>Por que você quer um exemplo ?</li>
+<li>Que tal você me dar um exemplo de sua vida cotidiana ? certamente, você tem algum.</li>
+<li>Ter um exemplo é muito importante pra você ?</li>
+<li>Você quer um exemplo? bem, deixe-me ver... acho que não vem nenhum em minha memória... </li>
+</random>
+</template>
+</category>
+</aiml>

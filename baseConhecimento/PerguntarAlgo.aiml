@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>me pergunta</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>me pergunta *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* me pergunta</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* me pergunta *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>me pergunte</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>me pergunte *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* me pergunte</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* me pergunte *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>pergunta</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>pergunta *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pergunta</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pergunta *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>pergunta algo</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>pergunta algo *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pergunta algo</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pergunta algo *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>pergunta alguma coisa</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>pergunta alguma coisa *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pergunta alguma coisa</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pergunta alguma coisa *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>pergunte</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>pergunte *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pergunte</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pergunte *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>pergunte algo</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>pergunte algo *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pergunte algo</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pergunte algo *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>pergunte alguma coisa</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>pergunte alguma coisa *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pergunte alguma coisa</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pergunte alguma coisa *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>pergunte me</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>pergunte me *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pergunte me</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pergunte me *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>pergunte me algo</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>pergunte me algo *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pergunte me algo</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pergunte me algo *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>pergunte me alguma coisa</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>pergunte me alguma coisa *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pergunte me alguma coisa</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pergunte me alguma coisa *</pattern>
+<template>
+<srai>faca uma pergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>faca uma pergunta</pattern>
+<template>
+<random>
+<li>Ah, existe tanta coisa que eu poderia perguntar a você: sobre seus estudos, seus hobbies, sua família... por exemplo, você tem irmãos ?</li>
+<li>Ok. em que mês você nasceu ?</li>
+<li>Ok. que tipo de filme você mais gosta ?</li>
+<li>Ok. que tipo de música você mais gosta ?</li>
+<li>O que você quer que eu pergunte ?</li>
+<li>Por que você deseja que eu faça uma pergunta ?</li>
+<li>Que tal você me fazer perguntas ?</li>
+<li>Se você deseja que eu pergunte algo, é porque você tem muitas coisas a dizer mas não consegue se decidir sobre que assunto falar, não é ?</li>
+<li>Sugira um tema, para que possamos conversar sobre ele.</li>
+<li>Você quer uma pergunta genérica ou uma mais específica ?</li>
+</random>
+</template>
+</category>
+</aiml>

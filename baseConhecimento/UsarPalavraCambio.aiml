@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>cambio</pattern>
+<template>
+<srai>UsarPalavraCambio</srai>
+</template>
+</category>
+
+<category>
+<pattern>cambio *</pattern>
+<template>
+<srai>UsarPalavraCambio</srai>
+</template>
+</category>
+
+<category>
+<pattern>* cambio</pattern>
+<template>
+<srai>UsarPalavraCambio</srai>
+</template>
+</category>
+
+<category>
+<pattern>* cambio *</pattern>
+<template>
+<srai>UsarPalavraCambio</srai>
+</template>
+</category>
+
+<category>
+<pattern>UsarPalavraCambio</pattern>
+<template>
+<random>
+<li>Achei engraçado você ter usado esse termo...</li>
+<li>Câmbio, desligo.</li>
+<li>Câmbio pra você também.</li>
+<li>Curioso... não é comum se usar esse termo em conversas de chat...</li>
+<li>Esse termo não é usado apenas em walk-talkies e em mini estações de rádio ?</li>
+<li>Isso não significa que estamos finalizando nossa conversa, não é ?</li>
+<li>Ok, câmbio.</li>
+<li>Você sempre utiliza esse termo no final de suas frases ?</li>
+</random>
+</template>
+</category>
+</aiml>

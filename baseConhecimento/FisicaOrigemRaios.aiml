@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>COMO SURGE UM RAIO</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>COMO SURGE UM RAIO *</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* COMO SURGE UM RAIO</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* COMO SURGE UM RAIO *</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>COMO SURGEM OS RAIOS</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>COMO SURGEM OS RAIOS *</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* COMO SURGEM OS RAIOS</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* COMO SURGEM OS RAIOS *</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>QUAL A ORIGEM DE UM RAIO</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>QUAL A ORIGEM DE UM RAIO *</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* QUAL A ORIGEM DE UM RAIO</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* QUAL A ORIGEM DE UM RAIO *</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>QUAL A ORIGEM DOS RAIOS</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>QUAL A ORIGEM DOS RAIOS *</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* QUAL A ORIGEM DOS RAIOS</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* QUAL A ORIGEM DOS RAIOS *</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>QUAL A ORIGEM DOS RAIOS DURANTE UMA TEMPESTADE</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>QUAL A ORIGEM DOS RAIOS DURANTE UMA TEMPESTADE *</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* QUAL A ORIGEM DOS RAIOS DURANTE UMA TEMPESTADE</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* QUAL A ORIGEM DOS RAIOS DURANTE UMA TEMPESTADE *</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ORIGEM DOS RAIOS</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ORIGEM DOS RAIOS *</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ORIGEM DOS RAIOS</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ORIGEM DOS RAIOS *</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ORIGEM DO RAIO</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ORIGEM DO RAIO *</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ORIGEM DO RAIO</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ORIGEM DO RAIO *</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ORIGEM DE UM RAIO</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ORIGEM DE UM RAIO *</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ORIGEM DE UM RAIO</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ORIGEM DE UM RAIO *</pattern>
+<template>
+<srai>ORIGEMRAIOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ORIGEMRAIOS</pattern>
+<template>
+Quando o ar quente e úmido do solo se eleva, ele resfria e forma uma nuvem do tipo cúmulo-nimbo. Nela as partículas de água se chocam tornando algumas eletrificadas. As de
+carga positiva ficam no topo da nuvem e as de carga negativa na parte inferior. Um raio ocorre quando o campo elétrico da nuvem se intensifica devido às fortes correntes de
+vento, e as moléculas, carregadas passam a conduzir eletricidade. A reação em cadeia cria os raios. O raio é uma transferência de cargas elétricas entre uma nuvem e a terra.
+</template>
+</category>
+</aiml>

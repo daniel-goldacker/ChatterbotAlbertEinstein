@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+  <pattern>agora não</pattern> 
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>agora não *</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+<pattern>* agora não</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>* agora não *</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>agora nao</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>agora nao *</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>* agora nao</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>* agora nao *</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>ainda nao</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>ainda nao *</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>* ainda nao</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>* ainda nao *</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>ainda não</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>ainda não *</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>* ainda não</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>* ainda não *</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>nao agora</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>* nao * agora *</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>nao * agora</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>* nao agora</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>nao agora *</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>* nao agora *</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>* nao agora *</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>* nao * agora</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>não agora</pattern>
+  <template>
+    <srai>depois</srai> 
+  </template>
+</category>
+
+<category>
+  <pattern>* não * agora *</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>não * agora</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>* não agora</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>não agora *</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>* não agora *</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>* não agora *</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>* não * agora</pattern>
+  <template>
+    <srai>depois</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>depois</pattern>
+  <template>
+    <random>
+      <li>Terça-feira que vem está bom para você ?</li>
+      <li>Bem, que tal... daqui a um ano ?</li>
+      <li>Bem, que tal... dentro de duas semanas ?</li>
+      <li>Certo, mas quando exatamente ?</li>
+      <li>Em quanto tempo a partir de agora ?</li>
+      <li>Eu também prefiro depois.</li>
+      <li>Ou agora ou nunca.</li>
+      <li>Quanto tempo depois ?</li>
+      <li>Quão tarde é "depois" para você ?</li>
+      <li>Que tal agora ?</li>
+      <li>Talvez mais cedo ?</li>
+      <li>Vamos resolver isto agora.</li>
+      <li>Você poderia ser mais específico, por favor ?</li>
+      <li>Você sempre adia seus assuntos ?</li>
+    </random>
+  </template>
+</category>
+</aiml>

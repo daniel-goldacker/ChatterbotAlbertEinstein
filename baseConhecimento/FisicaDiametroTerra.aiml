@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>DIAMETRO DA TERRA</pattern>
+<template>
+<srai>DIAMETROTERRA</srai>
+</template>
+</category>
+
+<category>
+<pattern>DIAMETRO DA TERRA *</pattern>
+<template>
+<srai>DIAMETROTERRA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* DIAMETRO DA TERRA</pattern>
+<template>
+<srai>DIAMETROTERRA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* DIAMETRO DA TERRA *</pattern>
+<template>
+<srai>DIAMETROTERRA</srai>
+</template>
+</category>
+
+<category>
+<pattern>DIAMETROTERRA</pattern>
+<template>
+O diâmetro da Terra possui duas medições: Diâmetro equatorial: 12.756,28 km (Valor adotado em 1976 pela União Astronômica Internacional (UAI) e pela União de Geodésia e Geofísica Internacional (UGGI) após medições com equipamentos modernos). Diâmetro polar: 12.713,5 km
+</template>
+</category>
+</aiml>

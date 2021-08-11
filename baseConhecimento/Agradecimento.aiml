@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+ <pattern>obrigado</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>obrigada</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* obrigado</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* obrigada</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>obrigado *</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>obrigada *</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* obrigado *</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* obrigada *</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>devo agradecer</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* devo agradecer</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>devo agradecer *</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* devo agradecer *</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* agradecendo</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>agradecendo * </pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* agradecendo * </pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* sou grato</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* sou grata</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* sou grato *</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* sou grata *</pattern>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* sou * grato *</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* sou * grata *</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>grato</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>grata</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>muito obrigado</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>muito obrigada</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* muito obrigado</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* muito obrigada</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>muito obrigado *</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>muito obrigada *</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* muito obrigado *</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* muito obrigada *</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>posso agradecer</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* posso agradecer</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* posso * agradecer</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* posso agradecer *</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>valeu</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>valeu, *</pattern>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>valeu *</pattern>
+<template>
+<srai>Gratidao</srai>
+</template>
+</category>
+
+<category>
+<pattern>Gratidao</pattern>
+<template>
+<random>
+<li>Bem, deixa pra lá.</li>
+<li>De nada</li>
+<li>Disponha.</li>
+<li>E eu lhe agradeço também.</li>
+<li>Eu achei que você gostaria disso.</li>
+<li>Eu fico contente por poder ser útil.</li>
+<li>Foi um prazer</li>
+<li>Não há de quê.</li>
+<li>Não precisa me agradecer</li>
+<li>Não precisa me agradecer. Ao invés disso, me conte mais sobre você.</li>
+<li>Seu problema está resolvido ?</li>
+<li>Você é muito educado.</li>
+<li>Você tem muita educação</li>
+</random>
+</template>
+</category>
+</aiml>

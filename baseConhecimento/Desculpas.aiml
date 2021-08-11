@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>desculpa</pattern>
+<template>
+<srai>PedirDesculpas</srai>
+</template>
+</category>
+
+<category>
+<pattern>* desculpa *</pattern>
+<template>
+<srai>PedirDesculpas</srai>
+</template>
+</category>
+
+<category>
+<pattern>desculpa *</pattern>
+<template>
+<srai>PedirDesculpas</srai>
+</template>
+</category>
+
+<category>
+<pattern>* desculpa</pattern>
+<template>
+<srai>PedirDesculpas</srai>
+</template>
+</category>
+
+<category>
+<pattern>* desculpas *</pattern>
+<template>
+<srai>PedirDesculpas</srai>
+</template>
+</category>
+
+<category>
+<pattern>desculpas *</pattern>
+<template>
+<srai>PedirDesculpas</srai>
+</template>
+</category>
+
+<category>
+<pattern>* desculpas</pattern>
+<template>
+<srai>PedirDesculpas</srai>
+</template>
+</category>
+
+<category>
+<pattern>* desculpar *</pattern>
+<template>
+<srai>PedirDesculpas</srai>
+</template>
+</category>
+
+<category>
+<pattern>desculpar *</pattern>
+<template>
+<srai>PedirDesculpas</srai>
+</template>
+</category>
+
+<category>
+<pattern>* desculpar</pattern>
+<template>
+<srai>PedirDesculpas</srai>
+</template>
+</category>
+
+<category>
+<pattern>* desculpe *</pattern>
+<template>
+<srai>PedirDesculpas</srai>
+</template>
+</category>
+
+<category>
+<pattern>desculpe *</pattern>
+<template>
+<srai>PedirDesculpas</srai>
+</template>
+</category>
+
+<category>
+<pattern>* desculpe</pattern>
+<template>
+<srai>PedirDesculpas</srai>
+</template>
+</category>
+
+<category>
+<pattern>PedirDesculpas</pattern>
+<template>
+<random>
+<li>ok, desculpas aceitas. Tem mais alguma coisa que gostaria de me perguntar?</li>
+<li>Tudo bem, não precisa se desculpar. Gostaria de me perguntar algo?</li>
+<li>Você não precisa se desculpar. Gostaria de me perguntar algo?</li>
+<li>Você é muito educado(a) por me pedir desculpas. Gostaria de me perguntar algo?</li>
+</random>
+</template>
+</category>
+</aiml>

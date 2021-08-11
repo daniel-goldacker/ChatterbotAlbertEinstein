@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>SPIN</pattern>
+<template>
+<srai>FisicaSPIN</srai>
+</template>
+</category>
+
+<category>
+<pattern>SPIN *</pattern>
+<template>
+<srai>FisicaSPIN</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SPIN</pattern>
+<template>
+<srai>FisicaSPIN</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SPIN *</pattern>
+<template>
+<srai>FisicaSPIN</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaSPIN</pattern>
+<template>
+O SPIN é uma característica intrínseca das partículas elementares (algo tal como a carga). O que se sabe é que toda partícula elementar possui basicamente um 
+campo magnético interno ( o spin) que é "parecido" com o campo magnético produzido por uma partícula carregada que gira em torno de um dado ponto( um
+elétron girando em torno de seu núcleo num átomo de hidrogênio, por exemplo). 
+</template>
+</category>
+</aiml>

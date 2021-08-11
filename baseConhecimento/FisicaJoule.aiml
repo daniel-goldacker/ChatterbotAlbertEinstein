@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>JOULE</pattern>
+<template>
+<srai>FisicaJOULE</srai>
+</template>
+</category>
+
+<category>
+<pattern>JOULE *</pattern>
+<template>
+<srai>FisicaJOULE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* JOULE</pattern>
+<template>
+<srai>FisicaJOULE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* JOULE *</pattern>
+<template>
+<srai>FisicaJOULE</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaJOULE</pattern>
+<template>
+Joule (J) é unidade de medida de Energia ou Trabalho. Unidade de energia do sistema internacional (SI).
+</template>
+</category>
+</aiml>

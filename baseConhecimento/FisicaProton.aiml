@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>PROTON</pattern>
+<template>
+<srai>FisiscaPROTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>PROTON *</pattern>
+<template>
+<srai>FisiscaPROTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PROTON</pattern>
+<template>
+<srai>FisiscaPROTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PROTON *</pattern>
+<template>
+<srai>FisiscaPROTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>PROTONS</pattern>
+<template>
+<srai>FisiscaPROTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>PROTONS *</pattern>
+<template>
+<srai>FisiscaPROTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PROTONS</pattern>
+<template>
+<srai>FisiscaPROTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PROTONS *</pattern>
+<template>
+<srai>FisiscaPROTON</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisiscaPROTON</pattern>
+<template>
+PRÓTONS são partículas nucleares de carga positiva de um átomo. Possuem a mesma massa de um nêutron.
+</template>
+</category>
+</aiml>

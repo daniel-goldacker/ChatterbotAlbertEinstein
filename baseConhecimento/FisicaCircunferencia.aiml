@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>CIRCUNFERENCIA</pattern>
+<template>
+<srai>FisicaCIRCUNFERENCIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>CIRCUNFERENCIA *</pattern>
+<template>
+<srai>FisicaCIRCUNFERENCIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CIRCUNFERENCIA</pattern>
+<template>
+<srai>FisicaCIRCUNFERENCIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CIRCUNFERENCIA *</pattern>
+<template>
+<srai>FisicaCIRCUNFERENCIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaCIRCUNFERENCIA</pattern>
+<template>
+  Podemos definir circunferência como o conjunto de pontos do plano que se encontram a uma mesma distância de um dado ponto, a que chamamos centro.
+</template>
+</category>
+</aiml>

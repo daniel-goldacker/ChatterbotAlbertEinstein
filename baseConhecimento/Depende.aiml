@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>depende</pattern> 
+<template>
+<srai>DependePergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* depende</pattern> 
+<template>
+<srai>DependePergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>depende *</pattern> 
+<template>
+<srai>DependePergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>* depende *</pattern> 
+<template>
+<srai>DependePergunta</srai>
+</template>
+</category>
+
+<category>
+<pattern>DependePergunta</pattern>
+<template>
+<random>
+<li>Como depende ?</li>
+<li>Depende de que ?</li>
+</random>
+</template>
+</category>
+</aiml>

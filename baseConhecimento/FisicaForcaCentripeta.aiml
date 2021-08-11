@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>FORCA CENTRIPETA</pattern>
+<template>
+<srai>FORCACENTRIPETA</srai>
+</template>
+</category>
+
+<category>
+<pattern>FORCA CENTRIPETA *</pattern>
+<template>
+<srai>FORCACENTRIPETA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FORCA CENTRIPETA</pattern>
+<template>
+<srai>FORCACENTRIPETA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FORCA CENTRIPETA *</pattern>
+<template>
+<srai>FORCACENTRIPETA</srai>
+</template>
+</category>
+
+<category>
+<pattern>FORCACENTRIPETA</pattern>
+<template>
+É a força que age e modifica a direção da velocidade de um corpo
+Exemplo: A Lua tem órbita quase circular e a força que mantém a Lua nessa órbita é a força gravitacional aplicada pela Terra. Nesse caso, a força centrípeta é uma força gravitacional.
+</template>
+</category>
+</aiml>

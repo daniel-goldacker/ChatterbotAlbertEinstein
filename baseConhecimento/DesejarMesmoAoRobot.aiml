@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>o mesmo para voce</pattern>
+<template>
+<srai>DesejarMesmoAoRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>para * tambem</pattern>
+<template>
+<srai>DesejarMesmoAoRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>para * tambem *</pattern>
+<template>
+<srai>DesejarMesmoAoRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* para * tambem</pattern>
+<template>
+<srai>DesejarMesmoAoRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* para * tambem *</pattern>
+<template>
+<srai>DesejarMesmoAoRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>pra * tambem</pattern>
+<template>
+<srai>DesejarMesmoAoRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>pra * tambem *</pattern>
+<template>
+<srai>DesejarMesmoAoRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pra * tambem</pattern>
+<template>
+<srai>DesejarMesmoAoRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pra * tambem *</pattern>
+<template>
+<srai>DesejarMesmoAoRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>DesejarMesmoAoRobo</pattern>
+<template>
+<random>
+<li>Gostaria de agradecer, mas nunca sei se digo obrigado ou obrigada, pois nunca sei com quem estou falando!</li>
+<li>Obrigado(a)!</li>
+<li>Garato!</li>
+<li>Muito Obrigado(a)!</li>
+</random>
+</template>
+</category>
+</aiml>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>KILOWATT</pattern>
+<template>
+<srai>FisicaKILOWATT</srai>
+</template>
+</category>
+
+<category>
+<pattern>KILOWATT *</pattern>
+<template>
+<srai>FisicaKILOWATT</srai>
+</template>
+</category>
+
+<category>
+<pattern>* KILOWATT</pattern>
+<template>
+<srai>FisicaKILOWATT</srai>
+</template>
+</category>
+
+<category>
+<pattern>* KILOWATT *</pattern>
+<template>
+<srai>FisicaKILOWATT</srai>
+</template>
+</category>
+
+<category>
+<pattern>KW</pattern>
+<template>
+<srai>FisicaKILOWATT</srai>
+</template>
+</category>
+
+<category>
+<pattern>KW *</pattern>
+<template>
+<srai>FisicaKILOWATT</srai>
+</template>
+</category>
+
+<category>
+<pattern>* KW</pattern>
+<template>
+<srai>FisicaKILOWATT</srai>
+</template>
+</category>
+
+<category>
+<pattern>* KW *</pattern>
+<template>
+<srai>FisicaKILOWATT</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaKILOWATT</pattern>
+<template>
+Unidade de energia elétrica igual a mil watts.
+</template>
+</category>
+</aiml>

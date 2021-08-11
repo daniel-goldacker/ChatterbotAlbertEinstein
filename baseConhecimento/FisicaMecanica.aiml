@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>MECANICA</pattern>
+<template>
+<srai>FisicaMECANICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>MECANICA *</pattern>
+<template>
+<srai>FisicaMECANICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MECANICA</pattern>
+<template>
+<srai>FisicaMECANICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MECANICA *</pattern>
+<template>
+<srai>FisicaMECANICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaMECANICA</pattern>
+<template>
+É a parte da Física que estuda o movimento. Ela se divide em três partes:
+ *** A Cinemática, que descreve o movimento sem indagar sobre as causas que o produzem
+ *** A Estática, que se ocupa das condições de equilíbrio dos objetos
+ *** A Dinâmica, que estuda a relação entre o movimento e as causas que o produzem.
+</template>
+</category>
+
+<category>
+<pattern>PONTO MATERIAL</pattern>
+<template>
+<srai>FisicaPONTOMATERIAL</srai>
+</template>
+</category>
+
+<category>
+<pattern>PONTO MATERIAL *</pattern>
+<template>
+<srai>FisicaPONTOMATERIAL</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PONTO MATERIAL</pattern>
+<template>
+<srai>FisicaPONTOMATERIAL</srai>
+</template>
+</category>
+
+<category>
+<pattern>* PONTO MATERIAL *</pattern>
+<template>
+<srai>FisicaPONTOMATERIAL</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaPONTOMATERIAL</pattern>
+<template>
+É um objeto que tem dimensões tão pequenas - em relação às outras dimensões que intervêm no problema - que pode ser considerado como um ponto - no sentido geométrico da palavra.
+</template>
+</category>
+
+<category>
+<pattern>MOVIMENTO</pattern>
+<template>
+<srai>FisicaMOVIMENTO</srai>
+</template>
+</category>
+
+<category>
+<pattern>MOVIMENTO *</pattern>
+<template>
+<srai>FisicaMOVIMENTO</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MOVIMENTO</pattern>
+<template>
+<srai>FisicaMOVIMENTO</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MOVIMENTO *</pattern>
+<template>
+<srai>FisicaMOVIMENTO</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaMOVIMENTO</pattern>
+<template>
+Deslocamento de um corpo em relação a um referencial.
+</template>
+</category>
+
+<category>
+<pattern>ACELERACAO</pattern>
+<template>
+<srai>FisicaACELERACAO</srai>
+</template>
+</category>
+
+<category>
+<pattern>ACELERACAO *</pattern>
+<template>
+<srai>FisicaACELERACAO</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ACELERACAO</pattern>
+<template>
+<srai>FisicaACELERACAO</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ACELERACAO *</pattern>
+<template>
+<srai>FisicaACELERACAO</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaACELERACAO</pattern>
+<template>
+A aceleração de um movimento é a razão entre a variação da velocidade e o tempo decorrido.
+</template>
+</category>
+
+<category>
+<pattern>TRAJETORIA</pattern>
+<template>
+<srai>FisicaTRAJETORIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>TRAJETORIA *</pattern>
+<template>
+<srai>FisicaTRAJETORIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* TRAJETORIA</pattern>
+<template>
+<srai>FisicaTRAJETORIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* TRAJETORIA *</pattern>
+<template>
+<srai>FisicaTRAJETORIA</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaTRAJETORIA</pattern>
+<template>É uma linha que une todas as posições pelas quais um objeto passa.</template>
+</category>
+
+<category>
+<pattern>DINAMICA</pattern>
+<template>
+<srai>FisicaDINAMICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>DINAMICA *</pattern>
+<template>
+<srai>FisicaDINAMICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* DINAMICA</pattern>
+<template>
+<srai>FisicaDINAMICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* DINAMICA *</pattern>
+<template>
+<srai>FisicaDINAMICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaDINAMICA</pattern>
+<template>
+A Dinâmica é a parte da Mecânica que relaciona os movimentos com as causas que os produzem. A Dinâmica tem por base
+um conjunto de princípios qu são muitas vezes designados pelo nome de LEIS DE NEWTON DO MOVIMENTO. A Dinâmica tem três
+princípios: *** Princípio da Inércia ***Princípio da proporcionalidade entre a força e a aceleração ***Princípio da ação e reação.
+</template>
+</category>
+</aiml>

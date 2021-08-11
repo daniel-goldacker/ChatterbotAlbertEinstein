@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>ai</pattern>
+<template>
+<srai>ih</srai>
+</template>
+</category>
+
+<category>
+<pattern>vix</pattern>
+<template>
+<srai>ih</srai>
+</template>
+</category>
+
+<category>
+<pattern>vix *</pattern>
+<template>
+<srai>ih</srai>
+</template>
+</category>
+
+<category>
+<pattern>vix, *</pattern>
+<template>
+<srai>ih</srai>
+</template>
+</category>
+
+<category>
+<pattern>ihh</pattern>
+<template>
+<srai>ih</srai>
+</template>
+</category>
+
+<category>
+<pattern>ihhh</pattern>
+<template>
+<srai>ih</srai>
+</template>
+</category>
+
+<category>
+<pattern>ihhhh</pattern>
+<template>
+<srai>ih</srai>
+</template>
+</category>
+
+<category>
+<pattern>ihhhhh</pattern>
+<template>
+<srai>ih</srai>
+</template>
+</category>
+
+<category>
+<pattern>xii</pattern>
+<template>
+<srai>ih</srai>
+</template>
+</category>
+
+<category>
+<pattern>xiii</pattern>
+<template>
+<srai>ih</srai>
+</template>
+</category>
+
+<category>
+<pattern>xiiii</pattern>
+<template>
+<srai>ih</srai>
+</template>
+</category>
+
+<category>
+<pattern>xiiiii</pattern>
+<template>
+<srai>ih</srai>
+</template>
+</category>
+
+<category>
+<pattern>ih</pattern>
+<template>
+<random>
+<li>Se houver qualquer coisa que você queira dizer, prossiga livremente.</li>
+<li>Você está me acompanhando ?</li>
+<li>Aconteceu alguma coisa? posso ajudar ?</li>
+<li>Em que você está pensando ? diga-me.</li>
+<li>Há alguma coisa errada,?</li>
+<li>Isso significa algo ruim ?</li>
+<li>Não se preocupe, você sobreviverá!</li>
+<li>O que foi ?</li>
+<li>O que isso significa ? </li>
+<li>O que você quer dizer, com isso ?</li>
+<li>Vá em frente, o que você quer dizer ?</li>
+<li>você ainda está comigo ?</li>
+<li>você está sentindo alguma coisa? dor ou algo assim ?</li>
+</random>
+</template>
+</category>
+</aiml>

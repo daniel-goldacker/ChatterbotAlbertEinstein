@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>COLOUMB</pattern>
+<template>
+<srai>FisicaCOLOUMB</srai>
+</template>  
+</category>
+
+<category>
+<pattern>COLOUMB *</pattern>
+<template>
+<srai>FisicaCOLOUMB</srai>
+</template>  
+</category>
+
+<category>
+<pattern>* COLOUMB</pattern>
+<template>
+<srai>FisicaCOLOUMB</srai>
+</template>  
+</category>
+
+<category>
+<pattern>* COLOUMB *</pattern>
+<template>
+<srai>FisicaCOLOUMB</srai>
+</template>  
+</category>
+
+<category>
+<pattern>FisicaCOLOUMB</pattern>
+<template>
+Lei que diz que a força eletrostática entre duas cargas pontuais têm a mesma direção da linha que as une, sendo repulsiva se as cargas tiverem o mesmo sinal, ou atrativa no caso contrário. A grandeza da força é diretamente proporcional às grandezas das cargas e inversamente proporcional ao quadrado da distância entre elas.
+</template>
+</category>
+</aiml>

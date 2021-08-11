@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>com quantas</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>com quantas *</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* com quantas</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* com quantas *</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>com quantas pessoas</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>com quantas pessoas *</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* com quantas pessoas</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* com quantas pessoas *</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>com quantas pessoas voce</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>com quantas pessoas voce *</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* com quantas pessoas voce</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* com quantas pessoas voce *</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>com quantos</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>com quantos *</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* com quantos</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern> * com quantos *</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>qual quantia</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>qual quantia *</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* qual quantia</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* qual quantia *</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>quantas</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>quantas *</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* quantas</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* quantas *</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>quantas pessoas</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>quantas pessoas *</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* quantas pessoas</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* quantas pessoas *</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>quantos</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>quantos *</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* quantos</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* quantos *</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>que quantia</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>que quantia *</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* que quantia</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>* que quantia *</pattern>
+<template>
+<srai>quanto</srai>
+</template>
+</category>
+
+<category>
+<pattern>quanto</pattern>
+<template>
+<random>
+<li>Você está esperando uma quantia específica ?</li>
+<li>A quantidade importa ?</li>
+<li>Bem, eu ainda não sei quanto.</li>
+<li>Eu não faço a menor idéia.</li>
+<li>Eu não sei o número exato.</li>
+<li>Mais que o normal.</li>
+<li>Muito pouco para o que você está precisando.</li>
+<li>Na minha lógica, é mais do que você poderia pensar.</li>
+<li>O suficiente, dependendo do ponto de vista.</li>
+<li>O suficiente, eu suponho.</li>
+<li>Para mim é demais.</li>
+<li>Você quer que eu faça um cálculo ?</li>
+</random>
+</template>
+</category>
+</aiml>

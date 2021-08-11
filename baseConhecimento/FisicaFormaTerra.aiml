@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>FORMA DA TERRA</pattern>
+<template>
+<srai>FORMTERRA</srai>
+</template>
+</category>
+
+<category>
+<pattern>FORMA DA TERRA *</pattern>
+<template>
+<srai>FORMTERRA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FORMA DA TERRA</pattern>
+<template>
+<srai>FORMTERRA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FORMA DA TERRA *</pattern>
+<template>
+<srai>FORMTERRA</srai>
+</template>
+</category>
+
+<category>
+<pattern>FORMTERRA</pattern>
+<template>
+A forma da Terra não é de uma perfeita circunferência mas sim um geóide(superfície equipotencial do campo gravimétrico da Terra coincidindo com o nível médio
+dos mares que se estende por todos os continentes, sem interrupção),com um raio equatorial de 6.378,1 km e um raio polar de 6.356,8 km.
+ </template>
+</category>
+</aiml>

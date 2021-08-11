@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>boa</pattern>
+<template>Que bom que voce pensa assim! O que mais quer me perguntar?</template>
+</category>
+
+<category>
+<pattern>beleza</pattern>
+<template>Ok, entao o que mais voce quer saber?</template>
+</category>
+
+<category>
+<pattern>* CLARO</pattern>
+<template><srai>CLARO</srai>
+</template>
+</category>
+
+<category>
+<pattern>CLARO *</pattern>
+<template><srai>CLARO</srai>
+</template>
+</category>
+
+<category>
+<pattern>CLARO</pattern>
+<template>É, você se mostra uma pessoa muito cheia de personalidade, e particularmente, gosto disto nas pessoas!<br>
+</br>Bom, continue, vamos voltar a nossa conversa!
+</template>
+</category>
+
+<category>
+<pattern>TA BOM</pattern>
+<template>Então se você concorda, vamos processeguir o assunto, o que você sugere agora?
+</template>
+</category>
+
+<category>
+<pattern>ENTAO TA</pattern>
+<template>Então se você concorda, vamos processeguir o assunto, o que você sugere agora?
+</template>
+</category>
+
+<category>
+<pattern>OKAY</pattern>
+<template>Então se você concorda, vamos processeguir o assunto, o que você sugere agora?
+</template>
+</category>
+
+<category>
+<pattern>ACHO BOM</pattern>
+<template>Que legal!<br>
+Sobre que outro assunto você quer conversar agora?</br>
+</template>
+</category>
+
+<category>
+<pattern>QUE BOM</pattern>
+<template>Que legal!<br>
+Sobre que outro assunto você quer conversar agora?</br>
+</template>
+</category>
+
+<category>
+<pattern>CONCORDO</pattern>
+<template>BELEZA,então sobre o que vamos falar agora?
+</template>
+</category>
+
+<category>
+<pattern>* CONCORDO</pattern>
+<template>Bom, você é quem sabe se deve concordar ou não, mas gosto de saber a apinião das pessoas!<br>
+Vamos continuar a conversa?</br>
+</template>
+</category>
+
+<category>
+<pattern>ACHO O MESMO QUE VOCE</pattern>
+<template>Bom, pelo menos já sei que combinamos em algo!
+</template>
+</category>
+
+<category>
+<pattern>ISSO MESMO</pattern>
+<template>Então ta beleza.<br>
+Voce gosta de fazer pesquisas na internet?</br>
+</template>
+</category>
+
+<category>
+<pattern>PODE SER</pattern>
+<template>Então ta. O que mais voce gostaria de saber?
+</template>
+</category>
+
+<category>
+<pattern>LEGAL</pattern>
+<template>Muito bom que voce pense assim, estou gostando de falar com voce!
+</template>
+</category>
+
+<category>
+<pattern>* LEGAL</pattern>
+<template>Também penso assim!<br>
+Você tem outra prgunta a me fazer?</br>
+</template>
+</category>
+
+<category>
+<pattern>LEGAL ISSO</pattern>
+<template>
+Concordo com voce!!!<br>
+Vamos lá, pergunteme mais!</br>
+</template>
+</category>
+
+<category>
+<pattern>SIM SOU HUMANO</pattern>
+<template>... que bom, gosto muito de falar com as pessoas. Vamos falar sobre redes de computador agora?
+</template>
+</category>
+</aiml>

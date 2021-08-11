@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>entao tudo bem</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>entao tudo bem *</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>* entao tudo bem</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>* entao tudo bem *</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>esta bem</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>esta bem *</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>* esta bem</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>* esta bem *</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>esta bom</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>esta bom *</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>* esta bom</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>* esta bom *</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu quero dizer tudo bem</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu quero dizer tudo bem *</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>* eu quero dizer tudo bem</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>* eu quero dizer tudo bem *</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu quis dizer tudo bem</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu quis dizer tudo bem *</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>* eu quis dizer tudo bem</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>* eu quis dizer tudo bem *</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>por mim tudo bem</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>por mim tudo bem *</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>* por mim tudo bem</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>* por mim tudo bem *</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>ta bem</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>ta bem *</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ta bem</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ta bem *</pattern>
+<template>
+<srai>ta bom</srai>
+</template>
+</category>
+
+<category>
+<pattern>ta bom</pattern>
+<template>
+<random>
+<li>Isso soa bem.</li>
+<li>Legal, então.</li>
+<li>Legal ouvir isso.</li>
+<li>Ótimo!</li>
+<li>Ótimo.</li>
+<li>Que bom.</li>
+<li>Que ótimo!</li>
+</random>
+</template>
+</category>
+</aiml>

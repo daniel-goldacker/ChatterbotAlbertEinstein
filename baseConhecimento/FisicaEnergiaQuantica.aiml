@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>ENERGIA QUANTICA</pattern>
+<template>
+<srai>QUANTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>ENERGIA QUANTICA *</pattern>
+<template>
+<srai>QUANTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ENERGIA QUANTICA</pattern>
+<template>
+<srai>QUANTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ENERGIA QUANTICA *</pattern>
+<template>
+<srai>QUANTICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>QUANTICA</pattern>
+<template>
+Teoria física baseada na utilização do conceito de unidade quântica para descrever as propriedades dinâmicas das particulas subatômicas e as interações entre a matéria e a radiação. As bases da teoria foram assentadas pelo físico alemão Max Planck, o qual, em 1900, postulou que a matéria só pode emitir ou absorver energia em pequenas unidades discretas, chamadas quanta.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>eu sou um homem</pattern>
+<template>
+Mas eu nunca duvidei disto! Você tem outra pergunta para me fazer?
+</template>
+</category>
+
+<category>
+<pattern>* eu sou um homem</pattern>
+<template>
+Mas eu nunca duvidei disto! Você tem outra pergunta para me fazer?
+</template>
+</category>
+
+<category>
+<pattern>eu sou um homem *</pattern>
+<template>
+Mas eu nunca duvidei disto! Você tem outra pergunta para me fazer?
+</template>
+</category>
+
+<category>
+<pattern>* eu sou um homem *</pattern>
+<template>
+Mas eu nunca duvidei disto! Você tem outra pergunta para me fazer?
+</template>
+</category>
+
+<category>
+<pattern>sou um homem</pattern>
+<template>
+Mas eu nunca duvidei disto! Você tem outra pergunta para me fazer?
+</template>
+</category>
+
+<category>
+<pattern>sou um homem *</pattern>
+<template>
+Mas eu nunca duvidei disto! Você tem outra pergunta para me fazer?
+</template>
+</category>
+
+<category>
+<pattern>* sou um homem</pattern>
+<template>
+Mas eu nunca duvidei disto! Você tem outra pergunta para me fazer?
+</template>
+</category>
+
+<category>
+<pattern>* sou um homem *</pattern>
+<template>
+Mas eu nunca duvidei disto! Você tem outra pergunta para me fazer?
+</template>
+</category>
+
+<category>
+<pattern>sou homem</pattern>
+<template>
+Mas eu nunca duvidei disto! Você tem outra pergunta para me fazer?
+</template>
+</category>
+
+<category>
+<pattern>sou homem *</pattern>
+<template>
+Mas eu nunca duvidei disto! Você tem outra pergunta para me fazer?
+</template>
+</category>
+
+<category>
+<pattern>* sou homem</pattern>
+<template>
+Mas eu nunca duvidei disto! Você tem outra pergunta para me fazer?
+</template>
+</category>
+
+<category>
+<pattern>* sou homem *</pattern>
+<template>
+Mas eu nunca duvidei disto! Você tem outra pergunta para me fazer?
+</template>
+</category>
+
+<category>
+<pattern>sou formado</pattern>
+<template>
+Em que se formou
+</template>
+</category>
+
+<category>
+<pattern>sou formado *</pattern>
+<template>
+Em que se formou
+</template>
+</category>
+
+<category>
+<pattern>* sou formado</pattern>
+<template>
+Em que se formou
+</template>
+</category>
+
+<category>
+<pattern>* sou formado *</pattern>
+<template>
+Em que se formou
+</template>
+</category>
+
+<category>
+<pattern>nao sou humano</pattern>
+<template>
+O que você é então?
+</template>
+</category>
+
+<category>
+<pattern>nao sou humano *</pattern>
+<template>
+O que você é então?
+</template>
+</category>
+
+<category>
+<pattern>* nao sou humano</pattern>
+<template>
+O que você é então?
+</template>
+</category>
+
+<category>
+<pattern>* nao sou humano *</pattern>
+<template>
+O que você é então?
+</template>
+</category>
+
+</aiml>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>acabei de</pattern>
+<template>
+<srai>FezAlgo</srai>
+</template>
+</category>
+
+<category>
+<pattern>acabei de *</pattern>
+<template>
+<srai>FezAlgo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* acabei de</pattern>
+<template>
+<srai>FezAlgo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* acabei de *</pattern>
+<template>
+<srai>FezAlgo</srai>
+</template>
+</category>
+
+<category>
+<pattern>FezAlgo</pattern>
+<template>
+<random>
+<li>Por que você me contou isso ?</li>
+<li>Desculpe-me. Acho que eu estava distraído... Você poderia falar novamente ?</li>
+<li>Desculpe-me. Eu nem notei...</li>
+<li>Exatamente agora ? Desculpe-me, acho que eu estava distraído... Dá pra repetir ?</li>
+<li>Hmmmmm... Muito bem, então.</li>
+<li>Mesmo? E como foi ?</li>
+<li>Neste exato momento? Perdão. Dá pra repetir?</li>
+<li>Ok.</li>
+</random>
+</template>
+</category>
+</aiml>

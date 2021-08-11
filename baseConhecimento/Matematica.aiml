@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>matematica</pattern>
+<template>
+A matemática vem a ser a ciência que tem por objecto a medida e as propriedades das grandezas.
+</template>
+</category>
+
+<category>
+<pattern>matematica *</pattern>
+<template>
+A matemática vem a ser a ciência que tem por objecto a medida e as propriedades das grandezas.
+</template>
+</category>
+
+<category>
+<pattern>* matematica</pattern>
+<template>
+A matemática vem a ser a ciência que tem por objecto a medida e as propriedades das grandezas.
+</template>
+</category>
+
+<category>
+<pattern>* matematica *</pattern>
+<template>
+A matemática vem a ser a ciência que tem por objecto a medida e as propriedades das grandezas.
+</template>
+</category>
+
+</aiml>

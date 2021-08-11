@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>EFEITO CORIOLIS</pattern>
+<template>
+<srai>CORIOLIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>EFEITO CORIOLIS *</pattern>
+<template>
+<srai>CORIOLIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* EFEITO CORIOLIS</pattern>
+<template>
+<srai>CORIOLIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* EFEITO CORIOLIS *</pattern>
+<template>
+<srai>CORIOLIS</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>CORIOLIS</pattern>
+<template>
+  Efeito produzido pela força de Coriolis, que faz com que partículas em movimento sobre a superfície da Terra apresentam uma tendência par serem desviados para a direita no Hemisfério Norte e para a esquerda no Hemisfério Sul. A magnitude deste efeito é proporcional à velocidade e a latitude das partículas em movimento.
+</template>
+</category>
+</aiml>

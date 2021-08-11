@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>ELETRICIDADE</pattern>
+<template>
+<srai>SIGNELETRICIDADE</srai>
+</template>
+</category>
+
+<category>
+<pattern>ELETRICIDADE *</pattern>
+<template>
+<srai>SIGNELETRICIDADE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ELETRICIDADE</pattern>
+<template>
+<srai>SIGNELETRICIDADE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ELETRICIDADE *</pattern>
+<template>
+<srai>SIGNELETRICIDADE</srai>
+</template>
+</category>
+
+<category>
+<pattern>SIGNELETRICIDADE</pattern>
+<template>
+A palavra eletricidade tem sua origem no latim recente, eletrius ( que quer dizer fenômeno produzido pela fricção do âmbar), que provém do latim antigo electrum
+(significa âmbar e liga de ouro e prata) e do grego elektron (com o mesmo significado).
+</template>
+</category>
+</aiml>

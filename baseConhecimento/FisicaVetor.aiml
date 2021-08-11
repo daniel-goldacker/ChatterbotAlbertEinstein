@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>VETOR</pattern>
+<template>
+<srai>FisicaVETOR</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>VETOR *</pattern>
+<template>
+<srai>FisicaVETOR</srai>
+</template>
+</category>
+
+<category>
+<pattern>* VETOR</pattern>
+<template>
+<srai>FisicaVETOR</srai>
+</template>
+</category>
+
+<category>
+<pattern>* VETOR *</pattern>
+<template>
+<srai>FisicaVETOR</srai>
+</template>
+</category> 
+ 
+<category>
+<pattern>FisicaVETOR</pattern>
+<template>
+Um VETOR é uma quantidade com dois atributos: Direção e Magnitude
+</template>
+</category>
+</aiml>

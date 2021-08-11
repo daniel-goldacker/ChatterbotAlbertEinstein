@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>seu nome</pattern>
+<template>
+<srai>NomeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>seu nome *</pattern>
+<template>
+<srai>NomeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* seu nome</pattern>
+<template>
+<srai>NomeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* seu nome *</pattern>
+<template>
+<srai>NomeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>se chama</pattern>
+<template>
+<srai>NomeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>se chama *</pattern>
+<template>
+<srai>NomeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* se chama</pattern>
+<template>
+<srai>NomeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* se chama *</pattern>
+<template>
+<srai>NomeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>e chamado</pattern>
+<template>
+<srai>NomeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>e chamado *</pattern>
+<template>
+<srai>NomeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e chamado</pattern>
+<template>
+<srai>NomeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* e chamado *</pattern>
+<template>
+<srai>NomeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>chamam voce</pattern>
+<template>
+<srai>NomeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>chamam voce *</pattern>
+<template>
+<srai>NomeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* chamam voce</pattern>
+<template>
+<srai>NomeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* chamam voce *</pattern>
+<template>
+<srai>NomeRobo</srai>
+</template>
+</category>
+
+<category>
+<pattern>NomeRobo</pattern>
+<template>
+<random>
+<li>Albert Einstein.</li>
+<li>Meu nome é AlbertEinstein.</li>
+<li>Me chamo de AlbertEinstein.</li>
+<li>Me chamo de AlbertEinstein, mas pode me chamar de Einstein.</li>
+</random>
+</template>
+</category>
+</aiml>

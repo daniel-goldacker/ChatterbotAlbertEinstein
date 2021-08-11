@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>ELETRON</pattern>
+<template>
+<srai>FisicaELETRONS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ELETRON *</pattern>
+<template>
+<srai>FisicaELETRONS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ELETRON</pattern>
+<template>
+<srai>FisicaELETRONS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ELETRON *</pattern>
+<template>
+<srai>FisicaELETRONS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ELETRONS</pattern>
+<template>
+<srai>FisicaELETRONS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ELETRONS *</pattern>
+<template>
+<srai>FisicaELETRONS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ELETRONS</pattern>
+<template>
+<srai>FisicaELETRONS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ELETRONS *</pattern>
+<template>
+<srai>FisicaELETRONS</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>FisicaELETRONS</pattern>
+<template>
+O(s) ELÉTRON(S) é uma partícula elementar básica da matéria, com carga elétrica negativa e que tem existência real.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>gracas</pattern>
+<template>
+<srai>gracas a mim</srai>
+</template>
+</category>
+
+<category>
+<pattern>gracas *</pattern>
+<template>
+<srai>gracas a mim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* gracas</pattern>
+<template>
+<srai>gracas a mim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* gracas *</pattern>
+<template>
+<srai>gracas a mim</srai>
+</template>
+</category>
+
+<category>
+<pattern>gracas a mim</pattern>
+<template>
+<random>
+<li>De alguma forma... </li>
+<li>E a mim de alguma forma, não é ? </li>
+<li>Graças...</li>
+<li>Isso. </li>
+<li>Se não fosse, à quem seria ? </li>
+</random>
+</template>
+</category>
+</aiml>

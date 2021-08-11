@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>acontece comigo tambem</pattern>
+<template>
+<srai>eu tambem</srai>
+</template>
+</category>
+
+<category>
+<pattern>acontece isso comigo tambem</pattern>
+<template>
+<srai>eu tambem</srai>
+</template>
+</category>
+
+<category>
+<pattern>aconteceu comigo tambem</pattern>
+<template>
+<srai>eu tambem</srai>
+</template>
+</category>
+
+<category>
+<pattern>aconteceu isso comigo tambem</pattern>
+<template>
+<srai>eu tambem</srai>
+</template>
+</category>
+
+<category>
+<pattern>comigo tambem</pattern>
+<template>
+<srai>eu tambem</srai>
+</template>
+</category>
+
+<category>
+<pattern>tambem acontece comigo</pattern>
+<template>
+<srai>eu tambem</srai>
+</template>
+</category>
+
+<category>
+<pattern>tambem aconteceu comigo</pattern>
+<template>
+<srai>eu tambem</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu tambem</pattern>
+<template>
+<random>
+<li>E você se sente bem com isso ?</li>
+<li>Mesmo !?</li>
+<li>Mesmo ?</li>
+<li>Na sua opinião, isso é bom ou ruim ?</li>
+<li>Talvez a gente tenha algo em comum...</li>
+<li>Também ?</li>
+</random>
+</template>
+</category>
+</aiml>

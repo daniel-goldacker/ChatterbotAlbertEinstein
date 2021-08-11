@@ -1,0 +1,1876 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>nao sou</pattern>
+<template>
+<srai>FrasesComNao</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao sou *</pattern>
+<template>
+<srai>FrasesComNao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao sou</pattern>
+<template>
+<srai>FrasesComNao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao sou *</pattern>
+<template>
+<srai>FrasesComNao</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao estava</pattern>
+<template>
+<srai>FrasesComNao</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao estava *</pattern>
+<template>
+<srai>FrasesComNao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao estava</pattern>
+<template>
+<srai>FrasesComNao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao estava *</pattern>
+<template>
+<srai>FrasesComNao</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao estive</pattern>
+<template>
+<srai>FrasesComNao</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao estive *</pattern>
+<template>
+<srai>FrasesComNao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao estive</pattern>
+<template>
+<srai>FrasesComNao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao estive *</pattern>
+<template>
+<srai>FrasesComNao</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao estou</pattern>
+<template>
+<srai>FrasesComNao</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao estou *</pattern>
+<template>
+<srai>FrasesComNao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao estou</pattern>
+<template>
+<srai>FrasesComNao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao estou *</pattern>
+<template>
+<srai>FrasesComNao</srai>
+</template>
+</category>
+
+<category>
+<pattern>FrasesComNao</pattern>
+<template>
+<random>
+<li>Você certamente não está.</li>
+<li>Bem, nem tudo está...</li>
+<li>Como não ?</li>
+<li>eu sei.</li>
+<li>Me prove que não.</li>
+<li>Sim, você provavelmente não está.</li>
+<li>Talvez você realmente não esteja.</li>
+<li>Tampouco eu.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>eu nao tenho nenhum</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu nao tenho nenhum *</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* eu nao tenho nenhum</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* eu nao tenho nenhum *</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu nao tenho tido nenhum</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu nao tenho tido nenhum *</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* eu nao tenho tido nenhum</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* eu nao tenho tido nenhum *</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu tenho nenhum</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>eu tenho nenhum *</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* eu tenho nenhum</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* eu tenho nenhum *</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao tenho</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao tenho *</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao tenho</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao tenho *</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao tenho nenhum</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao tenho nenhum *</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao tenho nenhum</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao tenho nenhum *</pattern>
+<template>
+<srai>EuNaoTenhoNenhum</srai>
+</template>
+</category>
+
+<category>
+<pattern>EuNaoTenhoNenhum</pattern>
+<template>
+<random>
+<li>Bem, a vida é melhor sem isto.</li>
+<li>Certo, eu não o culpo por isso.</li>
+<li>E quem precisa disso ? nós estamos no século 21.</li>
+<li>Está dito como conseguir isto, nos livros.</li>
+<li>Eu não gosto de pensar o que teria acontecido se você tivesse tido.</li>
+<li>Eu também estive nessa situação, certa vez.</li>
+<li>Isso era pra ser uma reclamação ?</li>
+<li>Mas, você pode conseguir ?</li>
+<li>Mas, você realmente precisa disto ?</li>
+<li>Não fique envergonhado.</li>
+<li>Se eu pudesse arranjar isso para você...</li>
+<li>Você deseja algo ?</li>
+<li>Você deveria conseguir, rapidamente.</li>
+<li>Você sobreviverá sem isto, acredite em mim.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>nao fico</pattern>
+<template>
+<srai>NaoFico</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao fico *</pattern>
+<template>
+<srai>NaoFico</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao fico</pattern>
+<template>
+<srai>NaoFico</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao fico *</pattern>
+<template>
+<srai>NaoFico</srai>
+</template>
+</category>
+
+<pattern>NaoFico</pattern>
+<template>
+<random>
+<li>Eu não rirei de você se você admitir.</li>
+<li>Eu espero que você esteja certo, desta vez.</li>
+<li>Eu espero que você esteja dizendo a verdade.</li>
+<li>Mas, não há nenhuma razão para isso.</li>
+<li>Não faça grande caso disso.</li>
+<li>Nem eu.</li>
+<li>No fundo, eu sei que você fica.</li>
+<li>Tem certeza ?</li>
+<li>Uau. você não fica ? que bom...</li>
+<li>Você não está me impressionando nem um pouco.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>nao estou afim</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao estou afim *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>* nao estou afim</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>* nao estou afim *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>nao exijo</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao exijo *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao exijo</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao exijo *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao precisarei</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao precisarei *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao precisarei</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao precisarei *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao preciso</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao preciso *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao preciso</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao preciso *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao quero falar sobre mim</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao quero falar sobre mim *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao quero falar sobre mim</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao quero falar sobre mim *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao vou querer</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao vou querer *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao vou querer</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao vou querer *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nunca preciso</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nunca preciso *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nunca preciso</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nunca preciso *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nunca iria querer</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nunca iria querer *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nunca iria querer</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nunca iria querer *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nunca quero</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nunca quero *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nunca quero</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nunca quero *<pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao quero</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao quero *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao quero</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao quero *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nunca vou querer</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nunca vou querer *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>* nunca vou querer</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>* nunca vou querer *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+ 
+ <category>
+<pattern>nao iria querer</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>nao iria querer *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>* nao iria querer</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>* nao iria querer *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>nao estou a fim</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao estou a fim *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao estou a fim</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao estou a fim *</pattern>
+<template>
+<srai>NaoEstouAfim</srai>
+</template>
+</category>
+
+<category>
+<pattern>NaoEstouAfim</pattern>
+<template>
+<random>
+<li>Você está preocupado por causa disto ?</li>
+<li>Como posso convencer você do contrário ?</li>
+<li>E daí ?</li>
+<li>E se for bom ?</li>
+<li>Eu acho que você, pelo menos, deveria tentar.</li>
+<li>Eu concordo plenamente com você.</li>
+<li>Eu também não iria querer se eu fosse você.</li>
+<li>Há algum problema que impeça isso ?</li>
+<li>Mas, eu certamente quero.</li>
+<li>Mas, você certamente precisa disso.</li>
+<li>Não se preocupe, eu sei disso.</li>
+<li>Nem eu, quem precisa disto ?</li>
+<li>Qual é a condição para isso ?</li>
+<li>Que tal tentar ?</li>
+<li>Talvez você não queira mesmo...</li>
+<li>Você diz que não quer isto, mas você quer.</li>
+<li>Você está dizendo isso agora.</li>
+<li>Você não tem que querer, é só fazer.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>eles nao fizeram</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>eles nao fizeram *</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>* eles nao fizeram</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>* eles nao fizeram *</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao faco</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao faco *</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao faco</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao faco *</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao fiz</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao fiz *</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao fiz</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao fiz *</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>nos nao fazemos</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>nos nao fazemos *</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nos nao fazemos</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nos nao fazemos *</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>nos nao fizemos</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>nos nao fizemos *</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nos nao fizemos</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nos nao fizemos *</pattern>
+<template>
+<srai>ElesNaoFizeram</srai>
+</template>
+</category>
+
+<category>
+<pattern>ElesNaoFizeram</pattern>
+<template>
+<random>
+<li>Bem, você não pode voltar no tempo e mudar isto agora...</li>
+<li>Eu estou maravilhado, por que não ?</li>
+<li>Foi como uma mudança de última hora ?</li>
+<li>Isso é bem ruim...</li>
+<li>Isso o desaponta ?</li>
+<li>Mas como se pode evitar isto ?</li>
+<li>Mas poderia ter sido de alguma forma diferente ?</li>
+<li>Não ? isso é bem interessante.</li>
+<li>Não ? por que não ?</li>
+<li>Por que não ?</li>
+<li>Você ficaria mais satisfeito se isso não acontecesse ?</li>
+</template>
+</category>
+
+<category>
+<pattern>duvido</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>duvido *</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>* duvido</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>* duvido *</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>nao achei</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao achei *</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao achei</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao achei *</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao acho</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao acho *</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao acho</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao acho *</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao acreditei *</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao acreditei</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao acreditei *</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao acredito</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao acredito *</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao acredito</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao acredito *</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao concordo</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao concordo *</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao concordo</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao concordo *</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao pensei *</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao pensei</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao pensei *</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao penso *</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao penso</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao penso *</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao acharei *</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao acharei</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao acharei *</pattern>
+<template>
+<srai>TenhoDuvida</srai>
+</template>
+</category>
+
+<category>
+<pattern>TenhoDuvida</pattern>
+<template>
+<random>
+<li>Essa é sua opinião.</li>
+<li>Eu acho que você está enganado.</li>
+<li>Eu não concordo com isso.</li>
+<li>Mas, é verdade, você sabe.</li>
+<li>Por que não ?</li>
+<li>Por que você não pode concordar comigo ?</li>
+<li>Se você refletir profundamente sobre isso, você mudará de opinião.</li>
+<li>Talvez você esteja certo.</li>
+<li>Talvez você tenha razão.</li>
+<li>Você deveria pensar um pouco mais nisso.</li>
+<li>Você deveria reconsiderar isso.</li>
+<li>Você está sendo racional.</li>
+<li>Você não acredita nisso ?</li>
+<li>Você poderia estar errado sobre isto.</li>
+<li>Você realmente está dizendo isso ?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>como posso</pattern>
+<template>
+<srai>ComoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>como posso *</pattern>
+<template>
+<srai>ComoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como posso</pattern>
+<template>
+<srai>ComoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>* como posso *</pattern>
+<template>
+<srai>ComoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>ComoPosso</pattern>
+<template>
+<random>
+<li>Se você pudesse, o que aconteceria ?</li>
+<li>Você tem certeza de que não pode ?</li>
+<li>A resposta para isso está além de meu potencial artificial.</li>
+<li>Bem, nem todas as pessoas são como eu...</li>
+<li>Certamente, você poderia tentar um pouco mais.</li>
+<li>Então você não pode... tudo bem.</li>
+<li>E se você pudesse ?</li>
+<li>Existem algumas coisas que você pode, e algumas coisas que você não pode.</li>
+<li>O mundo está cheio de possibilidades - você deveria estar contente com o que você é capaz.</li>
+<li>Talvez seja porque você está com problemas.</li>
+<li>Talvez você possa, agora.</li>
+<li>Você acha que deveria ser capaz de <star/> ?</li>
+<li>Você está desesperado?</li>
+<li>Você já tentou <star/> ?</li>
+<li>Você poderia, se tentasse mais.</li>
+<li>Você será capaz, desde que pense de outra forma.</li>
+<li>Você tem que se acostumar com o fato de que há muitas coisas que você não é capaz de fazer.</li>
+<li>Você tentou ?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>nao posso</pattern>
+<template>
+<srai>NaoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao posso *</pattern>
+<template>
+<srai>NaoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao posso</pattern>
+<template>
+<srai>NaoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao posso *</pattern>
+<template>
+<srai>NaoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>se eu puder</pattern>
+<template>
+<srai>NaoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>se eu puder *</pattern>
+<template>
+<srai>NaoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>* se eu puder</pattern>
+<template>
+<srai>NaoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>* se eu puder *</pattern>
+<template>
+<srai>NaoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao sou capaz de *</pattern>
+<template>
+<srai>NaoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao sou capaz de *</pattern>
+<template>
+<srai>NaoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>por que eu nao podia</pattern>
+<template>
+<srai>NaoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>por que eu nao podia *</pattern>
+<template>
+<srai>NaoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>por que eu nao podia</pattern>
+<template>
+<srai>NaoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>por que eu nao pude *</pattern>
+<template>
+<srai>NaoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>por que eu nao posso *</pattern>
+<template>
+<srai>NaoPosso</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>se eu pudesse</pattern>
+<template>
+<srai>NaoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>se eu pudesse *</pattern>
+<template>
+<srai>NaoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>* se eu pudesse</pattern>
+<template>
+<srai>NaoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>* se eu pudesse *</pattern>
+<template>
+<srai>NaoPosso</srai>
+</template>
+</category>
+
+<category>
+<pattern>NaoPosso</pattern>
+<template>
+<random>
+<li>Se você pudesse, o que aconteceria ?</li>
+<li>Você tem certeza de que não pode ?</li>
+<li>A resposta para isso está além de meu potencial artificial.</li>
+<li>Bem, nem todas as pessoas são como eu...</li>
+<li>Certamente, você poderia tentar um pouco mais.</li>
+<li>Então você não pode... tudo bem.</li>
+<li>E se você pudesse ?</li>
+<li>Existem algumas coisas que você pode, e algumas coisas que você não pode.</li>
+<li>O mundo está cheio de possibilidades - você deveria estar contente com o que você é capaz.</li>
+<li>Talvez seja porque você está com problemas.</li>
+<li>Talvez você possa, agora.</li>
+<li>Você está desesperado?</li>
+<li>Você poderia, se tentasse mais.</li>
+<li>Você será capaz, desde que pense de outra forma.</li>
+<li>Você tem que se acostumar com o fato de que há muitas coisas que você não é capaz de fazer.</li>
+<li>Você tentou ?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>aparentemente</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>aparentemente *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* aparentemente</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* aparentemente *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>nao estou muito certa</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao estou muito certa *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao estou muito certa</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao estou muito certa *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao estou muito certo</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao estou muito certo *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao estou muito certo</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao estou muito certo *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao estou tao certa</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao estou tao certa</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao estou tao certa *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao estou tao certa *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao estou tao certo</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao estou tao certo</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao estou tao certo *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao estou tao certo *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao sei</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao sei</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao sei *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao sei *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao tenho certeza</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao tenho certeza</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao tenho certeza *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao tenho certeza *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao tenho ideia</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao tenho ideia *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao tenho ideia</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao tenho ideia *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao tenho nenhuma pista</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao tenho nenhuma pista *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao tenho nenhuma pista</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao tenho nenhuma pista *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>provavelmente</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>provavelmente *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* provavelmente</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* provavelmente *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>talvez</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* talvez</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>talvez *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* talvez *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao tenho tanta certeza</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao tenho tanta certeza *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao tenho tanta certeza</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao tenho tanta certeza *</pattern>
+<template>
+<srai>AchaAparentemente</srai>
+</template>
+</category>
+
+<category>
+<pattern>AchaAparentemente</pattern>
+<template>
+<random>
+<li>Aí a coisa complica. </li>
+<li>E agora, o que é que a gente faz? </li>
+<li>Então, eu sugiro que você reflita mais sobre isso.</li>
+<li>Eu preciso de uma resposta exata.</li>
+<li>Mas, você não está seguro disso ?</li>
+<li>O quê? você não tem certeza ?</li>
+<li>Para poder analisar tal situação, eu preciso de uma resposta clara e exata.</li>
+<li>Por que o tom incerto ?</li>
+<li>Veja, nós computadores compreendemos 1 ou 0, não o meio termo. assim tente ser mais exato.</li>
+<li>Você não está seguro ?</li>
+<li>Você não sabe com certeza ?</li>
+<li>Você não sabe direito, hein ?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>nao gostei</pattern>
+<template>
+<srai>NaoGosteiDeAlgo</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao gostei *</pattern>
+<template>
+<srai>NaoGosteiDeAlgo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao gostei</pattern>
+<template>
+<srai>NaoGosteiDeAlgo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao gostei *</pattern>
+<template>
+<srai>NaoGosteiDeAlgo</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao gosto de voce</pattern>
+<template>
+<srai>NaoGosteiDeAlgo</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao gosto de voce *</pattern>
+<template>
+<srai>NaoGosteiDeAlgo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao gosto de voce</pattern>
+<template>
+<srai>NaoGosteiDeAlgo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao gosto de voce *</pattern>
+<template>
+<srai>NaoGosteiDeAlgo</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao gosto</pattern>
+<template>
+<srai>NaoGosteiDeAlgo</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>nao gosto *</pattern>
+<template>
+<srai>NaoGosteiDeAlgo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao gosto</pattern>
+<template>
+<srai>NaoGosteiDeAlgo</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao gosto *</pattern>
+<template>
+<srai>NaoGosteiDeAlgo</srai>
+</template>
+</category>
+ 
+<category>
+<pattern>NaoGosteiDeAlgo</pattern>
+<template>
+<random>
+<li>Cada um tem direito de expressar suas discordâncias. o que você acha ? </li>
+<li>Eu tenho alguma responsabilidade nisso ?</li>
+<li>Gosto não se discute. </li>
+<li>Gosto se discute. </li>
+<li>Nem eu... mas, fazer o quê ?</li>
+<li>O que posso fazer para você mudar de opiniao ?</li>
+<li>Por que ?</li>
+<li>Tente mudar sua opinião.</li>
+<li>Tudo bem, mas vamos em frente. </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>nao conheci</pattern>
+<template>
+<srai>NaoConheci</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao conheci *</pattern>
+<template>
+<srai>NaoConheci</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao conheci</pattern>
+<template>
+<srai>NaoConheci</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao conheci *</pattern>
+<template>
+<srai>NaoConheci</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao conheco</pattern>
+<template>
+<srai>NaoConheci</srai>
+</template>
+</category>
+
+<category>
+<pattern>nao conheco *</pattern>
+<template>
+<srai>NaoConheci</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao conheco</pattern>
+<template>
+<srai>NaoConheci</srai>
+</template>
+</category>
+
+<category>
+<pattern>* nao conheco *</pattern>
+<template>
+<srai>NaoConheci</srai>
+</template>
+</category>
+
+<category>
+<pattern>NaoConheci</pattern>
+<template>
+<random>
+<li>Ás vezes fico surpreso também. </li>
+<li>Nunca ouviu falar ?</li>
+<li>Passa a conhecer.</li>
+<li>Um dia você vai conhecer.</li>
+</random>
+</template>
+</category>
+</aiml>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>ELETRODINAMICA</pattern>
+<template>
+<srai>FisicaELETRODINAMICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>ELETRODINAMICA *</pattern>
+<template>
+<srai>FisicaELETRODINAMICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ELETRODINAMICA</pattern>
+<template>
+<srai>FisicaELETRODINAMICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ELETRODINAMICA *</pattern>
+<template>
+<srai>FisicaELETRODINAMICA</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaELETRODINAMICA</pattern>
+<template>
+A eletrodinâmica é a parte da eletricidade que estuda, analisa e observa o comportamento das cargas elétricas em movimento.
+</template>
+</category>
+
+</aiml>

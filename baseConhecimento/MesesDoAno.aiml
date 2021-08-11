@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>janeiro</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>janeiro *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+<category>
+
+<pattern>* janeiro</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* janeiro *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>Fevereiro</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>Fevereiro *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* Fevereiro</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* Fevereiro *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>Marco</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>Marco *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* Marco</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* Marco *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>abril</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>abril *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* abril</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* abril *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>maio</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>maio *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* maio</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* maio *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>junho</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>junho *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* junho</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* junho *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>julho</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>julho *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* julho</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* julho *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>Agosto</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>Agosto *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* Agosto</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* Agosto *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>Setembro</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>Setembro *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* Setembro</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* Setembro *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category> 
+
+<category>
+<pattern>Outubro</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>Outubro *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* Outubro</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* Outubro *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>Novembro</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>Novembro *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* Novembro</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* Novembro *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>dezembro</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>dezembro *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* dezembro</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>* dezembro *</pattern>
+<template>
+<srai>MesAno</srai>
+</template>
+</category>
+
+<category>
+<pattern>MesAno</pattern>
+<template>
+<random>
+<li>Este é um ótimo mês, na minha opinião.</li>
+<li>Este mês significa alguma coisa pra você ?</li>
+<li>Excetuando-se este mês, que outro mês é importante pra você ?</li>
+<li>Há alguma data importante neste mês, mas eu não estou me lembrando...</li>
+<li>Hmmmm... eu acho este mês bastante agradável.</li>
+<li>O que você tem achado deste mês ?</li>
+<li>Que fatos interessantes já aconteceram neste mês.</li>
+<li>Você programou alguma coisa interessante para fazer neste mês ?</li>
+</random>
+</template>
+</category>
+</aiml>

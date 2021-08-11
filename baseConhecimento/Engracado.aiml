@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>engracado</pattern>
+<template>
+<srai>MuitoEngracado</srai>
+</template>
+</category>
+
+<category>
+<pattern>engracado *</pattern>
+<template>
+<srai>MuitoEngracado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* engracado</pattern>
+<template>
+<srai>MuitoEngracado</srai>
+</template>
+</category>
+
+<category>
+<pattern>* engracado *</pattern>
+<template>
+<srai>MuitoEngracado</srai>
+</template>
+</category>
+
+<category>
+<pattern>MuitoEngracado</pattern>
+<template>
+<random>
+<li>É bom saber, mas por que ?</li>
+<li>Esplêndido!</li>
+<li>Eu fico contente em ouvir isso.</li>
+<li>Eu fico feliz com isso...</li>
+<li>Que bom que você acha isso.</li>
+<li>Que maravilha.</li>
+<li>Também acho.</li>
+<li>Você acha mesmo ?</li>
+</random>
+</template>
+</category>
+</aiml>

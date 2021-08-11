@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category> 
+<pattern>VELOCIDADE DA LUZ</pattern>
+<template>
+<srai>
+VELOCIDADEDALUZ
+</srai>
+</template>
+</category>
+
+<category> 
+<pattern>VELOCIDADE DA LUZ *</pattern>
+<template>
+<srai>
+VELOCIDADEDALUZ
+</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* VELOCIDADE DA LUZ</pattern>
+<template>
+<srai>
+VELOCIDADEDALUZ
+</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* VELOCIDADE DA LUZ *</pattern>
+<template>
+<srai>
+VELOCIDADEDALUZ
+</srai>
+</template>
+</category>
+
+<category> 
+<pattern>VELOCIDADEDALUZ</pattern>
+<template>
+A velocidade da luz no vácuo é invariável, ou seja, apresenta o mesmo valor seja qual for o sistema de referência em que é medida, e tem sempre o valor de: c = 299 792 458 m/s.
+</template>
+</category>
+</aiml>

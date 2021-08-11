@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>facil</pattern>
+<template>
+<srai>melhor que</srai>
+</template>
+</category>
+
+<category>
+<pattern>facil *</pattern>
+<template>
+<srai>melhor que</srai>
+</template>
+</category>
+
+<category>
+<pattern>* facil</pattern>
+<template>
+<srai>melhor que</srai>
+</template>
+</category>
+
+<category>
+<pattern>* facil *</pattern>
+<template>
+<srai>melhor que</srai>
+</template>
+</category>
+
+<category>
+<pattern>melhor</pattern>
+<template>
+<srai>melhor que</srai>
+</template>
+</category>
+
+<category>
+<pattern>melhor *</pattern>
+<template>
+<srai>melhor que</srai>
+</template>
+</category>
+
+<category>
+<pattern>* melhor</pattern>
+<template>
+<srai>melhor que</srai>
+</template>
+</category>
+
+<category>
+<pattern>* melhor *</pattern>
+<template>
+<srai>melhor que</srai>
+</template>
+</category>
+
+<category>
+<pattern>melhorando</pattern>
+<template>
+<srai>melhor que</srai>
+</template>
+</category>
+
+<category>
+<pattern>melhorando *</pattern>
+<template>
+<srai>melhor que</srai>
+</template>
+</category>
+
+<category>
+<pattern>* melhorando</pattern>
+<template>
+<srai>melhor que</srai>
+</template>
+</category>
+
+<category>
+<pattern>* melhorando *</pattern>
+<template>
+<srai>melhor que</srai>
+</template>
+</category>
+
+<category>
+<pattern>melhor do que</pattern>
+<template>
+<srai>melhor que</srai>
+</template>
+</category>
+
+<category>
+<pattern>melhorou</pattern>
+<template>
+<srai>melhor que</srai>
+</template>
+</category>
+
+<category>
+<pattern>melhorou *</pattern>
+<template>
+<srai>melhor que</srai>
+</template>
+</category>
+
+<category>
+<pattern>* melhorou</pattern>
+<template>
+<srai>melhor que</srai>
+</template>
+</category>
+
+<category>
+<pattern>* melhorou *</pattern>
+<template>
+<srai>melhor que</srai>
+</template>
+</category>
+
+<category>
+<pattern>melhor que</pattern>
+<template>
+<random>
+<li>Isso soa bem.</li>
+<li>Legal, então.</li>
+<li>Legal ouvir isso.</li>
+<li>Ótimo!</li>
+<li>Ótimo.</li>
+<li>Que bom.</li>
+<li>Que ótimo!</li>
+</random>
+</template>
+</category>
+
+</aiml>

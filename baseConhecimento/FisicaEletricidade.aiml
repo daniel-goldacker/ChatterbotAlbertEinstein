@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>ELETRICIDADE</pattern>
+<template>
+<srai>FisicaELETRICIDADE</srai>
+</template>
+</category>
+
+<category>
+<pattern>ELETRICIDADE *</pattern>
+<template>
+<srai>FisicaELETRICIDADE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ELETRICIDADE</pattern>
+<template>
+<srai>FisicaELETRICIDADE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ELETRICIDADE *</pattern>
+<template>
+<srai>FisicaELETRICIDADE</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaELETRICIDADE</pattern>
+<template>
+A eletricidade é originada por uma partícula subatômica, o elétron, sobre cuja natureza restam mais dúvidas. A eletricidade é uma energia derivada que pode ser produzida a partir da maioria das formas energéticas. O mais importante processo da sua produção consiste em recorrer a um gerador ou alternador que converte a energia mecânica fornecida por um processo térmico ou por uma turbina hidráulica. Na maior parte das suas aplicações, a eletricidade é uma energia de rede que deve ser produzida no momento do seu consumo. Com efeito, o seu armazenamento só é possível indiretamente e em aplicações muito restritas.
+</template>
+</category>
+</aiml>

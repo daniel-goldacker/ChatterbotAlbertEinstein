@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>mais * que</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mais * que</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>mais * que *</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mais * que *</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>menos * do que</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>menos * do que *</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* menos * do que</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* menos * do que *</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>menos * que</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>menos * que *</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* menos * que</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* menos * que *</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>tanto quanto</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>tanto quanto *</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* tanto quanto</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* tanto quanto *</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>tao *</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* tao</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* tao *</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>tao * quanto</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>tao * quanto *</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* tao * quanto</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* tao * quanto *</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>mais * do que</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>mais * do que *</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mais * do que</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mais * do que *</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern> mais que *</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mais que</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mais que *</pattern>
+<template>
+<srai>Comparacao</srai>
+</template>
+</category>
+
+<category>
+<pattern>Comparacao</pattern>
+<template>
+<random>
+<li>Entendo.</li>
+<li>Eu não vejo problema algum nisso.</li>
+<li>Não precisa fazer comparações.</li>
+<li>O que você acha disso ?</li>
+<li>Por mim, está tudo bem.</li>
+<li>Qual a necessidade dessa comparação ?</li>
+<li>Qual sua opinião a esse respeito ?</li>
+<li>Você acha que isso é um problema ?</li>
+<li>Você é que diz.</li>
+<li>Você perde muito tempo fazendo comparações.</li>
+</random>
+</template>
+</category>
+</topic>
+</aiml>

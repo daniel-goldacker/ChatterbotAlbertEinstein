@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>ELECTRON</pattern>
+<template>
+<srai>FisicaELECTRON</srai>
+</template>
+</category>
+
+<category>
+<pattern>ELECTRON *</pattern>
+<template>
+<srai>FisicaELECTRON</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ELECTRON</pattern>
+<template>
+<srai>FisicaELECTRON</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ELECTRON *</pattern>
+<template>
+<srai>FisicaELECTRON</srai>
+</template>
+</category>
+
+<category>
+<pattern>ELECTRONS</pattern>
+<template>
+<srai>FisicaELECTRON</srai>
+</template>
+</category>
+
+<category>
+<pattern>ELECTRONS *</pattern>
+<template>
+<srai>FisicaELECTRON</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ELECTRONS</pattern>
+<template>
+<srai>FisicaELECTRON</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ELECTRONS *</pattern>
+<template>
+<srai>FisicaELECTRON</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaELECTRON</pattern>
+<template>
+O eléctron é uma unidade básica indivisível, que pode manifestar-se como partícula ou onda.
+</template>
+</category>
+</aiml>

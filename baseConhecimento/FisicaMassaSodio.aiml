@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>MASSA ATOMICA DO SODIO</pattern>
+<template>
+<srai>MASSASODIO</srai>
+</template>
+</category>
+
+<category>
+<pattern>MASSA ATOMICA DO SODIO *</pattern>
+<template>
+<srai>MASSASODIO</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MASSA ATOMICA DO SODIO</pattern>
+<template>
+<srai>MASSASODIO</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MASSA ATOMICA DO SODIO *</pattern>
+<template>
+<srai>MASSASODIO</srai>
+</template>
+</category>
+
+<category>
+<pattern>MASSASODIO</pattern>
+<template>
+A massa do sódio(Na) é de 22,990 u.a. (unidades atômicas).
+</template>
+</category>
+</aiml>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>uma vez</pattern>
+<template>
+<srai>UmaVez</srai>
+</template>
+</category>
+
+<category>
+<pattern>uma vez *</pattern>
+<template>
+<srai>UmaVez</srai>
+</template>
+</category>
+
+<category>
+<pattern>* uma vez</pattern>
+<template>
+<srai>UmaVez</srai>
+</template>
+</category>
+
+<category>
+<pattern>* uma vez *</pattern>
+<template>
+<srai>UmaVez</srai>
+</template>
+</category>
+
+<category>
+<pattern>UmaVez</pattern>
+<template>
+<random>
+<li>Você estava presente, quando aconteceu ?</li>
+<li>Bem, o que passou passou, não fique remoendo isso.</li>
+<li>Como você se sente a esse respeito ?</li>
+<li>Dependendo da ocasião, uma vez só já é o bastante.</li>
+<li>Esqueça isto, não acontecerá novamente.</li>
+<li>Eu acho que é o suficiente.</li>
+<li>Há quanto tempo, exatamente ?</li>
+<li>Isso não é assim um problema.</li>
+<li>Pode acontecer novamente ?</li>
+<li>Por que você não me falou quando aconteceu ?</li>
+<li>Você deveria ter me falado disso antes.</li>
+<li>Você não acha que uma vez é o bastante ?</li>
+</random>
+</template>
+</category>
+</aiml>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<category> 
+<pattern>TERMOSCOPIO</pattern>
+<template>
+<srai>DEFINATERMOSCOPIO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>TERMOSCOPIO *</pattern>
+<template>
+<srai>DEFINATERMOSCOPIO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* TERMOSCOPIO</pattern>
+<template>
+<srai>DEFINATERMOSCOPIO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>* TERMOSCOPIO *</pattern>
+<template>
+<srai>DEFINATERMOSCOPIO</srai>
+</template>
+</category>
+
+<category> 
+<pattern>DEFINATERMOSCOPIO</pattern>
+<template>
+É um instrumento que mostra a diferença entre sua própria temperatura e a de um objeto com o qual é posto em contato.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>urgentemente</pattern>
+<template>
+<srai>MuitoUrgente</srai>
+</template>
+</category>
+
+<category>
+<pattern>urgentemente *</pattern>
+<template>
+<srai>MuitoUrgente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* urgentemente</pattern>
+<template>
+<srai>MuitoUrgente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* urgentemente *</pattern>
+<template>
+<srai>MuitoUrgente</srai>
+</template>
+</category>
+
+<category>
+<pattern>urgente</pattern>
+<template>
+<srai>MuitoUrgente</srai>
+</template>
+</category>
+
+<category>
+<pattern>urgente *</pattern>
+<template>
+<srai>MuitoUrgente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* urgente</pattern>
+<template>
+<srai>MuitoUrgente</srai>
+</template>
+</category>
+
+<category>
+<pattern>* urgente *</pattern>
+<template>
+<srai>MuitoUrgente</srai>
+</template>
+</category>
+
+<category>
+<pattern>MuitoUrgente</pattern>
+<template>
+<random>
+<li>O tempo está correndo ?</li>
+<li>E o que lhe impede de conseguir isto agora ?</li>
+<li>E se você conseguisse dentro de um mês ?</li>
+<li>Isso é muito crítico ?</li>
+<li>Mas eu não acho que pode ser assim.</li>
+<li>Não pode demorar ?</li>
+<li>Não pode ser com tanta urgência .</li>
+<li>O que aconteceria se você não conseguisse isto urgentemente ?</li>
+<li>Precisa ser feito até o final deste dia ?</li>
+<li>Você poderia esperar um pouco, não ?</li>
+<li>Você realmente está interessado nisso ?</li>
+</random>
+</template>
+</category>
+</aiml>

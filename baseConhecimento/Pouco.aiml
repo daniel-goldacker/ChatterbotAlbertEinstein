@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>medio</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>medio *</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>* medio</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>* medio *</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>minimo</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>minimo *</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>* minimo</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>* minimo *</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>minusculo</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>minusculo *</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>* minusculo</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>* minusculo *</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>moderado em tamanho</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>* moderado em tamanho</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>moderado em tamanho *</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>* moderado em tamanho *</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>normal</pattern>
+<template>
+<srai>pouco</srai></template>
+</category>
+
+<category>
+<pattern>normal *</pattern>
+<template>
+<srai>pouco</srai></template>
+</category>
+
+<category>
+<pattern>* normal</pattern>
+<template>
+<srai>pouco</srai></template>
+</category>
+
+<category>
+<pattern>* normal *</pattern>
+<template>
+<srai>pouco</srai></template>
+</category>
+
+<category>
+<pattern>pequeno</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>pequeno *</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pequeno</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pequeno *</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>tamanho normal</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>tamanho normal *</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>* tamanho normal</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>* tamanho normal *</pattern>
+<template>
+<srai>pouco</srai>
+</template>
+</category>
+
+<category>
+<pattern>pouco</pattern>
+<template>
+<random>
+<li>Como assim ?</li>
+<li>Diga-me exatamente o que você quer dizer com isso ?</li>
+<li>Então esta é a questão ? o tamanho ?</li>
+<li>Isso é bom ou ruim ?</li>
+<li>Isso não me parece um problema.</li>
+<li>Isso você está dizendo agora... mas, por quanto tempo ?</li>
+<li>O que você acha disso ?</li>
+<li>Para você, o tamanho importa ?</li>
+<li>Por mim, é o suficiente.</li>
+<li>Qual sua opinião a esse respeito ?</li>
+</random>
+</template>
+</category>
+</aiml>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>VOLT</pattern>
+<template>
+<srai>FisicaVOLT</srai>
+</template>
+</category>
+
+<category>
+<pattern>VOLT *</pattern>
+<template>
+<srai>FisicaVOLT</srai>
+</template>
+</category>
+
+<category>
+<pattern>* VOLT</pattern>
+<template>
+<srai>FisicaVOLT</srai>
+</template>
+</category>
+
+<category>
+<pattern>* VOLT *</pattern>
+<template>
+<srai>FisicaVOLT</srai>
+</template>
+</category>
+
+<category>
+<pattern>VOLTS</pattern>
+<template>
+<srai>FisicaVOLT</srai>
+</template>
+</category>
+
+<category>
+<pattern>VOLTS *</pattern>
+<template>
+<srai>FisicaVOLT</srai>
+</template>
+</category>
+
+<category>
+<pattern>* VOLTS</pattern>
+<template>
+<srai>FisicaVOLT</srai>
+</template>
+</category>
+
+<category>
+<pattern>* VOLTS *</pattern>
+<template>
+<srai>FisicaVOLT</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaVOLT</pattern>
+<template>
+Volt é a unidade de medida da tensão em que é fornecida a energia elétrica. O nome é homenagem ao físico italiano Alexandre Volta.</br>
+</template>
+</category>
+</aiml>

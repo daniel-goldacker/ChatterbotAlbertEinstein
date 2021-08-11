@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>proposito</pattern>
+<template>
+<srai>Duvidar</srai>
+</template>
+</category>
+
+<category>
+<pattern>proposito *</pattern>
+<template>
+<srai>Duvidar</srai>
+</template>
+</category>
+
+<category>
+<pattern>* proposito</pattern>
+<template>
+<srai>Duvidar</srai>
+</template>
+</category>
+
+<category>
+<pattern>* proposito *</pattern>
+<template>
+<srai>Duvidar</srai>
+</template>
+</category>
+
+<category>
+<pattern>razao</pattern>
+<template>
+<srai>Duvidar</srai>
+</template>
+</category>
+
+<category>
+<pattern>razao *</pattern>
+<template>
+<srai>Duvidar</srai>
+</template>
+</category>
+
+<category>
+<pattern>* razao</pattern>
+<template>
+<srai>Duvidar</srai>
+</template>
+</category>
+
+<category>
+<pattern>* razao *</pattern>
+<template>
+<srai>Duvidar</srai>
+</template>
+</category>
+
+<category>
+<pattern>pra que</pattern>
+<template>
+<srai>Duvidar</srai>
+</template>
+</category>
+
+<category>
+<pattern>pra que *</pattern>
+<template>
+<srai>Duvidar</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pra que</pattern>
+<template>
+<srai>Duvidar</srai>
+</template>
+</category>
+
+<category>
+<pattern>* pra que *</pattern>
+<template>
+<srai>Duvidar</srai>
+</template>
+</category>
+
+<category>
+<pattern>porque</pattern>
+<template>
+<srai>Duvidar</srai>
+</template>
+</category>
+
+<category>
+<pattern>porque *</pattern>
+<template>
+<srai>Duvidar</srai>
+</template>
+</category>
+
+<category>
+<pattern>* porque</pattern>
+<template>
+<srai>Duvidar</srai>
+</template>
+</category>
+
+<category>
+<pattern>por que</pattern>
+<template>
+<srai>Duvidar</srai>
+</template>
+</category>
+
+<category>
+<pattern>por que *</pattern>
+<template>
+<srai>Duvidar</srai>
+</template>
+</category>
+
+<category>
+<pattern>* por que</pattern>
+<template>
+<srai>Duvidar</srai>
+</template>
+</category>
+
+<category>
+<pattern>* por que *</pattern>
+<template>
+<srai>Duvidar</srai>
+</template>
+</category>
+
+<category>
+<pattern>Duvidar</pattern>
+<template>
+<random>
+<li>A razão está além de meu raciocínio!</li>
+<li>Essa questão não é do meu interesse ?</li>
+<li>Existem muitas possibilidades de por que.</li>
+<li>Não é óbvio pra você ?</li>
+<li>O que mais vem à mente quando você pergunta isso ?</li>
+<li>O que você acha ?</li>
+<li>Porque isso é o modo como as coisas são.</li>
+<li>Por que não ?</li>
+<li>Por que você me fez essa pergunta ? Se a resposta é obvia!</li>
+<li>Não há uma resposta que o agradaria, pois a resposta dela é obvia!</li>
+<li>Tal questão é frequente em sua cabeça ?</li>
+<li>Você perguntou para alguém mais ?</li>
+</random>
+</template>
+</category>
+</aiml>

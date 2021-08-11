@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>CAPACITORES</pattern>
+<template>
+<srai>FisicaCAPACITORES</srai>
+</template>
+</category>
+
+<category>
+<pattern>CAPACITORES *</pattern>
+<template>
+<srai>FisicaCAPACITORES</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CAPACITORES</pattern>
+<template>
+<srai>FisicaCAPACITORES</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CAPACITORES *</pattern>
+<template>
+<srai>FisicaCAPACITORES</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaCAPACITORES</pattern>
+<template>
+Nos circuitos internos de aparelhos como rádio, TV, gravadores, computadores, torna-se necessário acumular certa quantidade de cargas elétricas. O dispositivo que é utilizado para desempenhar essa função são os capacitores.
+Eles são constituídos de duas placas de materiais condutores elétricos, separadas por um material isolante.
+</template>
+</category>
+</aiml>

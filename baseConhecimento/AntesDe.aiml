@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>anterior</pattern>
+<template>
+<srai>antes de</srai>
+</template>
+</category>
+
+<category>
+<pattern>* anterior</pattern>
+<template>
+<srai>antes de</srai>
+</template>
+</category>
+
+<category>
+<pattern>anterior *</pattern>
+<template>
+<srai>antes de</srai>
+</template>
+</category>
+
+<category>
+<pattern>* anterior *</pattern>
+<template>
+<srai>antes de</srai>
+</template>
+</category>
+
+<category>
+<pattern>anteriormente</pattern>
+<template>
+<srai>antes de</srai>
+</template>
+</category>
+
+<category>
+<pattern>* anteriormente</pattern>
+<template>
+<srai>antes de</srai>
+</template>
+</category>
+
+<category>
+<pattern>anteriormente *</pattern>
+<template>
+<srai>antes de</srai>
+</template>
+</category>
+
+<category>
+<pattern>* anteriormente *</pattern>
+<template>
+<srai>antes de</srai>
+</template>
+</category>
+
+<category>
+<pattern>antes</pattern>
+<template>
+<srai>antes de</srai>
+</template>
+</category>
+
+<category>
+<pattern>antes *</pattern>
+<template>
+<srai>antes de</srai>
+</template>
+</category>
+
+<category>
+<pattern>* antes</pattern>
+<template>
+<srai>antes de</srai>
+</template>
+</category>
+
+<category>
+<pattern>* antes *</pattern>
+<template>
+<srai>antes de</srai>
+</template>
+</category>
+
+<category>
+<pattern>mais cedo *</pattern>
+<template>
+<srai>antes de</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mais cedo</pattern>
+<template>
+<srai>antes de</srai>
+</template>
+</category>
+
+<category>
+<pattern>* mais cedo *</pattern>
+<template>
+<srai>antes de</srai>
+</template>
+</category>
+
+<category>
+<pattern>antes de</pattern>
+<template>
+<random>
+<li>Antes... eu entendo.</li>
+<li>Eu acho que poderia ser depois.</li>
+<li>Mesmo ?</li>
+<li>Não podia ser depois disso ?</li>
+<li>Por que deveria acontecer antes ?</li>
+<li>Quem sabe quando as coisas podem acontecer.</li>
+<li>Que tal a partir de agora ?</li>
+<li>Tudo tem seu tempo certo...</li>
+<li>Você se refere há quanto tempo atrás ?</li>
+</random>
+</template>
+</category>
+</aiml>

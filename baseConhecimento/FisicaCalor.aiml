@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>CALOR</pattern>
+<template>
+<srai>FisicaCalor</srai>
+</template>
+</category>
+
+<category>
+<pattern>CALOR *</pattern>
+<template>
+<srai>FisicaCalor</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CALOR</pattern>
+<template>
+<srai>FisicaCalor</srai>
+</template>
+</category>
+
+<category>
+<pattern>* CALOR *</pattern>
+<template>
+<srai>FisicaCalor</srai>
+</template>
+</category>
+
+<category>
+<pattern>FisicaCalor</pattern>
+<template>
+Tudo é constituído de minúsculas partículas, pequenas demais para serem vistas, mesmo com os mais poderosos microscópios. Quando uma coisa está quente, suas partículas vibram (agitam-se). Quanto mais quente, mais suas partículas vibram.
+O calor é energia térmica em trânsito de uma região de maior temperatura para outra de menor temperatura.
+</template>
+</category>
+</aiml>

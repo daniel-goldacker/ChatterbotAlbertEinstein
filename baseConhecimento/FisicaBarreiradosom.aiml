@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<aiml version="1.0">
+
+
+<meta content="Albert Einstein" name="author"/>
+<meta content="pt" name="language"/>
+
+<category>
+<pattern>QUEBRAR A BARREIRA DO SOM</pattern>
+<template>
+<srai>BARREIRASOM</srai>
+</template>
+</category>
+
+<category>
+<pattern>QUEBRAR A BARREIRA DO SOM *</pattern>
+<template>
+<srai>BARREIRASOM</srai>
+</template>
+</category>
+
+<category>
+<pattern>* QUEBRAR A BARREIRA DO SOM</pattern>
+<template>
+<srai>BARREIRASOM</srai>
+</template>
+</category>
+
+<category>
+<pattern>* QUEBRAR A BARREIRA DO SOM *</pattern>
+<template>
+<srai>BARREIRASOM</srai>
+</template>
+</category>
+
+<category>
+<pattern>BARREIRASOM</pattern>
+<template>
+  Para quebrar a barreira do som deve-se atingir e ultrapassar a velocidade do som no meio em que se esta.
+  No ar, a temperatura de 15ºC a velocidade do som é de cerca de 340m/s. Essa velocidade varia em 55cm/s para cada grau de temperatura acima de zero.
+  A 20ºC, a velocidade do som é 342m/s, a 0ºC, é de 331m/s. Na água a 20ºC, a velocidade do som é de aproximadamente 1130m/s. Nos sólidos, a velocidade depende da natureza das substâncias.
+</template>
+</category>
+</aiml>
